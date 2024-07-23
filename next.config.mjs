@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath:'/bsides',
+    // basePath:'/bsides',
     output: 'export',
     images: {
       loader: "custom",
