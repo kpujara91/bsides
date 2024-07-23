@@ -1,3 +1,4 @@
+'use client'
 import { url } from 'inspector';
 import styles from './whoWeAre.module.scss';
 import {HomeContent} from '@/components/JsonFiles/home'
@@ -30,7 +31,7 @@ const WhoWeAre: React.FC = () => {
               className={`mt-60 ${styles.movingCards}`}
           />
         } */}
-
+        {/* This code is for marquee */}
         <Marquee pauseOnHover speed={80} loop={0} className={`mt-60 ${styles.movingCards}`}>
           {HomeContent?.WhoWeAre?.MovingCardImageList?.map((list,i)=>{
             return(
