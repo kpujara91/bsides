@@ -45,7 +45,7 @@ const SpeakersBio: React.FC = () => {
         <div className='flex items-start flex-col xl:flex-row gap-4 md:gap-6 xxxl:gap-16'>
           <div className='w-full xl:w-1/3 xl:sticky xl:top-8'>
             <div className="title-wrapper">
-              <span className={`h3 caption ${styles.PageCaption}`}>{HomeContent?.SpeakersBio?.Caption}</span>
+              {/* <span className={`h3 caption ${styles.PageCaption}`}>{HomeContent?.SpeakersBio?.Caption}</span> */}
               <h2 className='title'>{HomeContent?.SpeakersBio?.Title}</h2>
             </div>
           </div>

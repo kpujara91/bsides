@@ -47,9 +47,9 @@ export const HomeContent = {
         banerTitle: "BSIDES",
         bannerAnimationLoop: [
             `AHMEDABAD`,
-            `AHMEDABAD`,
-            `AHMEDABAD`,
-            `AHMEDABAD`
+            // `AHMEDABAD`,
+            // `AHMEDABAD`,
+            // `AHMEDABAD`
         ],
         banerYear: "2024",
         bgAnimationText: "BSIDESAHMEDABAD2024",

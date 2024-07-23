@@ -1,6 +1,8 @@
 export const PassesContent = {
     Banner:{
-        Title: `PASSES`
+        Title: `PASSES`,
+        BookNowButtonText: `Buy Now`,
+        BookNowButtonURL: `https://konfhub.com/security-bsides-ahmedabad`,
     },
     GroupDiscounts:{
         Title: <>GROUP <span>DISCOUNTS</span></>,

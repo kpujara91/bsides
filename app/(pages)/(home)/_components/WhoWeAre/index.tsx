@@ -2,6 +2,9 @@ import { url } from 'inspector';
 import styles from './whoWeAre.module.scss';
 import {HomeContent} from '@/components/JsonFiles/home'
 import { InfiniteMovingCards } from '@/components/AceternityUI/infinite-moving-cards';
+import Marquee from 'react-fast-marquee';
+import React from 'react';
+import Image from 'next/image';
 
 const WhoWeAre: React.FC = () => {
   return (
@@ -19,14 +22,26 @@ const WhoWeAre: React.FC = () => {
                 </div>
             </div>
         </div>
-        {HomeContent?.WhoWeAre?.MovingCardImageList &&
+        {/* {HomeContent?.WhoWeAre?.MovingCardImageList &&
           <InfiniteMovingCards
               items={HomeContent?.WhoWeAre?.MovingCardImageList}
               direction="right"
               speed="slow"
               className={`mt-60 ${styles.movingCards}`}
           />
-        }
+        } */}
+
+        <Marquee pauseOnHover speed={80} loop={0} className={`mt-60 ${styles.movingCards}`}>
+          {HomeContent?.WhoWeAre?.MovingCardImageList?.map((list,i)=>{
+            return(
+              <React.Fragment key={i}>
+                <div className={`w-[200px] h-[100px] sm:w-[250px] sm:h-[150px] md:w-[300px] md:h-[200px] xl:w-[400px] xl:h-[300px] xxl:w-[516px] xxl:h-[444px] ${styles.movingCardsItem}`}>
+                  <Image src={list?.image} alt="image" className=''/>
+                </div>
+              </React.Fragment>
+            )
+          })}
+        </Marquee>
       </section>
     </>
   );

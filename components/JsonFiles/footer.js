@@ -29,4 +29,26 @@ export const FooterContent = {
         }
     ],
     Email: "info@bsidesahmedabad.in",
+    ArchiveList: [
+        {
+            Data: `ARCHIVE`,
+            url: ``,
+        },
+        {
+            Data: `2023`,
+            url: `https://2k23.bsidesahmedabad.in/`,
+        },
+        {
+            Data: `2022`,
+            url: `https://bsides-2022.netlify.app/`,
+        },
+        {
+            Data: `2021`,
+            url: `https://bsides-2021.netlify.app/`,
+        },
+        {
+            Data: `2019`,
+            url: `https://bsides-2019.netlify.app/`,
+        },
+    ]
 }

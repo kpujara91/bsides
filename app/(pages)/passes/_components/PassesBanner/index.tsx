@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import styles from './passesBanner.module.scss';
 import { CanvasRevealEffect } from "@/components/AceternityUI/canvas-reveal-effect";
 import { PassesContent } from '@/components/JsonFiles/passes'
+import Link from "next/link";
 
 const PassesBanner: React.FC = () => {
     const [hovered, setHovered] = React.useState(false);
@@ -17,8 +18,9 @@ const PassesBanner: React.FC = () => {
           >
             <div className="container">
               <h1 className={`font-nasalization ${styles.Title}`}>{PassesContent?.Banner?.Title}</h1>
+              <Link href={PassesContent?.Banner?.BookNowButtonURL} target="_blank" className={`font-nasalization ${styles.BannerBtn}`}>{PassesContent?.Banner?.BookNowButtonText}</Link>
             </div>
-            <AnimatePresence>
+            {/* <AnimatePresence>
               {hovered && (
               <motion.div
                   initial={{ opacity: 0 }}
@@ -38,7 +40,7 @@ const PassesBanner: React.FC = () => {
                   />
               </motion.div>
               )}
-            </AnimatePresence>
+            </AnimatePresence> */}
           </div>
       </section>
     </>

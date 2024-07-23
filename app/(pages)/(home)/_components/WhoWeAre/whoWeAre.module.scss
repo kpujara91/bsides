@@ -28,7 +28,7 @@
         background: linear-gradient(#162b28 0 0) padding-box, linear-gradient(180deg, $secondary 0%, $primary 100%) border-box;
     }
     .movingCards{
-        li{
+        li,.movingCardsItem{
             background-color: $grey18;
             border-radius: 16px;
             overflow: hidden;
@@ -47,6 +47,10 @@
                 object-fit: cover;
                 transition: all 0.6s;
             }
+        }
+        .movingCardsItem{
+            background-color: transparent;
+            padding: 0 10px;
         }
     }
 }
