@@ -1,0 +1,43 @@
+@import '@/assets/scss/partial.scss';
+@import '@/assets/scss/variables.scss';
+
+
+.passesBannerwrapper{
+    min-height: 250px;
+    padding: 180px 0 140px;
+    @media (min-width: $sm){
+        padding: 180px 0 160px;
+    }
+    @media (min-width: $lg){
+        padding: 180px 0;
+    }
+    @media (min-width: $xl){
+        padding: 240px 0;
+    }
+    @media (min-width: $xxl){
+        padding: 260px 0;
+    }
+    @media (min-width: $xxxl){
+        padding: 300px 0;
+    }
+    .Title{
+        position: relative;
+        font-size: 46px;
+        font-weight: 400;
+        line-height: 1.18;
+        text-align: center;
+        z-index: 1;
+        @media (min-width: $sm){
+            font-size: 54px;
+        }
+        @media (min-width: $md){
+            font-size: 64px;
+        }
+        @media (min-width: $lg){
+            font-size: 120px;
+        }
+        @media (min-width: $xxxl){
+            font-size: 160px;
+        }
+    }
+}

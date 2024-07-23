@@ -1,0 +1,39 @@
+@import '@/assets/scss/partial.scss';
+@import '@/assets/scss/variables.scss';
+
+.siteFooter{
+    position: relative;
+    padding: 60px 0;
+    overflow: hidden;
+    background-color: $grey0F;
+    @media (min-width: $md){
+        padding: 100px 0;
+    }
+    @media (min-width: $lg ){
+        padding: 120px 0;
+    }
+    @media (min-width: $xxl) {
+        padding: 150px 0;
+    }
+    .footerLogo{
+        position: relative;
+        z-index: 1;
+        img{
+            max-width: 150px;
+            @media (min-width: $sm){
+                max-width: 200px;
+            }
+            @media (min-width: $xxl) {
+                max-width: 257px;
+            }
+        }
+    }
+    .emailLink{
+        position: relative;
+        z-index: 1;
+        color: $white;
+        &:hover{
+            color: $primary;
+        }
+    }
+}
