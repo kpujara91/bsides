@@ -19,8 +19,7 @@ const HeroBanner: React.FC = () => {
         <div className="container">
           <div className={`overflow-hidden ${styles.heroTitleWraper}`}>
             <h1 className={`font-nasalization text-center gradiant-title title-wrapper ${styles.heroTitleInner}`}>
-              {HomeContent?.HiroBanner?.banerTitle} 
-              <span className="relative"><FlipWords words={HomeContent?.HiroBanner?.bannerAnimationLoop} /></span> 
+              {HomeContent?.HiroBanner?.banerTitle} <span className="relative"><FlipWords words={HomeContent?.HiroBanner?.bannerAnimationLoop} /></span> 
               {/* {" "} {HomeContent?.HiroBanner?.bannerAnimationLoop} */}
               <br /> {HomeContent?.HiroBanner?.banerYear}
             </h1>
