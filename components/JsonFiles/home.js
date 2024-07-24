@@ -1,4 +1,3 @@
-import WhoWeAreBgImage from '../../public/images/who-we-are-bg-image.webp'
 import AboutImage1 from '../../public/images/about-image1.webp'
 import AboutImage2 from '../../public/images/about-image2.webp'
 import AboutImage3 from '../../public/images/about-image3.webp'
@@ -47,9 +46,9 @@ export const HomeContent = {
         banerTitle: "BSIDES",
         bannerAnimationLoop: [
             `AHMEDABAD`,
-            // `AHMEDABAD`,
-            // `AHMEDABAD`,
-            // `AHMEDABAD`
+            `AHMEDABAD`,
+            `AHMEDABAD`,
+            `AHMEDABAD`
         ],
         banerYear: "2024",
         bgAnimationText: "BSIDESAHMEDABAD2024",
@@ -59,7 +58,6 @@ export const HomeContent = {
         ]
     },
     WhoWeAre:{
-        BGImage: WhoWeAreBgImage,
         Caption:`About Us`,
         Title: <>Who <b>We</b> <span>Are</span></>,
         Description: `Security BSides is a global, community-driven framework for hosting cybersecurity events. These conferences offer a platform for presenting and discussing research related to cybersecurity. We organize an independent BSides event in Ahmedabad to broaden discussions beyond traditional boundaries. The event includes demos, discussions, and interactions, fostering a collaborative and confidential environment. Attendees can engage with esteemed participants, explore IT security trends, and participate in workshops and challenges led by top speakers and presenters.`,

@@ -21,7 +21,7 @@ const PricingTable: React.FC = () => {
                             <td className={`${styles.TSWrapp}`} colSpan={2}>Standard Sale - 10 aug to 10 sep 2024</td>
 
                             <td className={`${styles.TSWrapp}`} colSpan={2}>Last Min - 10 sep to until sold out</td>
-                            <td style={{minWidth: "355px"}}></td>
+                            <td className={`${styles.MinWidth}`}></td>
                         </tr>
                         <tr>
                             <td>PASS TYPE</td>
@@ -33,7 +33,7 @@ const PricingTable: React.FC = () => {
                             
                             <td>INR</td>
                             <td>USD</td>
-                            <td style={{minWidth: "355px"}}>DELIVERABLES</td>
+                            <td className={`${styles.MinWidth}`}>DELIVERABLES</td>
                         </tr>
                         <tr>
                             <td>Student Pass</td>
@@ -46,7 +46,7 @@ const PricingTable: React.FC = () => {
                             <td>5000 INR</td>
                             <td>70 USD</td>
 
-                            <td className={`${styles.TSWrapp}`} style={{minWidth: "355px"}}>
+                            <td className={`${styles.TSWrapp} ${styles.MinWidth}`}>
                                 <ul>
                                     <li>Representation of active student id card is mandatory.</li>
                                     <li>Access to the Conference for two days</li>
@@ -66,7 +66,7 @@ const PricingTable: React.FC = () => {
                             <td>10,000 INR</td>
                             <td>140 USD</td>
 
-                            <td className={`${styles.TSWrapp}`} style={{minWidth: "355px"}}>
+                            <td className={`${styles.TSWrapp} ${styles.MinWidth}`}>
                                 <ul>
                                     <li>Access to the conference for two days</li>
                                     <li>Breakfast, lunch, and high tea</li>
@@ -86,7 +86,7 @@ const PricingTable: React.FC = () => {
                             <td>12,000 INR</td>
                             <td>180 USD</td>
 
-                            <td className={`${styles.TSWrapp}`} style={{minWidth: "355px"}}>
+                            <td className={`${styles.TSWrapp} ${styles.MinWidth}`}>
                                 <ul>
                                     <li>Access to the conference</li>
                                     <li>Breakfast, lunch, and high tea</li>

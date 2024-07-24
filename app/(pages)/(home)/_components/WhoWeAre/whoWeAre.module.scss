@@ -13,6 +13,7 @@
         height: 100%;
     }
     .BGImage{
+        background: url('../../../../../public/images/about-image4.webp');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -45,12 +46,19 @@
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+                border-radius: 16px;
                 transition: all 0.6s;
+                @media (min-width: $lg) {
+                    border-radius: 40px;
+                }
             }
         }
         .movingCardsItem{
             background-color: transparent;
-            padding: 0 10px;
+            padding: 0 5px;
+            @media (min-width: $sm) {
+                padding: 0 10px;
+            }
         }
     }
 }

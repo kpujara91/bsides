@@ -22,6 +22,20 @@
     .heroTitleWraper{
         max-width: 1158px;
         margin: 0 auto;
+        .heroTitleInner{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            @media (min-width: $sm ){
+                display: block;
+            }
+            br{
+                display: none;
+                @media (min-width: $sm ){
+                    display: block;
+                }
+            }
+        }
     }
     .bannerCardList{
         .bannerCard{
@@ -29,11 +43,11 @@
             line-height: 1.32;
             text-align: center;
             color: $white;
-            max-width: 168px;
+            max-width: 140px;
             border-radius: 150px;
-            padding: 14px;
+            padding: 10px;
             @media (max-width: $sm ){
-                font-size: 14px;
+                font-size: 12px;
             }
             @media (min-width: $sm ) {
                 max-width: 240px;
