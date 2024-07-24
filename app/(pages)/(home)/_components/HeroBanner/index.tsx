@@ -14,6 +14,7 @@ type Direction = "TOP" | "LEFT" | "BOTTOM" | "RIGHT";
 const HeroBanner: React.FC = () => {
   return (
     <>
+      {/* Hero Banner */}
       <section className={`relative ${styles.heroBanner}`}>
         <div className="container">
           <div className={`overflow-hidden ${styles.heroTitleWraper}`}>
