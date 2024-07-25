@@ -3,7 +3,6 @@ import { Poppins } from "next/font/google";
 import Head from "next/head";
 import '@/assets/scss/tailwindcss.scss'
 import '@/assets/scss/global.scss'
-import OGImage from '../public/images/opengraph-image.jpg'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -30,7 +29,8 @@ export default function RootLayout({
         /> */}
         {/* Open Graph tags */}
         <meta property="og:title" content="BSides Ahmedabad 2024" />
-        <meta property="og:image" content={OGImage.src} />
+        <meta property="og:image" content="https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpg?a32913bd1aea3970" />
+        <meta name="twitter:image" content="https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpg?a32913bd1aea3970" />
         {/* Other SEO meta tags */}
       </Head>
       <body className={`${poppins.variable}`}>{children}</body>
