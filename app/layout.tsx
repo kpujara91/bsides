@@ -10,12 +10,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  // title: 'BSides Ahmedabad 2024',
-  // description: "",
-  // image: "https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpg?a32913bd1aea3970"
-
   title: `BSides Ahmedabad 202 `,
-  description:'',
+  description:'BSides Ahmedabad 2024',
   authors: [{ name: '', url: '' }],
   creator: '',
   publisher: '',
@@ -23,7 +19,7 @@ export const metadata: Metadata = {
   // keywords: ['trupartner', 'Jobs', 'TRUPARTNER', 'trupartner.com'],
   openGraph: {
     title: `BSides Ahmedabad 2024`,
-    description:'',
+    description:'BSides Ahmedabad 2024',
     images: [
       `https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpg?a32913bd1aea3970`
       // ,...previousImages
