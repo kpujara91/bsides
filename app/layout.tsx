@@ -12,7 +12,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: `BSides Ahmedabad 202 `,
   description:'BSides Ahmedabad 2024',
-  url: `https://www.bsidesahmedabad.in/`,
+  url:`https://www.bsidesahmedabad.in`,
   authors: [{ name: '', url: '' }],
   creator: '',
   publisher: '',
@@ -23,15 +23,14 @@ export const metadata: Metadata = {
     description:'BSides Ahmedabad 2024',
     images: [
       `https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpg?a32913bd1aea3970`
-      // ,...previousImages
     ],
   },
-  // alternates: {
-  //     canonical: ``,
-  //     languages: {
-  //       'en-US': '/en-US',
-  //     },
-  //   },
+  alternates: {
+      canonical: `https://www.bsidesahmedabad.in`,
+      languages: {
+        'en-US': '/en-US',
+      },
+    },
   robots: {
       index: true,
       follow: true,
