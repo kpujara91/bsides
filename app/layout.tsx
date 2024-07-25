@@ -14,36 +14,36 @@ interface MetadataParams {
   parent?: any;
 }
 
-export async function generateMetadata({ params, parent }: MetadataParams): Promise<Metadata> {
+export async function generateMetadata({ params }: MetadataParams): Promise<Metadata> {
   return {
-    title: `Leading IT Consulting & Software Solutions - Rigved Infotech Pvt Ltd`,
-    description: 'Discover innovative IT consulting and custom software solutions with Rigved Infotech. We provide cutting-edge IT services to drive your business success. Contact us today to transform your IT infrastructure.',
+    title: "Leading IT Consulting & Software Solutions - Rigved Infotech Pvt Ltd",
+    description: "Discover innovative IT consulting and custom software solutions with Rigved Infotech. We provide cutting-edge IT services to drive your business success. Contact us today to transform your IT infrastructure.",
     authors: [
-      { name: '', url: '' }
+      { name: "", url: "" }
     ],
-    creator: '',
-    publisher: '',
-    referrer: 'origin-when-cross-origin',
-    keywords: ['RigvedIT', 'Jobs', 'rigvedit', "rigvedit.com"],
+    creator: "",
+    publisher: "",
+    referrer: "origin-when-cross-origin",
+    keywords: ["RigvedIT", "Jobs", "rigvedit", "rigvedit.com"],
     openGraph: {
-      title: `Leading IT Consulting & Software Solutions - Rigved Infotech Pvt Ltd`,
-      description: 'Discover innovative IT consulting and custom software solutions with Rigved Infotech. We provide cutting-edge IT services to drive your business success. Contact us today to transform your IT infrastructure.',
+      title: "Leading IT Consulting & Software Solutions - Rigved Infotech Pvt Ltd",
+      description: "Discover innovative IT consulting and custom software solutions with Rigved Infotech. We provide cutting-edge IT services to drive your business success. Contact us today to transform your IT infrastructure.",
       images: [
-        `https://rigvedit.com/images/ogimage/Home.png`
+        "https://rigvedit.com/images/ogimage/Home.png"
       ]
     },
     alternates: {
-      canonical: `https://rigvedit.com/`,
+      canonical: "https://www.bsidesahmedabad.in/",
       languages: {
-        'en-US': '/en-US',
+        "en-US": "/en-US",
       },
     },
     robots: {
       index: true,
       follow: true,
-      'max-image-preview': 'large', 
-      'max-snippet': -1,
-      'max-video-preview': -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
     }
   };
 }
