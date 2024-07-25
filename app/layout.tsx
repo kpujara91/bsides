@@ -12,7 +12,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: `BSides Ahmedabad 202 `,
   description:'BSides Ahmedabad 2024',
-  authors: [{ name: '', url: '' }],
+  // authors: [{ name: '', url: '' }],
   creator: '',
   publisher: '',
   referrer: 'origin-when-cross-origin',
