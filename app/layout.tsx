@@ -24,12 +24,12 @@ export const metadata: Metadata = {
       `https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpg?a32913bd1aea3970`
     ],
   },
-  alternates: {
-      canonical: `https://www.bsidesahmedabad.in`,
-      languages: {
-        'en-US': '/en-US',
-      },
-    },
+  // alternates: {
+  //     canonical: `https://www.bsidesahmedabad.in`,
+  //     languages: {
+  //       'en-US': '/en-US',
+  //     },
+  //   },
   robots: {
       index: true,
       follow: true,
