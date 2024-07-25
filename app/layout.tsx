@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import '@/assets/scss/tailwindcss.scss'
-import '@/assets/scss/global.scss'
+import '@/assets/scss/tailwindcss.scss';
+import '@/assets/scss/global.scss';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -18,16 +18,23 @@ export const metadata: Metadata = {
   creator: '',
   publisher: '',
   referrer: 'origin-when-cross-origin',
-  keywords: ['RigvedIT', 'Jobs', 'rigvedit',"rigvedit.com"],
+  keywords: ['RigvedIT', 'Jobs', 'rigvedit', 'rigvedit.com'],
   openGraph: {
+    type: 'website',
+    url: 'https://www.bsidesahmedabad.in/',
     title: `Leading IT Consulting & Software Solutions - Rigved Infotech Pvt Ltd`,
     description: 'Discover innovative IT consulting and custom software solutions with Rigved Infotech. We provide cutting-edge IT services to drive your business success. Contact us today to transform your IT infrastructure.',
     images: [
-      `https://rigvedit.com/images/ogimage/Home.png`
+      {
+        url: 'https://rigvedit.com/images/ogimage/Home.png',
+        width: 800,
+        height: 600,
+        alt: 'Rigved Infotech'
+      }
     ]
   },
   alternates: {
-    canonical: `https://bsidesahmedabad.in/`,
+    canonical: 'https://www.bsidesahmedabad.in/',
     languages: {
       'en-US': '/en-US',
     },
@@ -48,6 +55,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Add the metadata to the head section */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.bsidesahmedabad.in/" />
+        <meta property="og:title" content="Leading IT Consulting & Software Solutions - Rigved Infotech Pvt Ltd" />
+        <meta property="og:description" content="Discover innovative IT consulting and custom software solutions with Rigved Infotech. We provide cutting-edge IT services to drive your business success. Contact us today to transform your IT infrastructure." />
+        <meta property="og:image" content="https://rigvedit.com/images/ogimage/Home.png" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="600" />
+      </head>
       <body className={`${poppins.variable}`}>{children}</body>
     </html>
   );
