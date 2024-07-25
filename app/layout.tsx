@@ -11,8 +11,8 @@ const poppins = Poppins({
 
 // Meta
 export const metadata: Metadata = {
-  title: `BSides Ahmedabad 2023`,
-  description: 'BSides Ahmedabad 2023',
+  title: `BSides Ahmedabad 2024`,
+  description: 'BSides Ahmedabad 2024',
   authors: [
     { name: '', url: '' }
   ],
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://bsidesahmedabad.in/',
-    title: `BSides Ahmedabad 2023`,
-    description: 'BSides Ahmedabad 2023',
+    title: `BSides Ahmedabad 2024`,
+    description: 'BSides Ahmedabad 2024',
     images: [
       {
         url: 'https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpgg',
