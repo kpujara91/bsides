@@ -19,7 +19,7 @@ export async function generateMetadata() {
      title:"BSides Ahmedabad 2024",
      description:"BSides Ahmedabad 2024",
        url: 'https://www.bsidesahmedabad.in/',
-        images: ["https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpg"],
+        // images: ["https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpg"],
       },
   };
 }
