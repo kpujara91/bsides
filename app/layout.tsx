@@ -9,44 +9,24 @@ const poppins = Poppins({
   weight: ["400"]
 });
 
-export const metadata: Metadata = {
-  title: `BSides Ahmedabad 202 `,
-  description:'BSides Ahmedabad 2024',
-  // authors: [{ name: '', url: '' }],
-  creator: '',
-  publisher: '',
-  referrer: 'origin-when-cross-origin',
-  // keywords: ['trupartner', 'Jobs', 'TRUPARTNER', 'trupartner.com'],
-  openGraph: {
-    title: `BSides Ahmedabad 2024`,
-    description:'BSides Ahmedabad 2024',
-    images: [
-      `https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpg?a32913bd1aea3970`
-    ],
-  },
-  // alternates: {
-  //     canonical: `https://www.bsidesahmedabad.in`,
-  //     languages: {
-  //       'en-US': '/en-US',
-  //     },
-  //   },
-  robots: {
-      index: true,
-      follow: true,
-       // nocache: true,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-      'max-video-preview': -1,
-      // googleBot: {
-      //     index: true,
-      //     follow: false,
-      //     noimageindex: true,
-      //     'max-video-preview': -1,
-      //     'max-image-preview': 'large',
-      //     'max-snippet': -1
-      // }
+export async function generateMetadata(){
+  return {
+    title: 'BSides Ahmedabad 2024',
+    description: 'BSides Ahmedabad 2024',
+    URL: `https://www.bsidesahmedabad.in/'
+    openGraph: {
+      images: ['https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpg?a32913bd1aea3970'],
+      alternates: {
+          canonical: `https://www.bsidesahmedabad.in/`,
+          languages: {
+            'en-US': '/en-US',
+          },
+        },
+    },
   }
 }
+ 
+export default function Page({ params, searchParams }: Props) {}
 
 export default function RootLayout({
   children,
