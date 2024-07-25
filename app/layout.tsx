@@ -9,6 +9,7 @@ const poppins = Poppins({
   variable: '--font-poppins',
   weight: ["400"]
 });
+
 // Meta
 export async function generateMetadata() {
   return {
@@ -22,8 +23,6 @@ export async function generateMetadata() {
       },
   };
 }
-.
-export default function Page({ params, searchParams }: Props) {}
 
 export default function RootLayout({
   children,
