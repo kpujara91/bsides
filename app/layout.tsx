@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     ]
   },
   alternates: {
-    canonical: `https://www.bsidesahmedabad.in/`,
+    canonical: `https://bsidesahmedabad.in/`,
     languages: {
       'en-US': '/en-US',
     },
