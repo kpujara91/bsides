@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import Head from "next/head";
 import '@/assets/scss/tailwindcss.scss'
@@ -10,8 +9,10 @@ const poppins = Poppins({
   weight: ["400"]
 });
 
-export const metadata: Metadata = {
+const metadata = {
   title: "BSides Ahmedabad 2024",
+  description: "",
+  image: "https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpg?a32913bd1aea3970"
 };
 
 export default function RootLayout({
@@ -22,16 +23,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        {/* <meta
+{/*         <meta
           name="robots"
           key="robots-index"
           content="noindex,nofollow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
         /> */}
-        {/* Open Graph tags */}
-        <meta property="og:title" content="BSides Ahmedabad 2024" />
-        <meta property="og:image" content="https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpg?a32913bd1aea3970" />
-        <meta name="twitter:image" content="https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpg?a32913bd1aea3970" />
-        {/* Other SEO meta tags */}
+        <meta property="og:title" content={metadata.title} />
+        <meta property="og:description" content={metadata.description} />
+        <meta property="og:image" content={metadata.image} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={metadata.title} />
+        <meta name="twitter:description" content={metadata.description} />
+        <meta name="twitter:image" content={metadata.image} />
       </Head>
       <body className={`${poppins.variable}`}>{children}</body>
     </html>
