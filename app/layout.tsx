@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   keywords: ['RigvedIT', 'Jobs', 'rigvedit', 'rigvedit.com'],
   openGraph: {
     type: 'website',
-    url: 'https://www.bsidesahmedabad.in/',
+    url: 'https://bsidesahmedabad.in/',
     title: `Leading IT Consulting & Software Solutions - Rigved Infotech Pvt Ltd`,
     description: 'Discover innovative IT consulting and custom software solutions with Rigved Infotech. We provide cutting-edge IT services to drive your business success. Contact us today to transform your IT infrastructure.',
     images: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     ]
   },
   alternates: {
-    canonical: 'https://www.bsidesahmedabad.in/',
+    canonical: 'https://bsidesahmedabad.in/',
     languages: {
       'en-US': '/en-US',
     },
