@@ -4,7 +4,14 @@ const nextConfig = {
     output: 'export',
     images: {
       loader: "custom",
-      loaderFile: './imgixLoader.js'
+      loaderFile: './imgixLoader.js',
+        remotePatterns: [
+          {
+            protocol: 'https',
+            hostname: '//beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/',
+            port: '',
+          },
+        ],
     },
     webpack(config) {
       config.module.rules.push(
