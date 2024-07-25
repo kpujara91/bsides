@@ -9,6 +9,7 @@ const poppins = Poppins({
   weight: ["400"]
 });
 
+// Meta
 export const metadata: Metadata = {
   title: `Leading IT Consulting & Software Solutions - Rigved Infotech Pvt Ltd`,
   description: 'Discover innovative IT consulting and custom software solutions with Rigved Infotech. We provide cutting-edge IT services to drive your business success. Contact us today to transform your IT infrastructure.',
