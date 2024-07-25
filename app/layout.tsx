@@ -9,6 +9,7 @@ const poppins = Poppins({
   variable: '--font-poppins',
   weight: ["400"]
 });
+// Meta
 export async function generateMetadata() {
   return {
     title: "BSides Ahmedabad 2024",
