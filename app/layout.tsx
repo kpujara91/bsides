@@ -9,7 +9,7 @@ const poppins = Poppins({
   weight: ["400"]
 });
 
-export async function generateMetadata() {
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'BSides Ahmedabad 2024',
     description: 'BSides Ahmedabad 2024',
