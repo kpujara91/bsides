@@ -9,7 +9,7 @@ const poppins = Poppins({
   weight: ["400"]
 });
 
-// Meta
+// Metadata
 export const metadata: Metadata = {
   title: `BSides Ahmedabad 2024`,
   description: 'BSides Ahmedabad 2024',
