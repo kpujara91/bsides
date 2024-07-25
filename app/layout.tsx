@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description: 'BSides Ahmedabad 2024',
     images: [
       {
-        url: 'https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpgg',
+        url: 'https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpg',
         width: 800,
         height: 600,
         alt: 'BSides Ahmedabad'
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
-    'max-image-preview': 'large', 
+    'max-image-preview': 'large',
     'max-snippet': -1,
     'max-video-preview': -1,
   }
