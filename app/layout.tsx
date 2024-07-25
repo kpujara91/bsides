@@ -48,11 +48,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <meta
-        name="robots"
-        key="robots-index"
-        content="noindex,nofollow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-      />
       <body className={`${poppins.variable}`}>{children}</body>
     </html>
   );
