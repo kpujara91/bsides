@@ -13,7 +13,7 @@ export async function generateMetadata(){
   return {
     title: 'BSides Ahmedabad 2024',
     description: 'BSides Ahmedabad 2024',
-    URL: `https://www.bsidesahmedabad.in/'
+    URL: `https://www.bsidesahmedabad.in/',
     openGraph: {
       images: ['https://beside-ahmedabad-346o6y360-bsides-ahmedabad.vercel.app/opengraph-image.jpg?a32913bd1aea3970'],
       alternates: {
