@@ -56,16 +56,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        {/* Add the metadata to the head section */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://bsidesahmedabad.in/" />
-        <meta property="og:title" content="Leading IT Consulting & Software Solutions - Rigved Infotech Pvt Ltd" />
-        <meta property="og:description" content="Discover innovative IT consulting and custom software solutions with Rigved Infotech. We provide cutting-edge IT services to drive your business success. Contact us today to transform your IT infrastructure." />
-        <meta property="og:image" content="https://rigvedit.com/images/ogimage/Home.png" />
-        <meta property="og:image:width" content="800" />
-        <meta property="og:image:height" content="600" />
-      </head>
       <body className={`${poppins.variable}`}>{children}</body>
     </html>
   );
