@@ -42,7 +42,7 @@ const SpeakersAttending: React.FC = () => {
                 <div className="title-wrapper">
                     <h2 className='title'>{HomeContent?.SpeakersAttending?.TechnicalSpeakerTitle}</h2>
                 </div>
-                {/* <div className={`flex items-start flex-wrap gap-y-6 xl:gap-y-8 ${styles.speakerCardList}`}>
+                <div className={`flex items-start flex-wrap gap-y-6 xl:gap-y-8 ${styles.speakerCardList}`}>
                     {HomeContent?.SpeakersAttending?.TechnicalSpeakerList?.map((SpeakerList,i)=>{
                         return(
                             <React.Fragment key={i}>
@@ -57,7 +57,11 @@ const SpeakersAttending: React.FC = () => {
                                             {SpeakerList?.speakerSocialMediaList?.map((list,j)=>{
                                                 return( 
                                                 <React.Fragment key={j}>
-                                                    <li className={`inline-flex items-center justify-center`}><a href={list?.url} title={list?.title} className={`inline-flex items-center justify-center`} target='_blank'><Image src={list?.icon} alt={list?.title} width={16} height={16}/></a></li>
+                                                    {list?.url &&
+                                                        <li className={`inline-flex items-center justify-center`}>
+                                                            <a href={list?.url} title={list?.title} className={`inline-flex items-center justify-center`} target='_blank'><Image src={list?.icon} alt={list?.title} width={16} height={16}/></a>
+                                                        </li>
+                                                    }
                                                 </React.Fragment>
                                                 )
                                             })}
@@ -67,8 +71,8 @@ const SpeakersAttending: React.FC = () => {
                             </React.Fragment>
                         )
                     })}
-                </div> */}
-                <div className='no-data'>Coming Soon</div>
+                </div>
+                {/* <div className='no-data'>Coming Soon</div> */}
             </div>
         </section>
     </>
