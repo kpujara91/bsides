@@ -39,6 +39,15 @@ import SponsorLogo4 from '../../public/images/sponsor-logo4.svg'
 import SponsorLogo5 from '../../public/images/sponsor-logo5.svg'
 import SponsorLogo6 from '../../public/images/sponsor-logo6.svg'
 import SponsorLogo7 from '../../public/images/sponsor-logo7.svg'
+import TechSpeaker1 from '../../public/images/tech-speaker-nitesh-surana.webp'
+import TechSpeaker2 from '../../public/images/tech-speaker-anjali-shukla.webp'
+import TechSpeaker3 from '../../public/images/tech-speaker-divyanshu-shukla.webp'
+import TechSpeaker4 from '../../public/images/tech-speaker-godfather-orwa.webp'
+import TechSpeaker5 from '../../public/images/tech-speaker-shashank.webp'
+import TechSpeaker6 from '../../public/images/tech-speaker-anddre-baptista.webp'
+import TechSpeaker7 from '../../public/images/tech-speaker-abdullah-abbadi.webp'
+import TechSpeaker8 from '../../public/images/tech-speaker-satyam.webp'
+import TechSpeaker9 from '../../public/images/tech-speaker-kuldeep-pandya.webp'
 
 
 export const HomeContent = {
@@ -244,14 +253,116 @@ export const HomeContent = {
         TechnicalSpeakerTitle: <>TECHNICAL <span>SPEAKERS</span></>,
         TechnicalSpeakerList:[
             {
-                speakerImage: SpeakerImage17,
-                speakerName: `Shubham Shah`,
-                speakerDesignation: `Co-founder of Assetnote`,
+                speakerImage: TechSpeaker5,
+                speakerName: `Shashank`,
+                speakerDesignation: `CEO & Co-founder CredShields`,
                 speakerSocialMediaList:[
                     {
                         title:'Twitter',
                         icon: IconTwitter,
-                        url:'https://twitter.com/bsidesahmedabad',
+                        url:'https://twitter.com/cyberboyIndia',
+                    },
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/shashank-in/',
+                    }
+                ]
+            },
+            {
+                speakerImage: TechSpeaker6,
+                speakerName: `André Baptista`,
+                speakerDesignation: `Hacker & Co-founder @ Ethiack`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Twitter',
+                        icon: IconTwitter,
+                        url:'https://twitter.com/0xacb',
+                    },
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/0xacb/',
+                    }
+                ]
+            },
+            {
+                speakerImage: TechSpeaker1,
+                speakerName: `Nitesh Surana`,
+                speakerDesignation: `Senior Threat Researcher with Trend Micro`,
+                speakerSocialMediaList:[
+                    // {
+                    //     title:'Twitter',
+                    //     icon: IconTwitter,
+                    //     url:'https://twitter.com/bsidesahmedabad',
+                    // },
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/ideaengine007/',
+                    }
+                ]
+            },
+            {
+                speakerImage: TechSpeaker2,
+                speakerName: `Anjali Singh Shukla`,
+                speakerDesignation: `Senior Security Engineer`,
+                speakerSocialMediaList:[
+                    // {
+                    //     title:'Twitter',
+                    //     icon: IconTwitter,
+                    //     url:'https://twitter.com/bsidesahmedabad',
+                    // },
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/peachycloudsecurity?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+                    }
+                ]
+            },
+            {
+                speakerImage: TechSpeaker3,
+                speakerName: `Divyanshu Shukla`,
+                speakerDesignation: `Senior Security Engineer`,
+                speakerSocialMediaList:[
+                    // {
+                    //     title:'Twitter',
+                    //     icon: IconTwitter,
+                    //     url:'https://twitter.com/bsidesahmedabad',
+                    // },
+                    // {
+                    //     title:'Linkedin',
+                    //     icon: IconLinkedin,
+                    //     url:'https://www.linkedin.com/company/bsides-ahmedabad/',
+                    // }
+                ]
+            },
+            {
+                speakerImage: TechSpeaker4,
+                speakerName: `Godfather Orwa`,
+                speakerDesignation: `Full-time Bug Bounty Hunter`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Twitter',
+                        icon: IconTwitter,
+                        url:'https://twitter.com/GodfatherOrwa',
+                    },
+                    // {
+                    //     title:'Linkedin',
+                    //     icon: IconLinkedin,
+                    //     url:'https://www.linkedin.com/company/bsides-ahmedabad/',
+                    // }
+                ]
+            },
+            {
+                speakerImage: TechSpeaker7,
+                speakerName: `Abdullah Abbadi`,
+                speakerDesignation: `Full-Time Bug Bounty Hunter | P1 Specialist`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Twitter',
+                        icon: IconTwitter,
+                        url:'https://x.com/xhackerx007?s=21&t=wLigvgCFsKyINQwD_9kyqg',
                     },
                     {
                         title:'Linkedin',
@@ -261,124 +372,39 @@ export const HomeContent = {
                 ]
             },
             {
-                speakerImage: SpeakerImage13,
-                speakerName: `Shubham Shah`,
-                speakerDesignation: `Co-founder of Assetnote`,
+                speakerImage: TechSpeaker8,
+                speakerName: `Satyam`,
+                speakerDesignation: `Bug Bounty Hunter`,
                 speakerSocialMediaList:[
                     {
                         title:'Twitter',
                         icon: IconTwitter,
-                        url:'https://twitter.com/bsidesahmedabad',
+                        url:'https://x.com/RogueSMG',
                     },
-                    {
-                        title:'Linkedin',
-                        icon: IconLinkedin,
-                        url:'https://www.linkedin.com/company/bsides-ahmedabad/',
-                    }
+                    // {
+                    //     title:'Linkedin',
+                    //     icon: IconLinkedin,
+                    //     url:'https://www.linkedin.com/company/bsides-ahmedabad/',
+                    // }
                 ]
             },
             {
-                speakerImage: SpeakerImage14,
-                speakerName: `Shubham Shah`,
-                speakerDesignation: `Co-founder of Assetnote`,
+                speakerImage: TechSpeaker9,
+                speakerName: `Kuldeep`,
+                speakerDesignation: `Synack Red Team & Bug Bounty Hunter`,
                 speakerSocialMediaList:[
                     {
                         title:'Twitter',
                         icon: IconTwitter,
-                        url:'https://twitter.com/bsidesahmedabad',
+                        url:'https://x.com/kuldeepdotexe',
                     },
                     {
                         title:'Linkedin',
                         icon: IconLinkedin,
-                        url:'https://www.linkedin.com/company/bsides-ahmedabad/',
+                        url:'https://www.linkedin.com/in/kuldeep-pandya-13a26a167',
                     }
                 ]
-            },
-            {
-                speakerImage: SpeakerImage15,
-                speakerName: `Shubham Shah`,
-                speakerDesignation: `Co-founder of Assetnote`,
-                speakerSocialMediaList:[
-                    {
-                        title:'Twitter',
-                        icon: IconTwitter,
-                        url:'https://twitter.com/bsidesahmedabad',
-                    },
-                    {
-                        title:'Linkedin',
-                        icon: IconLinkedin,
-                        url:'https://www.linkedin.com/company/bsides-ahmedabad/',
-                    }
-                ]
-            },
-            {
-                speakerImage: SpeakerImage16,
-                speakerName: `Shubham Shah`,
-                speakerDesignation: `Co-founder of Assetnote`,
-                speakerSocialMediaList:[
-                    {
-                        title:'Twitter',
-                        icon: IconTwitter,
-                        url:'https://twitter.com/bsidesahmedabad',
-                    },
-                    {
-                        title:'Linkedin',
-                        icon: IconLinkedin,
-                        url:'https://www.linkedin.com/company/bsides-ahmedabad/',
-                    }
-                ]
-            },
-            {
-                speakerImage: SpeakerImage5,
-                speakerName: `Shubham Shah`,
-                speakerDesignation: `Co-founder of Assetnote`,
-                speakerSocialMediaList:[
-                    {
-                        title:'Twitter',
-                        icon: IconTwitter,
-                        url:'https://twitter.com/bsidesahmedabad',
-                    },
-                    {
-                        title:'Linkedin',
-                        icon: IconLinkedin,
-                        url:'https://www.linkedin.com/company/bsides-ahmedabad/',
-                    }
-                ]
-            },
-            {
-                speakerImage: SpeakerImage7,
-                speakerName: `Shubham Shah`,
-                speakerDesignation: `Co-founder of Assetnote`,
-                speakerSocialMediaList:[
-                    {
-                        title:'Twitter',
-                        icon: IconTwitter,
-                        url:'https://twitter.com/bsidesahmedabad',
-                    },
-                    {
-                        title:'Linkedin',
-                        icon: IconLinkedin,
-                        url:'https://www.linkedin.com/company/bsides-ahmedabad/',
-                    }
-                ]
-            },
-            {
-                speakerImage: SpeakerImage11,
-                speakerName: `Shubham Shah`,
-                speakerDesignation: `Co-founder of Assetnote`,
-                speakerSocialMediaList:[
-                    {
-                        title:'Twitter',
-                        icon: IconTwitter,
-                        url:'https://twitter.com/bsidesahmedabad',
-                    },
-                    {
-                        title:'Linkedin',
-                        icon: IconLinkedin,
-                        url:'https://www.linkedin.com/company/bsides-ahmedabad/',
-                    }
-                ]
-            },
+            }
         ],
     },
     SpeakersBio:{
