@@ -60,7 +60,7 @@ import CxoSatish from '../../public/images/cxo-satish.png'
 import CxoSreeshanaker from '../../public/images/cxo-sreeshanaker.png'
 import CxoHilal from '../../public/images/cxo-hilal.jpeg'
 import CxoDeveshBhatt from '../../public/images/cxo-devesh-bhatt.jpg'
-
+import CxoGaurav from '../../public/images/cxo-gaurav-bhardwaj.png'
 
 
 export const HomeContent = {
@@ -613,6 +613,18 @@ export const HomeContent = {
                     }
                 ]
             },
+            {
+                speakerImage: CxoGaurav,
+                speakerName: `Gaurav Bhardwaj`,
+                speakerDesignation: `Engineering Manager at John Deere`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/bhardwajg/',
+                    }
+                ]
+            },
             // {
             //     speakerImage: DefaultImage,
             //     speakerName: `Manpreet Singh`,
@@ -625,18 +637,7 @@ export const HomeContent = {
             //         }
             //     ]
             // },
-            // {
-            //     speakerImage: DefaultImage,
-            //     speakerName: `Gaurav Bhardwaj`,
-            //     speakerDesignation: `Engineering Manager at John Deere`,
-            //     speakerSocialMediaList:[
-            //         {
-            //             title:'Linkedin',
-            //             icon: IconLinkedin,
-            //             url:'https://www.linkedin.com/in/bhardwajg/',
-            //         }
-            //     ]
-            // },
+             
             // {
             //     speakerImage: DefaultImage,
             //     speakerName: `Dr. Abhilasha Vyas`,
