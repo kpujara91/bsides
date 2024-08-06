@@ -1,0 +1,191 @@
+@import '@/assets/scss/partial.scss';
+@import '@/assets/scss/variables.scss';
+
+.TechnicalTalkTrackWrapper{
+    .titleWrapper{
+        .title{
+            margin-bottom: 20px;
+            @media (min-width: $lg){
+                margin-bottom: 30px;
+            }
+        }
+        .smallTitle{
+            margin-bottom: 20px;
+        }
+        .eventsTimeLine{
+            p{
+                margin-bottom: 0;
+            }
+        }
+    }
+    .technicalCardsWrapper{
+        max-width: 1150px;
+        margin: 0 auto;
+        .breakBox{
+            text-align: center;
+            background-color: $grey18;
+            border-radius: 10px;
+            padding: 15px;
+            transition: 0.3s ease-in-out;
+            margin-bottom: 20px;
+            @media (min-width: $md){
+                border-radius: 20px;
+                padding: 20px;
+                margin-bottom: 30px;
+            }
+            @media (min-width: $xl){
+                padding: 30px;
+            }
+            &:last-child{
+                margin-bottom: 0;
+            }
+            .caption{
+                padding: 8px 16px;
+                border-radius: 50px;
+                color: #ffffff;
+                background: linear-gradient(180deg, #00FD9D 0%, #933AFA 100%);
+                display: inline-block;
+                margin: 0 auto;
+            }
+            .breakTime{
+                color: $white;
+                font-size: 20px;
+                margin-top: 15px;
+                text-transform: uppercase;
+                @media (min-width: $md){
+                    font-size: 22px;
+                    margin-top: 20px;
+                }
+            }
+        }
+        .techCardLists{
+            margin-bottom: 20px;
+            @media (min-width: $md){
+                margin-bottom: 30px;
+            }
+            &:last-child{
+                margin-bottom: 0;
+            }
+            .techCard{
+                background-color: $grey18;
+                border-radius: 10px;
+                padding: 15px;
+                margin-bottom: 30px;
+                transition: 0.3s ease-in-out;
+                @media (min-width: $md){
+                    border-radius: 20px;
+                    padding: 20px;
+                }
+                @media (min-width: $xl){
+                    padding: 30px;
+                }
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                .topContent{
+                    margin-bottom: 20px;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                        .leftBadge{
+                        @media (min-width: $md){
+                            order: 0;
+                        }
+                    }
+                    .badge{
+                        border: 1px solid transparent;
+                        background: linear-gradient(#000000 0 0) padding-box, linear-gradient(180deg, #00FD9D 0%, #933AFA 100%) border-box;
+                        border-radius: 10px;
+                        display: inline-block;
+                        padding: 6px 14px;
+                        font-size: 14px;
+
+                    }
+                    span{
+                        display: block;
+                        margin-top: 10px;
+                        color: $secondary;
+                    }
+                }
+                .EventMembersWrap{
+                    .memberInfoBox{
+                        border: 1px solid $primary;
+                        border-radius: 10px;
+                        padding: 15px;
+                        width: 100%;
+                        @media (min-width: $sm){
+                            width: calc(50% - 10px);
+                        }
+                        @media (min-width: $lg){
+                            width: calc(33.33% - 14px);
+                        }
+                        .imageBox{
+                            width: 150px;
+                            height: 150px;
+                            margin: 0 auto;
+                            @media (min-width: $sm){
+                                width: 200px;
+                            height: 200px;
+                            }
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                object-position: top;
+                            }
+                        }
+                        .content{
+                            margin-top: 30px;
+                            .speaker{
+                                margin-bottom: 15px;
+                                color: $white;
+                                background-color: $primary;
+                                color: $white;
+                                padding: 4px 8px;
+                                font-size: 14px;
+
+                                @media (min-width: $md){
+                                    padding: 5px 10px;
+                                    font-size: 16px;
+                                }
+                            }
+                            h4{
+                                font-size: 16px;
+                                margin-bottom: 5px;
+                                @media (min-width: $md){
+                                    font-size: 18px;
+                                }
+                                @media (min-width: $xl){
+                                    font-size: 20px;
+                                }
+                            }
+
+                            .desc{
+                                font-size: 12px;
+                                @media (min-width: $sm){
+                                    font-size: 14px;
+                                }
+                            }
+                            p{
+                                font-size: 12px;
+                                margin-bottom: 5px;
+                                &:last-child{
+                                    margin-bottom: 0;
+                                }
+                                a{
+                                    color: $white;
+                                    transition: 0.3s ease-in-out;
+                                    &:hover{
+                                        color: $secondary;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+}

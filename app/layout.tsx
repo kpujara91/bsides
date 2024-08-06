@@ -33,19 +33,19 @@ export const metadata: Metadata = {
       }
     ]
   },
-  alternates: {
-    canonical: 'https://bsidesahmedabad.in/',
-    languages: {
-      'en-US': '/en-US',
-    },
-  },
-  robots: {
-    index: true,
-    follow: true,
-    'max-image-preview': 'large',
-    'max-snippet': -1,
-    'max-video-preview': -1,
-  }
+  // alternates: {
+  //   canonical: 'https://bsidesahmedabad.in/',
+  //   languages: {
+  //     'en-US': '/en-US',
+  //   },
+  // },
+  // robots: {
+  //   index: true,
+  //   follow: true,
+  //   'max-image-preview': 'large',
+  //   'max-snippet': -1,
+  //   'max-video-preview': -1,
+  // }
 };
 
 export default function RootLayout({
@@ -54,7 +54,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" >
       <body className={`${poppins.variable}`}>{children}</body>
     </html>
   );

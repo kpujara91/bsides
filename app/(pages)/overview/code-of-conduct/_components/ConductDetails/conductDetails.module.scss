@@ -1,0 +1,17 @@
+@import '@/assets/scss/partial.scss';
+@import '@/assets/scss/variables.scss';
+
+.conductDetailsWrap{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    p{
+        margin-bottom: 12px;
+        @media (min-width: $sm) {
+            margin-bottom: 16px;            
+        }
+        &:last-child{
+            margin: 0;
+        }
+    }
+}

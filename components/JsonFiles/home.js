@@ -1,3 +1,4 @@
+import DefaultImage from '../../public/images/default-image.png'
 import AboutImage1 from '../../public/images/about-image1.webp'
 import AboutImage2 from '../../public/images/about-image2.webp'
 import AboutImage3 from '../../public/images/about-image3.webp'
@@ -20,11 +21,6 @@ import SpeakerImage6 from '../../public/images/speaker-image6.webp'
 import SpeakerImage7 from '../../public/images/speaker-image7.webp'
 import SpeakerImage11 from '../../public/images/speaker-image11.webp'
 import SpeakerImage12 from '../../public/images/speaker-image12.webp'
-import SpeakerImage13 from '../../public/images/speaker-image13.webp'
-import SpeakerImage14 from '../../public/images/speaker-image14.webp'
-import SpeakerImage15 from '../../public/images/speaker-image15.webp'
-import SpeakerImage16 from '../../public/images/speaker-image16.webp'
-import SpeakerImage17 from '../../public/images/speaker-image17.webp'
 import KeynoteImage1 from '../../public/images/keynote-image1.png'
 import KeynoteImage2 from '../../public/images/keynote-image2.png'
 import KeynoteImage3 from '../../public/images/keynote-image3.png'
@@ -48,6 +44,23 @@ import TechSpeaker6 from '../../public/images/tech-speaker-anddre-baptista.webp'
 import TechSpeaker7 from '../../public/images/tech-speaker-abdullah-abbadi.webp'
 import TechSpeaker8 from '../../public/images/tech-speaker-satyam.webp'
 import TechSpeaker9 from '../../public/images/tech-speaker-kuldeep-pandya.webp'
+import CxoAmitGhodekar from '../../public/images/cxo-amit-ghodekar.jpeg'
+import CxoAmitKaushik from '../../public/images/cxo-amit-kaushik.jpeg'
+import CxoAnandTapikar from '../../public/images/cxo-anand-tapikar.png'
+import CxoArjunBM from '../../public/images/cxo-arjun-bm.jpeg'
+import CxoBalaRamanan from '../../public/images/cxo-bala-ramanan.jpeg'
+import CxoKamalSharma from '../../public/images/cxo-kamal-sharma.png'
+import CxoKrish from '../../public/images/cxo-krish.png'
+import CxoManikant from '../../public/images/cxo-manikant.png'
+import CxoNavaneethan from '../../public/images/cxo-navaneethan.jpeg'
+import CxoPradeepShekar from '../../public/images/cxo-pradeep-shekar.jpeg'
+import CxoRakeshKumar from '../../public/images/cxo-rakesh-kumar.jpeg'
+import CxoRupesh from '../../public/images/cxo-rupesh.jpeg'
+import CxoSatish from '../../public/images/cxo-satish.png'
+import CxoSreeshanaker from '../../public/images/cxo-sreeshanaker.png'
+import CxoHilal from '../../public/images/cxo-hilal.jpeg'
+import CxoDeveshBhatt from '../../public/images/cxo-devesh-bhatt.jpg'
+
 
 
 export const HomeContent = {
@@ -330,11 +343,11 @@ export const HomeContent = {
                     //     icon: IconTwitter,
                     //     url:'https://twitter.com/bsidesahmedabad',
                     // },
-                    // {
-                    //     title:'Linkedin',
-                    //     icon: IconLinkedin,
-                    //     url:'https://www.linkedin.com/company/bsides-ahmedabad/',
-                    // }
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFRkEZr4vJ37QAAAZEnoGYIWyelKQta7x1TzAWlDUVsQm6IxrsKtIGWSWcFOBagsSzW9O5r8wX_mK3votropzft5o0e8NAn9xq77HAUzFOd6-2GVPVbwR-a5_LajlQfHqnCBCQ=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fiamdivyanshu%2F',
+                    }
                 ]
             },
             {
@@ -406,6 +419,273 @@ export const HomeContent = {
                 ]
             }
         ],
+        CxoSpeakersTitle : <>CXO <span>SPEAKERS</span></>,
+        CxoSpeakerList:[
+            {
+                speakerImage: CxoAmitKaushik,
+                speakerName: `Amit Kaushik`,
+                speakerDesignation: `CISO ZEE -Technology & Innovation`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/kaushikamit?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAG8_vkB4fkQnDYSUqtgf-8ICCxwbQSKOnA',
+                    }
+                ]
+            },
+            {
+                speakerImage: CxoNavaneethan,
+                speakerName: `Navaneethan M`,
+                speakerDesignation: `Chief Information Security Officer & Head IT at Confidential`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/navaneethan-m-2346052/',
+                    }
+                ]
+            },
+            {
+                speakerImage: CxoAmitGhodekar,
+                speakerName: `Amit Ghodekar`,
+                speakerDesignation: `Global Cyber Security Leader at Axis Bank`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/amitghodekar/',
+                    }
+                ]
+            },
+            {
+                speakerImage: CxoHilal,
+                speakerName: `Hilal Ahmed Lone`,
+                speakerDesignation: `Chief Information Security Officer of Razorpay`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/hilallone/',
+                    }
+                ]
+            },
+            {
+                speakerImage: CxoSatish,
+                speakerName: `Satish Kumar Dwibhashi`,
+                speakerDesignation: `Chief Information Security Officer (CISO) at Kredit-bee`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/satishkumard/',
+                    }
+                ]
+            },
+            {
+                speakerImage: CxoDeveshBhatt,
+                speakerName: `Devesh Bhatt`,
+                speakerDesignation: `Cyber Security Leader at Adobe`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/deveshbhatt11/',
+                    }
+                ]
+            },
+            {
+                speakerImage: CxoPradeepShekar,
+                speakerName: `Pradeep Sekar`,
+                speakerDesignation: `MD at Optiv`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/pradeepms/',
+                    }
+                ]
+            },
+            {
+                speakerImage: CxoArjunBM,
+                speakerName: `Arjun BM`,
+                speakerDesignation: `Head of Security at Tesco`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/arjunbm/',
+                    }
+                ]
+            },
+            {
+                speakerImage: CxoManikant,
+                speakerName: `Manikant`,
+                speakerDesignation: `CISO , DMI Finance`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/manikantrsingh/',
+                    }
+                ]
+            },
+            {
+                speakerImage: CxoAnandTapikar,
+                speakerName: `Anand Tapikar`,
+                speakerDesignation: `Director at GE Healthcare`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/anand-tapikar-0938491/',
+                    }
+                ]
+            },
+            {
+                speakerImage: CxoBalaRamanan,
+                speakerName: `Bala Ramanan`,
+                speakerDesignation: `AVP- Risk & Compliance at Microland`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/balaramanan/',
+                    }
+                ]
+            },
+            {
+                speakerImage: CxoRupesh,
+                speakerName: `Rupesh Shantamurthy`,
+                speakerDesignation: `Principal Security Engineer at Cloud Software Group`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/rup9sh/',
+                    }
+                ]
+            },
+            {
+                speakerImage: CxoRakeshKumar,
+                speakerName: `Rakesh Kumar Kunwar`,
+                speakerDesignation: `Senior Director at Arcon`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/rakeshkunwar/',
+                    }
+                ]
+            },
+            {
+                speakerImage: CxoSreeshanaker,
+                speakerName: `Sreeshankar Gurujalam`,
+                speakerDesignation: `General Manager - Cybersecurity at Siemens Healthineers`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/sreeshankarg/',
+                    }
+                ]
+            },
+            {
+                speakerImage: CxoKamalSharma,
+                speakerName: `Kamal Sharma`,
+                speakerDesignation: `Founder of Authenticone & CISO at ASM Technologies`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/kamalsh/',
+                    }
+                ]
+            },
+            {
+                speakerImage: CxoKrish,
+                speakerName: `Krishnakumar Govindarajan`,
+                speakerDesignation: `CTO at MiQ`,
+                speakerSocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/krishgovindarajan/',
+                    }
+                ]
+            },
+            // {
+            //     speakerImage: DefaultImage,
+            //     speakerName: `Manpreet Singh`,
+            //     speakerDesignation: `VP at CASHFREE Payments`,
+            //     speakerSocialMediaList:[
+            //         {
+            //             title:'Linkedin',
+            //             icon: IconLinkedin,
+            //             url:'https://www.linkedin.com/in/manpreet-ms/',
+            //         }
+            //     ]
+            // },
+            // {
+            //     speakerImage: DefaultImage,
+            //     speakerName: `Gaurav Bhardwaj`,
+            //     speakerDesignation: `Engineering Manager at John Deere`,
+            //     speakerSocialMediaList:[
+            //         {
+            //             title:'Linkedin',
+            //             icon: IconLinkedin,
+            //             url:'https://www.linkedin.com/in/bhardwajg/',
+            //         }
+            //     ]
+            // },
+            // {
+            //     speakerImage: DefaultImage,
+            //     speakerName: `Dr. Abhilasha Vyas`,
+            //     speakerDesignation: `Business unit Head, Cloud Security & BI at CloudThat`,
+            //     speakerSocialMediaList:[
+            //         {
+            //             title:'Linkedin',
+            //             icon: IconLinkedin,
+            //             url:'',
+            //         }
+            //     ]
+            // },
+            // {
+            //     speakerImage: DefaultImage,
+            //     speakerName: `Pooja Aggrawal`,
+            //     speakerDesignation: `Head Identity & Access Management at NXP`,
+            //     speakerSocialMediaList:[
+            //         {
+            //             title:'Linkedin',
+            //             icon: IconLinkedin,
+            //             url:'',
+            //         }
+            //     ]
+            // },
+            // {
+            //     speakerImage: DefaultImage,
+            //     speakerName: `Satyavadi`,
+            //     speakerDesignation: `Wells Fargo at Executive Director`,
+            //     speakerSocialMediaList:[
+            //         {
+            //             title:'Linkedin',
+            //             icon: IconLinkedin,
+            //             url:'',
+            //         }
+            //     ]
+            // },
+            // {
+            //     speakerImage: DefaultImage,
+            //     speakerName: `Ashwini siddhi`,
+            //     speakerDesignation: `Director Product Security Engineering at GoDaddy`,
+            //     speakerSocialMediaList:[
+            //         {
+            //             title:'Linkedin',
+            //             icon: IconLinkedin,
+            //             url:'',
+            //         }
+            //     ]
+            // },
+        ]
     },
     SpeakersBio:{
         Caption: `6th October`,
