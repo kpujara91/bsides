@@ -12,7 +12,7 @@ import SponsorSecasure from '../../public/images/sponsor-secasure.png'
 import SponsorRedTeamSummit from '../../public/images/sponsor-red-team-summit.png'
 import SponsorTheSecopsGroup from '../../public/images/sponsor-the-secops-group.svg'
 import SponsorRiskProfiler from '../../public/images/sponsor-risk-profiler.png'
-import SponsorCloudsek from '../../public/images/sponsor-cloudsek.png'
+import SponsorCloudsek from '../../public/images/cloudsek-new-logo.png'
 import SponsorPrivacySquare from '../../public/images/sponsor-privacy-square.png'
 
 export const ConferenceContent = {
@@ -43,6 +43,9 @@ export const ConferenceContent = {
         },
         SponsorsContent : [
             {
+                MainTitle : <>GOLD <span>SPONSOR</span></>,
+            },
+            {
                 MainTitle : <>SILVER <span>SPONSOR</span></>,
                 SponsorsDetails : [
                     {
@@ -65,20 +68,10 @@ export const ConferenceContent = {
                 ]
             },
             {
-                MainTitle : <>CXO TRACK <span> SPONSOR</span></>,
-                SponsorsDetails : [
-                    {
-                        ImagePath : SponsorMiniOrange,
-                        description : [
-                            `MiniOrange is an established cybersecurity organization specializing in Identity & Access Management (IAM). With a wealth of technical expertise and unwavering 24x7 customer support, miniOrange is dedicated to delivering innovative and disruptive products within the IAM space such as Single Sign-On, Multi-Factor Authentication, Adaptive Authentication, User Lifecycle Management, Identity Federation, and External Directory support via a centralized identity product. Additionally, miniOrange offers a comprehensive suite of plugins and connectors to ensure the security of all applications (including Atlassian, WordPress, Shopify, Drupal, etc.), technologies, and frameworks. miniOrange also offers products related to Privileged Access Management and CASB, further bolstering cybersecurity efforts.`
-                        ],
-                        url : `https://www.miniorange.com/`,
-                        urlTitle : `Learn more : https://www.miniorange.com/`
-                    }
-                ]
+                MainTitle : <>BRONZE <span>SPONSOR</span></>,
             },
             {
-                MainTitle : <>POWERED <span>BY</span></>,
+                MainTitle : <>Networking Dinner <span>SPONSOR</span></>,
                 SponsorsDetails : [
                     {
                         ImagePath : SponsorHackerOne,
@@ -87,31 +80,34 @@ export const ConferenceContent = {
                         ],
                         url : `https://www.hackerone.com/`,
                         urlTitle : `Learn more : https://www.hackerone.com/`
-                    },
+                    }
+                ],
+                show: true
+            },
+            {
+                MainTitle : <>GOODIE BAG <span>SPONSOR</span></>,
+                SponsorsDetails : [
                     {
-                        ImagePath : SponsorSynack,
+                        ImagePath : SponsorCloudsek,
                         description : [
-                            `Synack is the premier security testing platform harnessing a vetted community of the world’s most talented security researchers to deliver continuous penetration testing and vulnerability management. We help our customers build and augment their security testing capabilities and capacity to deliver transformational results—better than traditional pentesting methods. We are committed to reducing cybersecurity risk for our customers by bridging the cybersecurity talent gap and giving organizations on-demand access to the most trusted network of researchers in a secure way, all on one platform.`
+                            `CloudSEK’s central proposition is leverage Artificial Intelligence to build a rapid and reliable detection, analysis, and alert system that offers swift detection across internet sources , precision analysis of threats and prompt resolution with minimal human intervention`
                         ],
-                        url : `https://www.synack.com/`,
-                        urlTitle : `Learn more : https://www.synack.com/`
-                    },
+                        url : `https://www.cloudsek.com/`,
+                        urlTitle : `Learn more : https://www.cloudsek.com/`
+                    }
+                ],
+                show: true
+            },
+            {
+                MainTitle :  <>LANYARD <span>SPONSOR</span></>,
+                SponsorsDetails : [
                     {
-                        ImagePath : SponsorProjectDiscovery,
+                        ImagePath : SponsorRiskProfiler,
                         description : [
-                            `At ProjectDiscovery, we are on a mission to bring security to everyone. Our suite of open source tools powers a vibrant community that is among the largest in the infosec community. Our projects have accumulated over 50k stars on Github with monthly active users in the hundreds of thousands and year-over-year growth of over 400%. 8 of our tools recently made the Open Source Security Index, a list of the fastest growing open source security projects on GitHub, which is more than any other startup or corporation. Our tools are trusted by security and engineering teams at top internet companies like HashiCorp, Robinhood, Gitlab, CapitalOne, Fastly, Starbucks and many others.`
+                            `Risk Profiler fills the gaps in cyber protection by looking at the shadow risks, their paths and implications back into the customers infrastructure. Through its modern, AI based, approach to giving complete cybersecurity risk analysis, the customer gets an unprecedented understanding of risk and its origin.`
                         ],
-                        url : `https://projectdiscovery.io/`,
-                        urlTitle : `Learn more : https://projectdiscovery.io/`
-                    },
-                    {
-                        ImagePath : SponsorBugBase,
-                        description : [
-                            `BugBase harnesses India’s largest community of ethical hackers to help keep businesses safe by providing an all-in-one platform for continuous and comprehensive security testing.`,
-                            `Companies can set up security testing solutions within minutes and start receiving unique, vetted bug reports within hours. We follow strict compliance requirements and provide rapid triage, one-click SDLC integrations, invoicing, and managed payouts to enterprises and startups worldwide.`
-                        ],
-                        url : `https://bugbase.in`,
-                        urlTitle : `Learn more : https://bugbase.in`
+                        url : `https://riskprofiler.io/`,
+                        urlTitle : `Learn more : https://riskprofiler.io/`
                     }
                 ]
             },
@@ -129,76 +125,104 @@ export const ConferenceContent = {
                 ]
             },
             {
-                MainTitle : <>SPEAKERS DINNER <span>SPONSOR</span></>,
+                MainTitle : <>BADGE <span>SPONSOR</span></>,
+            },
+            {
+                MainTitle : <>CXO TRACK <span> SPONSOR</span></>,
                 SponsorsDetails : [
                     {
-                        ImagePath : SponsorSecasure,
+                        ImagePath : SponsorMiniOrange,
                         description : [
-                            `With SECASURE, we aim to achieve a world where the users do not need to worry about their digital privacy and their stored content. We look forward to contributing in shaping a world where a user need not worry about somebody profiling / tracking the behaviour without consent. We envisage the idea of a world where your privacy comes first, with information security and no room for breaches.`
+                            `MiniOrange is an established cybersecurity organization specializing in Identity & Access Management (IAM). With a wealth of technical expertise and unwavering 24x7 customer support, miniOrange is dedicated to delivering innovative and disruptive products within the IAM space such as Single Sign-On, Multi-Factor Authentication, Adaptive Authentication, User Lifecycle Management, Identity Federation, and External Directory support via a centralized identity product. Additionally, miniOrange offers a comprehensive suite of plugins and connectors to ensure the security of all applications (including Atlassian, WordPress, Shopify, Drupal, etc.), technologies, and frameworks. miniOrange also offers products related to Privileged Access Management and CASB, further bolstering cybersecurity efforts.`
                         ],
-                        url : `https://secasure.com/`,
-                        urlTitle : `Learn more : https://secasure.com/`
-                    },
-                    {
-                        ImagePath : SponsorRedTeamSummit,
-                        description : [],
-                        url : `https://redteamsummit.org/`,
-                        urlTitle : `Learn more : https://redteamsummit.org/`
+                        url : `https://www.miniorange.com/`,
+                        urlTitle : `Learn more : https://www.miniorange.com/`
                     }
                 ]
             },
-            {
-                MainTitle : <>CERTIFICATE <span>PARTNER</span></>,
-                SponsorsDetails : [
-                    {
-                        ImagePath : SponsorTheSecopsGroup,
-                        description : [
-                            `The SecOps Group is a globally recognized IT security company having extensive and varied experience of providing cyber security consultancy and education services. At The SecOps Group, we believe that security is a continuous process, which has to progress with time and in accordance with the customer needs and constantly evolving threats.`
-                        ],
-                        url : `https://secops.group/`,
-                        urlTitle : `Learn more : https://secops.group/`
-                    }
-                ]
-            },
-            {
-                MainTitle :  <>LANYARD <span>SPONSOR</span></>,
-                SponsorsDetails : [
-                    {
-                        ImagePath : SponsorRiskProfiler,
-                        description : [
-                            `Risk Profiler fills the gaps in cyber protection by looking at the shadow risks, their paths and implications back into the customers infrastructure. Through its modern, AI based, approach to giving complete cybersecurity risk analysis, the customer gets an unprecedented understanding of risk and its origin.`
-                        ],
-                        url : `https://riskprofiler.io/`,
-                        urlTitle : `Learn more : https://riskprofiler.io/`
-                    }
-                ]
-            },
-            {
-                MainTitle : <>GOODIE BAG <span>SPONSOR</span></>,
-                SponsorsDetails : [
-                    {
-                        ImagePath : SponsorCloudsek,
-                        description : [
-                            `CloudSEK’s central proposition is leverage Artificial Intelligence to build a rapid and reliable detection, analysis, and alert system that offers swift detection across internet sources , precision analysis of threats and prompt resolution with minimal human intervention`
-                        ],
-                        url : `https://www.cloudsek.com/`,
-                        urlTitle : `Learn more : https://www.cloudsek.com/`
-                    }
-                ]
-            },
-            {
-                MainTitle : <>PRIVACY <span>PARTNER</span></>,
-                SponsorsDetails : [
-                    {
-                        ImagePath : SponsorPrivacySquare,
-                        description : [
-                            `SquareX is an extension built to keep you safe, anonymous and private online.`
-                        ],
-                        url : `https://sqrx.com/`,
-                        urlTitle : `Learn more : https://sqrx.com/`
-                    }
-                ]
-            }
+            // {
+            //     MainTitle : <>POWERED <span>BY</span></>,
+            //     SponsorsDetails : [
+            //         {
+            //             ImagePath : SponsorHackerOne,
+            //             description : [
+            //                 `HackerOne is a vulnerability coordination and bug bounty platform that connects businesses with penetration testers and cybersecurity researchers.`
+            //             ],
+            //             url : `https://www.hackerone.com/`,
+            //             urlTitle : `Learn more : https://www.hackerone.com/`
+            //         },
+            //         {
+            //             ImagePath : SponsorSynack,
+            //             description : [
+            //                 `Synack is the premier security testing platform harnessing a vetted community of the world’s most talented security researchers to deliver continuous penetration testing and vulnerability management. We help our customers build and augment their security testing capabilities and capacity to deliver transformational results—better than traditional pentesting methods. We are committed to reducing cybersecurity risk for our customers by bridging the cybersecurity talent gap and giving organizations on-demand access to the most trusted network of researchers in a secure way, all on one platform.`
+            //             ],
+            //             url : `https://www.synack.com/`,
+            //             urlTitle : `Learn more : https://www.synack.com/`
+            //         },
+            //         {
+            //             ImagePath : SponsorProjectDiscovery,
+            //             description : [
+            //                 `At ProjectDiscovery, we are on a mission to bring security to everyone. Our suite of open source tools powers a vibrant community that is among the largest in the infosec community. Our projects have accumulated over 50k stars on Github with monthly active users in the hundreds of thousands and year-over-year growth of over 400%. 8 of our tools recently made the Open Source Security Index, a list of the fastest growing open source security projects on GitHub, which is more than any other startup or corporation. Our tools are trusted by security and engineering teams at top internet companies like HashiCorp, Robinhood, Gitlab, CapitalOne, Fastly, Starbucks and many others.`
+            //             ],
+            //             url : `https://projectdiscovery.io/`,
+            //             urlTitle : `Learn more : https://projectdiscovery.io/`
+            //         },
+            //         {
+            //             ImagePath : SponsorBugBase,
+            //             description : [
+            //                 `BugBase harnesses India’s largest community of ethical hackers to help keep businesses safe by providing an all-in-one platform for continuous and comprehensive security testing.`,
+            //                 `Companies can set up security testing solutions within minutes and start receiving unique, vetted bug reports within hours. We follow strict compliance requirements and provide rapid triage, one-click SDLC integrations, invoicing, and managed payouts to enterprises and startups worldwide.`
+            //             ],
+            //             url : `https://bugbase.in`,
+            //             urlTitle : `Learn more : https://bugbase.in`
+            //         }
+            //     ]
+            // },
+            // {
+            //     MainTitle : <>SPEAKERS DINNER <span>SPONSOR</span></>,
+            //     SponsorsDetails : [
+            //         {
+            //             ImagePath : SponsorSecasure,
+            //             description : [
+            //                 `With SECASURE, we aim to achieve a world where the users do not need to worry about their digital privacy and their stored content. We look forward to contributing in shaping a world where a user need not worry about somebody profiling / tracking the behaviour without consent. We envisage the idea of a world where your privacy comes first, with information security and no room for breaches.`
+            //             ],
+            //             url : `https://secasure.com/`,
+            //             urlTitle : `Learn more : https://secasure.com/`
+            //         },
+            //         {
+            //             ImagePath : SponsorRedTeamSummit,
+            //             description : [],
+            //             url : `https://redteamsummit.org/`,
+            //             urlTitle : `Learn more : https://redteamsummit.org/`
+            //         }
+            //     ]
+            // },
+            // {
+            //     MainTitle : <>CERTIFICATE <span>PARTNER</span></>,
+            //     SponsorsDetails : [
+            //         {
+            //             ImagePath : SponsorTheSecopsGroup,
+            //             description : [
+            //                 `The SecOps Group is a globally recognized IT security company having extensive and varied experience of providing cyber security consultancy and education services. At The SecOps Group, we believe that security is a continuous process, which has to progress with time and in accordance with the customer needs and constantly evolving threats.`
+            //             ],
+            //             url : `https://secops.group/`,
+            //             urlTitle : `Learn more : https://secops.group/`
+            //         }
+            //     ]
+            // },
+            // {
+            //     MainTitle : <>PRIVACY <span>PARTNER</span></>,
+            //     SponsorsDetails : [
+            //         {
+            //             ImagePath : SponsorPrivacySquare,
+            //             description : [
+            //                 `SquareX is an extension built to keep you safe, anonymous and private online.`
+            //             ],
+            //             url : `https://sqrx.com/`,
+            //             urlTitle : `Learn more : https://sqrx.com/`
+            //         }
+            //     ]
+            // }
         ]
     }
 }

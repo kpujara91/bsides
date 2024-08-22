@@ -19,7 +19,7 @@ const AboutBsidesAhmedabad: React.FC = () => {
               </div>
             </div>
         </div>
-        <div className={`AnimateCircle`}>
+        <div className={`AnimateCircle ${styles.AnimateCircle}`}>
           <Image src={OverviewContent?.GlobalAnimateCircleImage} alt="circleImage" width={999} height={900} />
         </div>
       </section>

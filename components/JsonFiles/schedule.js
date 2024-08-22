@@ -262,21 +262,21 @@ export const ScheduleContent = {
           breakTitle: `LUNCH`,
           breakTime: `12:45 - 01:30`,
           SpeakerDetails: [
-            {
-              mainStageName: `TECHNICAL`,
-              providedTime: `01:30 - 02:15`,
-              MainTitle: ``,
-              innerDetails: [
-                {
-                  speakerTitle: `Technical Speaker`,
-                  imagePath: AnddreBaptistaImage,
-                  name: `Andre Baptista`,
-                  description: `Hacker & Co-founder @Ethiack`,
-                  url: ``,
-                  subtitle: ``,
-                },
-              ],
-            },
+            // {
+            //   mainStageName: `TECHNICAL`,
+            //   providedTime: `01:30 - 02:15`,
+            //   MainTitle: ``,
+            //   innerDetails: [
+            //     {
+            //       speakerTitle: `Technical Speaker`,
+            //       imagePath: AnddreBaptistaImage,
+            //       name: `Andre Baptista`,
+            //       description: `Hacker & Co-founder @Ethiack`,
+            //       url: ``,
+            //       subtitle: ``,
+            //     },
+            //   ],
+            // },
             {
               mainStageName: `TECHNICAL`,
               providedTime: `02:15 - 03:00`,

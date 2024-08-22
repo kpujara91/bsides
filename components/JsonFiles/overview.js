@@ -5,6 +5,7 @@ import IconTwitter from '../../public/images/icon-twitter.svg'
 import IconLinkedin from '../../public/images/icon-linkedin.svg'
 import JinenImage from '../../public/images/Jinen.png'
 import DipenImage from '../../public/images/Dipen.png'
+import SaurabhPandeyImage from '../../public/images/saurabh-pandey.jpeg'
 import NikhilImage from '../../public/images/Nikhil.png'
 import CodeOfConductImage from '../../public/images/codeofconduct.webp'
 import VenuePlaceImage from '../../public/images/VenuePlace.webp'
@@ -111,6 +112,18 @@ export const OverviewContent = {
                             title:'Twitter',
                             icon: IconTwitter,
                             url:'https://twitter.com/j4jinen',
+                        },
+                    ]
+                },
+                {
+                    speakerImage: SaurabhPandeyImage,
+                    speakerName: `Saurabh Kumar Pandey`,
+                    speakerDesignation: ``,
+                    speakerSocialMediaList:[
+                        {
+                            title:'Linkedin',
+                            icon: IconLinkedin,
+                            url:'https://www.linkedin.com/in/saurabh-kumar-pandey-1303b4126/',
                         },
                     ]
                 },

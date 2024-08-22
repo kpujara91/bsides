@@ -1,20 +1,19 @@
 import React from 'react';
-import styles from './eventSponsors.module.scss';
+import styles from './NetworkingDinnerSponsor.module.scss';
 import {HomeContent} from '@/components/JsonFiles/home'
 import Image from 'next/image';
 
-const EventSponsors: React.FC = () => {
+const NetworkingDinnerSponsor: React.FC = () => {
   return (
     <>
-        <section className={`pt-80 ${styles.eventSponsorsWrapper}`}>
+        <section className={`pb-160 pt-80 ${styles.networkingDinnerSponsorWrapper}`}>
             <div className="container">
-                <div className="title-wrapper">
-                    <span className={`h3 caption ${styles.PageCaption}`}>{HomeContent?.EventSponsors?.Caption}</span>
-                    <h1 className='title'>{HomeContent?.EventSponsors?.Title}</h1>
+                <div className="title-wrapper text-center">
+                    <h2 className='title text-center'>{HomeContent?.NetworkingDinnerSponsor?.Title}</h2>
                 </div>
-                {/* {HomeContent?.EventSponsors?.EventSponsorsList &&
-                    <ul className={`flex items-stretch flex-wrap ${styles.eventSponsorsList}`}>
-                        {HomeContent?.EventSponsors?.EventSponsorsList?.map((list,i)=>{
+                {HomeContent?.NetworkingDinnerSponsor?.NetworkingDinnerList &&
+                    <ul className={`flex items-stretch justify-center flex-wrap ${styles.CommunityPartnerList}`}>
+                        {HomeContent?.NetworkingDinnerSponsor?.NetworkingDinnerList?.map((list,i)=>{
                             return(
                                 <React.Fragment key={i}>
                                     <li className='w-1/2 md:w-1/3 xl:w-1/4'>
@@ -26,12 +25,11 @@ const EventSponsors: React.FC = () => {
                             )
                         })}
                     </ul>
-                } */}
-                {/* <div className='no-data'>It could be YOU</div> */}
+                }
             </div>
         </section>
     </>
   );
 };
 
-export default EventSponsors;
+export default NetworkingDinnerSponsor;

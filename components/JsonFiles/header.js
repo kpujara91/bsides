@@ -44,6 +44,10 @@ export const HeaderContent = {
                     Menu: `Speakers`,
                     Url: `/#speaker`,
                 },
+                {
+                    Menu: `Call for Papers`,
+                    Url: `/call-for-papers/`,
+                },
             ]
         },
         {

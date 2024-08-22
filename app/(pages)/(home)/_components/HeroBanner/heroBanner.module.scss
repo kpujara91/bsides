@@ -62,4 +62,18 @@
     .heroBgAnimation{
         z-index: -1;
     }
+    .callForPapers{
+        font-family: "Nasalization Rg";
+        color: #ffffff;
+        background: linear-gradient(180deg, #00FD9D 0%, #933AFA 100%);
+        padding: 10px 14px;
+        border-radius: 40px;
+        text-transform: uppercase;
+        @media (min-width: $md ) {
+            padding: 16px 20px;
+        }
+        @media (min-width: $xl ) {
+            padding: 20px 26px;
+        }
+    }
 }

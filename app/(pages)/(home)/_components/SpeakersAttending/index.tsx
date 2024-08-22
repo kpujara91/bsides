@@ -8,9 +8,9 @@ const SpeakersAttending: React.FC = () => {
     <>
         <section className={`ptb-160`} id='speaker'>
             <div className="container">
-                <div className="title-wrapper">
+                <div className="title-wrapper text-center">
                     <span className={`h3 caption`}>{HomeContent?.SpeakersAttending?.Caption}</span>
-                    <h2 className='title'>{HomeContent?.SpeakersAttending?.KeynoteSpeakerTitle}</h2>
+                    <h2 className='title text-center'>{HomeContent?.SpeakersAttending?.KeynoteSpeakerTitle}</h2>
                 </div>
                 {/* <div className={`flex items-start flex-wrap gap-y-6 xl:gap-y-8 mb-160 speakerCardList`}>
                     {HomeContent?.SpeakersAttending?.KeynoteSpeakerList?.map((SpeakerList,i)=>{
@@ -41,8 +41,8 @@ const SpeakersAttending: React.FC = () => {
                     })}
                 </div> */}
                 <div className='no-data mb-160'>Coming Soon</div>
-                <div className="title-wrapper">
-                    <h2 className='title'>{HomeContent?.SpeakersAttending?.TechnicalSpeakerTitle}</h2>
+                <div className="title-wrapper text-center">
+                    <h2 className='title text-center'>{HomeContent?.SpeakersAttending?.TechnicalSpeakerTitle}</h2>
                 </div>
                 <div className={`flex items-start flex-wrap gap-y-6 xl:gap-y-8 speakerCardList mb-160`}>
                     {HomeContent?.SpeakersAttending?.TechnicalSpeakerList?.map((SpeakerList,i)=>{
@@ -71,8 +71,8 @@ const SpeakersAttending: React.FC = () => {
                     })}
                 </div>
                 {/* <div className='no-data mb-160'>Coming Soon</div> */}
-                <div className="title-wrapper">
-                    <h2 className='title'>{HomeContent?.SpeakersAttending?.CxoSpeakersTitle}</h2>
+                <div className="title-wrapper text-center">
+                    <h2 className='title text-center'>{HomeContent?.SpeakersAttending?.CxoSpeakersTitle}</h2>
                 </div>
                 <div className={`flex items-start flex-wrap gap-y-6 xl:gap-y-8 speakerCardList`}>
                     {HomeContent?.SpeakersAttending?.CxoSpeakerList?.map((SpeakerList,i)=>{

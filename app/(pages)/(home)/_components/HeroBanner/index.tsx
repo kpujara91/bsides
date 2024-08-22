@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 import styles from './heroBanner.module.scss';
 // import { EvervaultCard } from '@/components/AceternityUI/evervault-card';
 import {HomeContent} from '@/components/JsonFiles/home'
+import Link from "next/link";
 
 type Direction = "TOP" | "LEFT" | "BOTTOM" | "RIGHT";
 
@@ -19,7 +20,7 @@ const HeroBanner: React.FC = () => {
         <div className="container">
           <div className={`overflow-hidden ${styles.heroTitleWraper}`}>
             <h1 className={`font-nasalization text-center gradiant-title title-wrapper ${styles.heroTitleInner}`}>
-              {HomeContent?.HiroBanner?.banerTitle} <span className="relative"><FlipWords words={HomeContent?.HiroBanner?.bannerAnimationLoop} /></span> 
+              {HomeContent?.HiroBanner?.banerTitle} <span className="relative"><FlipWords words={HomeContent?.HiroBanner?.bannerAnimationLoop} /></span>
               {/* {" "} {HomeContent?.HiroBanner?.bannerAnimationLoop} */}
               <br /> {HomeContent?.HiroBanner?.banerYear}
             </h1>
@@ -41,6 +42,9 @@ const HeroBanner: React.FC = () => {
                     )
                 })}
             </ul>
+            {/* <div className="flex justify-center items-center gap-4 mt-6 md:mt-10">
+              <Link href="/call-for-papers" className={`caption ${styles.callForPapers}`}>call for papers</Link>
+            </div> */}
           </div>
         </div>
         <EvervaultCard className={`absolute left-0 top-0 w-full h-full ${styles.heroBgAnimation}`} characters={HomeContent?.HiroBanner?.bgAnimationText}/>
@@ -154,7 +158,7 @@ export function HoverBorderGradient({
 >) {
   const [hovered, setHovered] = useState<boolean>(false);
   const [direction, setDirection] = useState<Direction>("TOP");
- 
+
   const rotateDirection = (currentDirection: Direction): Direction => {
     const directions: Direction[] = ["TOP", "LEFT", "BOTTOM", "RIGHT"];
     const currentIndex = directions.indexOf(currentDirection);
@@ -163,7 +167,7 @@ export function HoverBorderGradient({
       : (currentIndex + 1) % directions.length;
     return directions[nextIndex];
   };
- 
+
   const movingMap: Record<Direction, string> = {
     TOP: "radial-gradient(20.7% 50% at 50% 0%, #933AFA 0%, rgba(255, 255, 255, 0) 100%)",
     LEFT: "radial-gradient(16.6% 43.1% at 0% 50%, #00FD9D  0%, rgba(255, 255, 255, 0) 100%)",
@@ -172,10 +176,10 @@ export function HoverBorderGradient({
     RIGHT:
       "radial-gradient(16.2% 41.199999999999996% at 100% 50%, #00FD9D 0%, rgba(255, 255, 255, 0) 100%)",
   };
- 
+
   const highlight =
     "radial-gradient(75% 181.15942028985506% at 50% 50%, #00FD9D 0%, rgba(255, 255, 255, 0) 100%)";
- 
+
   useEffect(() => {
     if (!hovered) {
       const interval = setInterval(() => {

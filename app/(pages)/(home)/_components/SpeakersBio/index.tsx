@@ -42,14 +42,14 @@ const SpeakersBio: React.FC = () => {
   return (
     <section className={`ptb-160 ${styles.speakersAttendingWrapper}`}>
       <div className="container">
-        <div className='flex items-start flex-col xl:flex-row gap-4 md:gap-6 xxxl:gap-16'>
+        {/* <div className='flex items-start flex-col xl:flex-row gap-4 md:gap-6 xxxl:gap-16'>
           <div className='w-full xl:w-1/3 xl:sticky xl:top-8'>
-            <div className="title-wrapper">
-              {/* <span className={`h3 caption ${styles.PageCaption}`}>{HomeContent?.SpeakersBio?.Caption}</span> */}
+            <div className="title-wrappertext-center">
+              <span className={`h3 caption ${styles.PageCaption}`}>{HomeContent?.SpeakersBio?.Caption}</span>
               <h2 className='title'>{HomeContent?.SpeakersBio?.Title}</h2>
             </div>
           </div>
-          {/* <div className='w-full xl:w-2/3'>
+          <div className='w-full xl:w-2/3'>
             <AnimatePresence>
               {active && (
                 <>
@@ -122,8 +122,12 @@ const SpeakersBio: React.FC = () => {
                 </motion.div>
               ))}
             </div>
-          </div> */}
-        </div>
+          </div>
+        </div> */}
+        <div className="title-wrapper text-center">
+              {/* <span className={`h3 caption ${styles.PageCaption}`}>{HomeContent?.SpeakersBio?.Caption}</span> */}
+              <h2 className='title text-center'>{HomeContent?.SpeakersBio?.Title}</h2>
+            </div>
         <div className='no-data mt-60'>Coming Soon</div>
       </div>
     </section>
