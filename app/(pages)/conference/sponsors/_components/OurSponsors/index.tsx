@@ -34,8 +34,8 @@ const OurSponsors: React.FC = () => {
                                                                     </React.Fragment>
                                                                 )
                                                             })}
-    
-                                                            <Link href={items?.url} className={`xl:mt-4 ${styles.urlLink}`}>{items.urlTitle}</Link>
+
+                                                            <Link href={items?.url} className={`xl:mt-4 ${styles.urlLink}`} target='_blank'>{items.urlTitle}</Link>
                                                         </div>
                                                     </div>
                                                 </React.Fragment>

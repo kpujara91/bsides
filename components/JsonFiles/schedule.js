@@ -6,13 +6,13 @@ import EventTecnicalTalk from "../../public/images/tecnical-talk.png";
 import EventCxoWomenTrack from "../../public/images/cxo-women-track.png";
 import EventVillageTrack from "../../public/images/village-track.png";
 import EventTrainings from "../../public/images/trainings.png";
+import HackerOneLogo from "../../public/images/sponsor-logo4.svg";
+import CloudsekLogo from "../../public/images/exhibitor-cloudsek.png";
 import ExhibitorLogo1 from "../../public/images/sponsor-logo1.svg";
 import ExhibitorLogo2 from "../../public/images/sponsor-logo3.svg";
-import ExhibitorLogo3 from "../../public/images/sponsor-logo4.svg";
 import ExhibitorLogo4 from "../../public/images/sponsor-logo7.svg";
 import ExhibitorLogo5 from "../../public/images/exhibitor-secops.svg";
 import ExhibitorLogo6 from "../../public/images/exhibitor-risk-profiler.png";
-import ExhibitorLogo7 from "../../public/images/exhibitor-cloudsek.png";
 import ExhibitorLogo8 from "../../public/images/exhibitor-infosechire.png";
 import SakshamImage from "../../public/images/tech-speaker-saksham.png";
 import ShubhamImage from "../../public/images/speaker-image1.webp";
@@ -1102,29 +1102,32 @@ export const ScheduleContent = {
       ),
       EventExhibitorsList: [
         {
-          image: ExhibitorLogo1,
+          image: HackerOneLogo,
+          urlLink : 'https://www.hackerone.com/'
         },
         {
-          image: ExhibitorLogo2,
+          image: CloudsekLogo,
+          urlLink : 'https://www.cloudsek.com/'
         },
-        {
-          image: ExhibitorLogo3,
-        },
-        {
-          image: ExhibitorLogo4,
-        },
-        {
-          image: ExhibitorLogo5,
-        },
-        {
-          image: ExhibitorLogo6,
-        },
-        {
-          image: ExhibitorLogo7,
-        },
-        {
-          image: ExhibitorLogo8,
-        },
+        // {
+        //   image: ExhibitorLogo1,
+        // },
+        // {
+        //   image: ExhibitorLogo2,
+        // },
+        // {
+        //   image: ExhibitorLogo4,
+        // },
+        // {
+        //   image: ExhibitorLogo5,
+        // },
+
+        // {
+        //   image: ExhibitorLogo6,
+        // },
+        // {
+        //   image: ExhibitorLogo8,
+        // },
       ],
     },
   },

@@ -10,7 +10,7 @@ const EventSponsors: React.FC = () => {
             <div className="container">
                 <div className="title-wrapper">
                     <span className={`h3 caption ${styles.PageCaption}`}>{HomeContent?.EventSponsors?.Caption}</span>
-                    <h1 className='title'>{HomeContent?.EventSponsors?.Title}</h1>
+                    <h1 className={`${styles.MainTitle} title`}>{HomeContent?.EventSponsors?.Title}</h1>
                 </div>
                 {/* {HomeContent?.EventSponsors?.EventSponsorsList &&
                     <ul className={`flex items-stretch flex-wrap ${styles.eventSponsorsList}`}>

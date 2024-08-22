@@ -23,7 +23,7 @@ const Sponsors: React.FC = () => {
                                                 return(
                                                     <React.Fragment key={i}>
                                                         <div className={`w-full h-full flex items-center justify-center relative`}>
-                                                            <Link href={items?.url} className={styles.imageBox}>
+                                                            <Link href={items?.url} className={styles.imageBox} target='_blank'>
                                                                 <Image src={items?.ImagePath} alt='Sponsors Image' width={300} height={100}/>
                                                             </Link>
                                                         </div>
