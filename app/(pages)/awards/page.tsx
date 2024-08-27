@@ -5,7 +5,7 @@ import AwardsHeroBanner from "./_components/AwardsHeroBanner";
 const Page: React.FC = () => {
     return (
       <>
-{/*       <AwardsHeroBanner /> */}
+      <AwardsHeroBanner />
       <Awards />
       </>
     );
