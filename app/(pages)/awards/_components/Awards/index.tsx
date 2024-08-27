@@ -5,7 +5,7 @@ import { AwardsContent } from "@/components/JsonFiles/awards";
 const Awards: React.FC = () => {
   return (
     <>
-    <section className={`${styles.awardsWrapper} ptb-160`}>
+    <section className={`${styles.awardsWrapper} pt-160 ptb-160`}>
         <div className="container">
         {/* <div className="title-wrapper text-center">
             <h2 className='title'>{AwardsContent?.Awards?.MainTitle}</h2>
