@@ -92,18 +92,6 @@ export const OverviewContent = {
                     ]
                 },
                 {
-                    speakerImage: DipenImage,
-                    speakerName: `Dipen Wadhwa`,
-                    speakerDesignation: ``,
-                    speakerSocialMediaList:[
-                        {
-                            title:'Twitter',
-                            icon: IconTwitter,
-                            url:'https://twitter.com/dipenwadhwa',
-                        },
-                    ]
-                },
-                {
                     speakerImage: JinenImage,
                     speakerName: `Jinen Patel`,
                     speakerDesignation: ``,
@@ -127,6 +115,18 @@ export const OverviewContent = {
                         },
                     ]
                 },
+                    // {
+                //     speakerImage: DipenImage,
+                //     speakerName: `Dipen Wadhwa`,
+                //     speakerDesignation: ``,
+                //     speakerSocialMediaList:[
+                //         {
+                //             title:'Twitter',
+                //             icon: IconTwitter,
+                //             url:'https://twitter.com/dipenwadhwa',
+                //         },
+                //     ]
+                // },
             ],
         }
     },

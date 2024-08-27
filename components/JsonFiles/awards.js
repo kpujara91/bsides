@@ -1,4 +1,4 @@
-import AwardsBannerBG from '../../public/images/technology-security.webp'
+import AwardsBannerBG from '../../public/images/awards-banner.webp'
 export const AwardsContent = {
     Banner:{
         Breadcrumb:[

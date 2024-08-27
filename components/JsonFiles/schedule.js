@@ -76,7 +76,7 @@ import vandanaVermaImage from "../../public/images/speaker-vandana-verma.jpg";
 import BinalImage from "../../public/images/speaker-binal.jpg";
 import LopaImage from "../../public/images/speaker-lopa.jpg";
 import NeeluTripathyImage from "../../public/images/speaker-neelu-tripathy.jpg";
-import JayTurlaImage from "../../public/images/speaker-jay-turla.jpg";
+import JayTurlaImage from "../../public/images/speaker-jayturla.jpg";
 import SaurabhImage from "../../public/images/speaker-saurabh.jpg";
 
 export const ScheduleContent = {

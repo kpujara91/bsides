@@ -21,6 +21,8 @@ const AwardsHeroBanner: React.FC = () => {
         </div>
         <Image src={AwardsContent?.Banner?.BGImage} width={1920} height={750} alt="bgimage" className={`absolute top-0 left-0 w-full h-full object-cover ${styles.bgImage}`}/>
       </section>
+
+      {/* <section className={`${styles.nominateForAwards} ptb-160`}></section> */}
     </>
   );
 };
