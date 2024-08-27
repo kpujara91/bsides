@@ -1,4 +1,5 @@
 import AwardsBannerBG from '../../public/images/awards-banner.webp'
+import AwardsBannerBG2 from '../../public/images/awards-banner2.webp'
 export const AwardsContent = {
     Banner:{
         Breadcrumb:[
@@ -11,7 +12,7 @@ export const AwardsContent = {
             },
         ],
         banerTitle: "Awards",
-        BGImage: AwardsBannerBG,
+        BGImage: AwardsBannerBG2,
     },
     // Awards : {
     //     MainTitle : `Awards`
