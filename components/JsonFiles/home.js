@@ -231,16 +231,16 @@ export const HomeContent = {
                 speakerName: `Andrzej Olchawa`,
                 speakerDesignation: `Security Researcher`,
                 speakerSocialMediaList:[
-                    // {
-                    //     title:'Twitter',
-                    //     icon: IconTwitter,
-                    //     url:'https://twitter.com/bsidesahmedabad',
-                    // },
                     {
-                        title:'Linkedin',
-                        icon: IconLinkedin,
+                        title:'Twitter',
+                        icon: IconTwitter,
                         url:'https://x.com/0x4ndy?s=21&t=wLigvgCFsKyINQwD_9kyqg',
-                    }
+                    },
+                    // {
+                    //     title:'Linkedin',
+                    //     icon: IconLinkedin,
+                    //     url:'https://x.com/0x4ndy?s=21&t=wLigvgCFsKyINQwD_9kyqg',
+                    // }
                 ]
             },
             {
@@ -320,12 +320,13 @@ export const HomeContent = {
                         title:'Twitter',
                         icon: IconTwitter,
                         url:'https://x.com/xhackerx007?s=21&t=wLigvgCFsKyINQwD_9kyqg',
+                        
                     },
-                    {
-                        title:'Linkedin',
-                        icon: IconLinkedin,
-                        url:'https://www.linkedin.com/company/bsides-ahmedabad/',
-                    }
+                    // {
+                    //     title:'Linkedin',
+                    //     icon: IconLinkedin,
+                    //     url:'https://www.linkedin.com/company/bsides-ahmedabad/',
+                    // }
                 ]
             },
             {
