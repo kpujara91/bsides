@@ -17,12 +17,13 @@ const AwardsHeroBanner: React.FC = () => {
             <h1 className={`font-nasalization text-center gradiant-title title-wrapper ${styles.heroTitleInner}`}>
               {AwardsContent?.Banner?.banerTitle}
             </h1>
+            <div className="text-center">
+              <a className={`inline-flex  items-center justify-center ${styles.bookNowBtn}`}  href={AwardsContent?.Banner?.btnUrl} target="_blank">{AwardsContent?.Banner?.btnTitle}</a>
+            </div>
           </div>
         </div>
         <Image src={AwardsContent?.Banner?.BGImage} width={1920} height={750} alt="bgimage" className={`absolute top-0 left-0 w-full h-full object-cover ${styles.bgImage}`}/>
       </section>
-
-      {/* <section className={`${styles.nominateForAwards} ptb-160`}></section> */}
     </>
   );
 };

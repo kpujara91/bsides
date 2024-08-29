@@ -2,28 +2,31 @@
 @import '@/assets/scss/variables.scss';
 
 .speakersAttendingWrapper{
+    .ContentWrap{
+        border-bottom: 1px solid white ;
+        margin-bottom: 10px;
+    }
     .speakersTitle{
         font-size: 20px;
         line-height: 1.18;
         margin-bottom: 6px;
         @media (min-width: $sm) {
             font-size: 26px;
-            margin-bottom: 8px;
+            margin-bottom: 5px;
         }
         @media (min-width: $xl) {
-            font-size: 30px;
-            margin-bottom: 14px;
-        }
-        @media (min-width: $xl) {
-            font-size: 36px;
-        }
-        @media (min-width: $xxxl) {
-            font-size: 46px;
-            margin-bottom: 20px;
+            font-size: 32px;
         }
         &:last-child{
             margin: 0;
         }
+    }
+    .smallTitle{
+        font-size: 16px;
+        @media (min-width: $xl) {
+            font-size: 20px;
+        }
+        
     }
     .speakersSubTitle{
         margin-bottom: 16px;
@@ -102,6 +105,7 @@
                         width: 100%;
                         height: 100%;
                         object-fit: cover;
+                        object-position: top;
                     }
                 }
                 .speakersContentWrapper{
@@ -145,30 +149,7 @@
             @media (min-width: $xl) {
                 padding: 30px;
             }
-            .speakersImageWrapper{
-                width: 80px;
-                height: 80px;
-                border-radius: 100%;
-                margin: 0 auto;
-                overflow: hidden;
-                @media (min-width: $sm) {
-                    width: 100px;
-                    height: 100px;
-                }
-                @media (min-width: $xl) {
-                    width: 120px;
-                    height: 120px;
-                }
-                @media (min-width: $xxxl) {
-                    width: 175px;
-                    height: 175px;
-                }
-                img{
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                }
-            }
+           
             .speakersContentWrapper{
                 padding-top: 10px;
                 @media (min-width: $sm){
@@ -240,5 +221,25 @@
                 }
             }
         }
+    }
+}
+
+.speakersImageWrapper{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    @media (min-width: $sm) {
+        width: 100px;
+        height: 100px;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    p{
+        color: white;
     }
 }

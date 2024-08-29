@@ -1,5 +1,6 @@
 import Awards from "./_components/Awards";
 import AwardsHeroBanner from "./_components/AwardsHeroBanner";
+import OurTeam from "./_components/OurTeam";
 
 
 const Page: React.FC = () => {
@@ -7,6 +8,7 @@ const Page: React.FC = () => {
       <>
       <AwardsHeroBanner />
       <Awards />
+      <OurTeam />
       </>
     );
   }

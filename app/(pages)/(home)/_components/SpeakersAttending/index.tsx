@@ -49,7 +49,7 @@ const SpeakersAttending: React.FC = () => {
                 <div className="title-wrapper text-center">
                     <h2 className='title text-center'>{HomeContent?.SpeakersAttending?.ClosingKeynoteTitle}</h2>
                 </div>
-                <div className={`flex items-start flex-wrap gap-y-6 xl:gap-y-8 mb-160 speakerCardList`}>
+                <div className={`flex items-start justify-center flex-wrap gap-y-6 xl:gap-y-8 mb-160 speakerCardList`}>
                     {HomeContent?.SpeakersAttending?.ClosingKeynoteSpeakerList?.map((SpeakerList,i)=>{
                         return(
                             <React.Fragment key={i}>
