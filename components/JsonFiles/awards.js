@@ -118,7 +118,7 @@ export const AwardsContent = {
                     {
                         title:'Linkedin',
                         icon: IconLinkedin,
-                        url:'https://www.linkedin.com/in/ajithatti/',
+                        url:'https://www.linkedin.com/in/kamalsh/',
                     }
                 ]
             },
@@ -126,13 +126,13 @@ export const AwardsContent = {
                 Image: AbhijethDugginapeddi,
                 Name: `Abhijeth Dugginapeddi`,
                 Designation: ` Cybersecurity Leader, Advisor and Adjunct Professor `,
-                // SocialMediaList:[
-                //     {
-                //         title:'Linkedin',
-                //         icon: IconLinkedin,
-                //         url:'https://www.linkedin.com/in/ajithatti/',
-                //     }
-                // ]
+                SocialMediaList:[
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/abhijeth',
+                    }
+                ]
             }
         ]
     }
