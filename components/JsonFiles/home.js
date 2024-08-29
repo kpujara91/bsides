@@ -158,9 +158,9 @@ export const HomeContent = {
                 speakerDesignation: `Co-founder of Assetnote`,
                 speakerSocialMediaList:[
                     {
-                        title:'Twitter',
+                        title:'X',
                         icon: IconTwitter,
-                        url:'https://twitter.com/bsidesahmedabad',
+                        url:'https://x.com/bsidesahmedabad',
                     },
                     {
                         title:'Linkedin',
@@ -178,7 +178,7 @@ export const HomeContent = {
                 speakerDesignation: `CEO, Executive Chairman and Founder`,
                 speakerSocialMediaList:[
                     // {
-                    //     title:'Twitter',
+                    //     title:'X',
                     //     icon: IconTwitter,
                     //     url:'https://twitter.com/bsidesahmedabad',
                     // },
@@ -198,9 +198,9 @@ export const HomeContent = {
                 speakerDesignation: `CEO & Co-founder CredShields`,
                 speakerSocialMediaList:[
                     {
-                        title:'Twitter',
+                        title:'X',
                         icon: IconTwitter,
-                        url:'https://twitter.com/cyberboyIndia',
+                        url:'https://x.com/cyberboyIndia',
                     },
                     {
                         title:'Linkedin',
@@ -215,7 +215,7 @@ export const HomeContent = {
                 speakerDesignation: `Senior Threat Researcher with Trend Micro`,
                 speakerSocialMediaList:[
                     // {
-                    //     title:'Twitter',
+                    //     title:'X',
                     //     icon: IconTwitter,
                     //     url:'https://twitter.com/bsidesahmedabad',
                     // },
@@ -232,7 +232,7 @@ export const HomeContent = {
                 speakerDesignation: `Security Researcher`,
                 speakerSocialMediaList:[
                     {
-                        title:'Twitter',
+                        title:'X',
                         icon: IconTwitter,
                         url:'https://x.com/0x4ndy?s=21&t=wLigvgCFsKyINQwD_9kyqg',
                     },
@@ -249,7 +249,7 @@ export const HomeContent = {
                 speakerDesignation: `Senior Security Engineer`,
                 speakerSocialMediaList:[
                     // {
-                    //     title:'Twitter',
+                    //     title:'X',
                     //     icon: IconTwitter,
                     //     url:'https://twitter.com/bsidesahmedabad',
                     // },
@@ -266,7 +266,7 @@ export const HomeContent = {
                 speakerDesignation: `Application Security Researcher`,
                 speakerSocialMediaList:[
                     {
-                        title:'Twitter',
+                        title:'X',
                         icon: IconTwitter,
                         url:'https://x.com/ArmanSameer95',
                     },
@@ -283,7 +283,7 @@ export const HomeContent = {
                 speakerDesignation: `Senior Security Engineer`,
                 speakerSocialMediaList:[
                     // {
-                    //     title:'Twitter',
+                    //     title:'X',
                     //     icon: IconTwitter,
                     //     url:'https://twitter.com/bsidesahmedabad',
                     // },
@@ -300,9 +300,9 @@ export const HomeContent = {
                 speakerDesignation: `Full-time Bug Bounty Hunter`,
                 speakerSocialMediaList:[
                     {
-                        title:'Twitter',
+                        title:'X',
                         icon: IconTwitter,
-                        url:'https://twitter.com/GodfatherOrwa',
+                        url:'https://x.com/GodfatherOrwa',
                     },
                     // {
                     //     title:'Linkedin',
@@ -317,9 +317,9 @@ export const HomeContent = {
                 speakerDesignation: `Full-Time Bug Bounty Hunter | P1 Specialist`,
                 speakerSocialMediaList:[
                     {
-                        title:'Twitter',
+                        title:'X',
                         icon: IconTwitter,
-                        url:'https://x.com/xhackerx007?s=21&t=wLigvgCFsKyINQwD_9kyqg',
+                        url:'https://x.com/xhackerx007',
                         
                     },
                     // {
@@ -335,7 +335,7 @@ export const HomeContent = {
                 speakerDesignation: `Bug Bounty Hunter`,
                 speakerSocialMediaList:[
                     {
-                        title:'Twitter',
+                        title:'X',
                         icon: IconTwitter,
                         url:'https://x.com/RogueSMG',
                     },
@@ -352,7 +352,7 @@ export const HomeContent = {
                 speakerDesignation: `Synack Red Team & Bug Bounty Hunter`,
                 speakerSocialMediaList:[
                     {
-                        title:'Twitter',
+                        title:'X',
                         icon: IconTwitter,
                         url:'https://x.com/kuldeepdotexe',
                     },
@@ -369,7 +369,7 @@ export const HomeContent = {
                 speakerDesignation: `Principal Security Consultant at VikingCloud`,
                 speakerSocialMediaList:[
                         // {
-                        //     title:'Twitter',
+                        //     title:'X',
                         //     icon: IconTwitter,
                         //     url:'https://x.com/kuldeepdotexe',
                         // },
@@ -386,7 +386,7 @@ export const HomeContent = {
                 speakerDesignation: ` senior security analyst, synack special projects`,
                 speakerSocialMediaList:[
                         // {
-                        //     title:'Twitter',
+                        //     title:'X',
                         //     icon: IconTwitter,
                         //     url:'https://x.com/kuldeepdotexe',
                         // },

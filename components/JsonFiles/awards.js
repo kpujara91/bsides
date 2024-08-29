@@ -23,7 +23,30 @@ export const AwardsContent = {
         MainTitle : <>Maestro Awards 2024: <span>Honouring Excellence in Cybersecurity</span></>,
         description1 : <>Welcome to the Maestro Awards 2024, a prestigious event hosted by <b> Security BSides Ahmedabad</b>. This event is dedicated to recognizing and celebrating the outstanding achievements and contributions within the cybersecurity industry. The Maestro Awards are more than just accolades; they represent a commitment to innovation, leadership, and the relentless pursuit of excellence in the ever-evolving landscape of cybersecurity.
         </>,
-        description2 : <>Organised by Security BSides Ahmedabad, a renowned conference for cybersecurity professionals, researchers, and enthusiasts, the Maestro Awards aim to shine a spotlight on the individuals, teams, and organisations that have significantly impacted their respective fields.</>,
+        description2 : <>Organised by Security BSides Ahmedabad, a renowned conference for cybersecurity professionals, researchers, and enthusiasts, the Maestro Awards aim to shine a spotlight on the individuals, teams, and organisations that have significantly impacted their respective fields. Below is the list of Award categories for the Maestro Awards 2024:
+        
+        </>,
+        awardData:[
+           "CISO of the Year",
+            "Ethical Hacker of the Year",
+           " Rising Star of the Year",
+            "Consultant of the Year",
+            "Pentest Team of the Year",
+            "Red Team of the Year",
+           " SOC Team of the Year",
+            "Threat Intelligence Team of the Year",
+            "Executive of the Year",
+            "Thought Leader of the Year",
+            "Influencer of the Year",
+            "Startup of the Year",
+           " Entrepreneur of the Year",
+            "Mentor of the Year",
+            "Open Source Tool of the Year",
+            "Epic Fail of the Year",
+            "Best Security Podcast of the Year",
+            "Cybersecurity Community Champion",
+           " Women in Security Advocate of the Year"
+            ],
         AwardsImage: AwardsBannerBG,
 
     },

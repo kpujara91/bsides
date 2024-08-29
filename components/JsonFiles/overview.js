@@ -99,7 +99,7 @@ export const OverviewContent = {
                         {
                             title:'Twitter',
                             icon: IconTwitter,
-                            url:'https://twitter.com/j4jinen',
+                            url:'https://x.com/j4jinen',
                         },
                     ]
                 },

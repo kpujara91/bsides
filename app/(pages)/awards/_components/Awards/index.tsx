@@ -14,6 +14,11 @@ const Awards: React.FC = () => {
                 <div className="custom-col">
                   <p>{AwardsContent?.Awards?.description1}</p>
                   <p>{AwardsContent?.Awards?.description2}</p>
+                  <ul style={{color:"white" }} className="list-disc bullet-lists">
+  {AwardsContent?.Awards?.awardData?.map((awa, i) => (
+    <li key={i}>{awa}</li>
+  ))}
+</ul> 
                 </div>
                 <div className="custom-col">
                   <Image src={AwardsContent?.Awards?.AwardsImage}  alt="awrds image" />
