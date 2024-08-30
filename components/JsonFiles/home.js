@@ -237,11 +237,11 @@ export const HomeContent = {
                         icon: IconTwitter,
                         url:'https://x.com/0x4ndy?s=21&t=wLigvgCFsKyINQwD_9kyqg',
                     },
-                    // {
-                    //     title:'Linkedin',
-                    //     icon: IconLinkedin,
-                    //     url:'https://x.com/0x4ndy?s=21&t=wLigvgCFsKyINQwD_9kyqg',
-                    // }
+                    {
+                        title:'Linkedin',
+                        icon: IconLinkedin,
+                        url:'https://www.linkedin.com/in/andrzejolchawa/',
+                    }
                 ]
             },
             {
