@@ -1466,6 +1466,21 @@ He's the architect behind CyberSmithSECURE, safeguarding corporations and MNCs, 
                     );
                 },
             },
+
+            {
+                title: "Tech Speaker",
+                description: " Mustafa",
+                src: mustafa_speaker,
+                ctaText: "View",
+                content: () => {
+                    return (
+                    <p>
+                     {`I'm an engineer from Turkey, who is interested with biotechnology, computer science and digital gaming. I'm passionate about learning since my early childhood and can't stop getting amazed from each new stuff I learn each day.
+                       I really love finding security issues and currently author of 43 CVEs, acknowledged by companies like Microsoft, eBay, Valve and many others for reporting security issues found on their assets, earned more than 1.2million USD in bounties.`}
+                    </p>
+                    );
+                },
+            }
         ]
     },
     EventSponsors:{
