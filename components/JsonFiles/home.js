@@ -88,6 +88,7 @@ import LekshmiNair from '../../public/images/LekshmiNair.png'
 import smithgonsalves from '../../public/images/smithgonsalves.jpg'
 
 import adityachandra from '../../public/images/adityachandra.jpeg'
+import mustafa_speaker from '../../public/images/mustafa_speaker.webp'
 
 export const HomeContent = {
     HiroBanner:{
@@ -395,6 +396,23 @@ export const HomeContent = {
                             icon: IconLinkedin,
                             url:'https://www.linkedin.com/in/charleswaterhouse?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
                         }
+                ]
+            },
+            {
+                speakerImage: mustafa_speaker,
+                speakerName: `Mustafa`,
+                speakerDesignation: `Information Security Specialist`,
+                speakerSocialMediaList:[
+                        {
+                            title:'X',
+                            icon: IconTwitter,
+                            url:'https://x.com/mcipekci ',
+                        },
+                        // {
+                        //     title:'Linkedin',
+                        //     icon: IconLinkedin,
+                        //     url:'https://www.linkedin.com/in/charleswaterhouse?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+                        // }
                 ]
             },
 
