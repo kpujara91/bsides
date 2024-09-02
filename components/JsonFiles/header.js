@@ -48,6 +48,11 @@ export const HeaderContent = {
                     Menu: `Call for Papers`,
                     Url: `/call-for-papers/`,
                 },
+                {
+                    Menu: `Scholarship`,
+                    Url: `/conference/scholarship/`,
+                },
+                
             ]
         },
         {
