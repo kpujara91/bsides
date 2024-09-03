@@ -32,7 +32,7 @@ const SpeakersAttending: React.FC = () => {
                     <span className={`h3 caption`}>{HomeContent?.SpeakersAttending?.Caption}</span>
                     <h2 className='title text-center'>{HomeContent?.SpeakersAttending?.KeynoteSpeakerTitle}</h2>
                 </div>
-                <div className={`flex items-start justify-center flex-wrap gap-y-6 xl:gap-y-8 mb-160 speakerCardList`}>
+                {/* <div className={`flex items-start justify-center flex-wrap gap-y-6 xl:gap-y-8 mb-160 speakerCardList`}>
                     {HomeContent?.SpeakersAttending?.KeynoteSpeakerList?.map((SpeakerList,i)=>{            
                         return(
                             <React.Fragment key={i}>
@@ -76,8 +76,8 @@ const SpeakersAttending: React.FC = () => {
                             </React.Fragment>
                         )
                     })}
-                </div>
-                {/* <div className='no-data mb-160'>Coming Soon</div> */}
+                </div> */}
+                <div className='no-data mb-160'>Coming Soon</div>
 
 
 
