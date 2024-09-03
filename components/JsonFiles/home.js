@@ -175,11 +175,11 @@ export const HomeContent = {
                         url:'https://www.linkedin.com/in/kvrmpchevella',
                     },
                   
-                    {
-                        title:'facebook',
-                        icon: IconFacebook,
-                        url:'https://www.facebook.com/KondaVishweshwarReddy/',
-                    },
+                    // {
+                    //     title:'facebook',
+                    //     icon: IconFacebook,
+                    //     url:'https://www.facebook.com/KondaVishweshwarReddy/',
+                    // },
                     {
                         title:'Bio Info',
                         icon: Bio,

@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import {HomeContent} from '@/components/JsonFiles/home'
 import { Spinnaker } from 'next/font/google';
+import { BackgroundGradientDemo } from '../KeynoteSpeaker';
 
 const SpeakersAttending: React.FC = () => {
 
@@ -32,8 +33,8 @@ const SpeakersAttending: React.FC = () => {
                     <span className={`h3 caption`}>{HomeContent?.SpeakersAttending?.Caption}</span>
                     <h2 className='title text-center'>{HomeContent?.SpeakersAttending?.KeynoteSpeakerTitle}</h2>
                 </div>
-                {/* <div className={`flex items-start justify-center flex-wrap gap-y-6 xl:gap-y-8 mb-160 speakerCardList`}>
-                    {HomeContent?.SpeakersAttending?.KeynoteSpeakerList?.map((SpeakerList,i)=>{            
+               <div className={`flex items-start justify-center flex-wrap gap-y-6 xl:gap-y-8 mb-160 speakerCardList`}>
+                    {/* {HomeContent?.SpeakersAttending?.KeynoteSpeakerList?.map((SpeakerList,i)=>{            
                         return(
                             <React.Fragment key={i}>
                                 <div className={`relative w-1/2 sm:w-1/3 lg:w-1/4 speakerCard`}
@@ -75,9 +76,14 @@ const SpeakersAttending: React.FC = () => {
                                 </div>
                             </React.Fragment>
                         )
-                    })}
-                </div> */}
-                <div className='no-data mb-160'>Coming Soon</div>
+                    })} */}
+                          <BackgroundGradientDemo data={HomeContent?.SpeakersAttending?.KeynoteSpeakerList} />
+                </div> 
+
+
+      
+
+                {/* <div className='no-data mb-160'>Coming Soon</div> */}
 
 
 
