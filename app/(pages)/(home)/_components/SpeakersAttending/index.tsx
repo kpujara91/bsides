@@ -32,14 +32,12 @@ const SpeakersAttending: React.FC = () => {
                     <span className={`h3 caption`}>{HomeContent?.SpeakersAttending?.Caption}</span>
                     <h2 className='title text-center'>{HomeContent?.SpeakersAttending?.KeynoteSpeakerTitle}</h2>
                 </div>
-                <div className={`flex items-start flex-wrap gap-y-6 xl:gap-y-8 mb-160 speakerCardList`}>
-                    {HomeContent?.SpeakersAttending?.KeynoteSpeakerList?.map((SpeakerList,i)=>{
-                          console.log(SpeakerList?.pdfRef,"SpeakerList?.pdfRef")
-                          
+                <div className={`flex items-start justify-center flex-wrap gap-y-6 xl:gap-y-8 mb-160 speakerCardList`}>
+                    {HomeContent?.SpeakersAttending?.KeynoteSpeakerList?.map((SpeakerList,i)=>{            
                         return(
                             <React.Fragment key={i}>
                                 <div className={`relative w-1/2 sm:w-1/3 lg:w-1/4 speakerCard`}
-                                onClick={()=>openModalHandle(SpeakerList?.pdfRef)}
+                                // onClick={()=>openModalHandle(SpeakerList?.pdfRef)}
                                 style={{cursor:"pointer"}}
                                 >
                                     <Image src={SpeakerList?.speakerImage} alt={SpeakerList?.speakerName} width={700} height={875} className={`speakerProfile`}/>
@@ -53,7 +51,21 @@ const SpeakersAttending: React.FC = () => {
                                                 return(
                                                 <React.Fragment key={j}>
                                                     {list?.url &&
-                                                    <li className={`inline-flex items-center justify-center`}><a href={list?.url} title={list?.title} className={`inline-flex items-center justify-center`} target='_blank'><Image src={list?.icon} alt={list?.title} width={16} height={16}/></a></li>
+                                                    <li className={`inline-flex items-center justify-center`}>
+                                                        {
+                                                            // list?.title=="Bio Info" ? 
+                                                            // <div
+                                                            //   onClick={()=>openModalHandle(list?.url)}
+                                                            //   title={list?.title} className={`inline-flex items-center justify-center`}>
+                                                            // <Image src={list?.icon} alt={list?.title} width={16} height={16}/>
+                                                            // </div>
+                                                            // :
+                                                            <a href={list?.url} title={list?.title} className={`inline-flex items-center justify-center`} target='_blank'>
+                                                            <Image src={list?.icon} alt={list?.title} width={16} height={16}/>
+                                                            </a>
+                                                            
+                                                        }
+                                                            </li>
                                                 }
                                                 </React.Fragment>
                                                 )
@@ -172,7 +184,7 @@ const SpeakersAttending: React.FC = () => {
             </div>
         </section>
         {pdfOpen && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50" >
                     <div className="relative bg-white p-4 rounded-lg shadow-lg max-w-3xl w-full">
                         <button
                             onClick={closeModalHandle}

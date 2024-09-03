@@ -92,8 +92,8 @@ import mustafa_speaker from '../../public/images/mustafa_speaker.webp'
 import konda_vishweshwar_reddy from '../../public/images/konda_vishweshwar_reddy.jpg'
 import WiCySIndia from '../../public/images/WiCySIndia.png'
 import IconFacebook from '../../public/images/icon-facebook.svg'
-import wikiLogo from '../../public/images/wikipedia.svg'
-
+// import wikiLogo from '../../public/images/wikipedia.svg'
+import Bio from '../../public/images/Bio.svg'
 
 export const HomeContent = {
     HiroBanner:{
@@ -162,7 +162,7 @@ export const HomeContent = {
                 speakerImage: konda_vishweshwar_reddy,
                 speakerName: `Konda Vishweshwar Reddy`,
                 speakerDesignation: `Engineer, Innovator & Member of Parliament`,
-                pdfRef:"/pdf/KondaVishweshwarReddy.pdf",
+                // pdfRef:"https://www.kvrformp.org/_files/ugd/5f1b67_e61aabfb26574232a5772898dfe2552b.pdf",
                 speakerSocialMediaList:[
                     {
                         title:'X',
@@ -174,16 +174,17 @@ export const HomeContent = {
                         icon: IconLinkedin,
                         url:'https://www.linkedin.com/in/kvrmpchevella',
                     },
-                    // {
-                    //     title:'wikipedia',
-                    //     icon: wikiLogo,
-                    //     url:'https://en.m.wikipedia.org/wiki/Konda_Vishweshwar_Reddy',
-                    // },
+                  
                     {
                         title:'facebook',
                         icon: IconFacebook,
                         url:'https://www.facebook.com/KondaVishweshwarReddy/',
-                    }
+                    },
+                    {
+                        title:'Bio Info',
+                        icon: Bio,
+                        url:'https://www.kvrformp.org/_files/ugd/5f1b67_e61aabfb26574232a5772898dfe2552b.pdf',
+                    },
                 ]
             }
         ],
@@ -582,7 +583,7 @@ export const HomeContent = {
             {
                 speakerImage: CxoKamalSharma,
                 speakerName: `Kamal Sharma`,
-                speakerDesignation: `Founder of Authenticone & CISO at ASM Technologies`,
+                speakerDesignation: `Founder of AuthenticOne & CISO at ASM Technologies`,
                 speakerSocialMediaList:[
                     {
                         title:'Linkedin',
@@ -838,6 +839,19 @@ export const HomeContent = {
         Caption: `6th October`,
         Title:<>SPEAKERS <span>BIO</span></>,
         SpeakersBioList: [
+            // {
+            //     title: "Keynote Speaker",
+            //     description: "Konda Vishweshwar Reddy",
+            //     src: konda_vishweshwar_reddy,
+            //     ctaText: "View",
+            //     content: () => {
+            //         return (
+            //         <p>
+            //             {`Konda Vishweshwar Reddy is an Indian engineer, entrepreneur, and politician. He is the current Member of Parliament in the 18th Lok Sabha from Bharatiya Janata Party Chevella constituency and served as a Member of Parliament in the 16th Lok Sabha from Bharat Rashtra Samithi representing Chevella, Telangana. He is the grandson of K. V. Ranga Reddy after whom the district Ranga Reddy was named.`}
+            //         </p>
+            //         );
+            //     },
+            // },
             {
                 title: "Tech Speaker",
                 description: "Shashank",
@@ -1111,7 +1125,7 @@ Britto's expertise spans various fields of cybersecurity, including implementing
                 content: () => {
                     return (
                     <p>
-                        {`Kamal Sharma is industry veteran with over 25 years of experience in Technology & Cybersecurity domain. He is co-founder of Authenticone & currently working as Vice President & CISO at ASM Technologies. Prior to this, he has worked in various leadership roles with companies like Wipro Technologies, Singtel Group, Bharti etc in India & Middle East. Kamal holds various cybersecurity certifications like CISSP, CCSP, CRISC etc. and serves on the board of ISC2 Bangalore Chapter. He has been instrumental in driving various community programs for students to prepare them for cybersecurity careers.`}
+                        {`Kamal Sharma is industry veteran with over 25 years of experience in Technology & Cybersecurity domain. He is co-founder of AuthenticOne & currently working as Vice President & CISO at ASM Technologies. Prior to this, he has worked in various leadership roles with companies like Wipro Technologies, Singtel Group, Bharti etc in India & Middle East. Kamal holds various cybersecurity certifications like CISSP, CCSP, CRISC etc. and serves on the board of ISC2 Bangalore Chapter. He has been instrumental in driving various community programs for students to prepare them for cybersecurity careers.`}
                     </p>
                     );
                 },
