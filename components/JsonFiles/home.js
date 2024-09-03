@@ -89,6 +89,11 @@ import smithgonsalves from '../../public/images/smithgonsalves.jpg'
 
 import adityachandra from '../../public/images/adityachandra.jpeg'
 import mustafa_speaker from '../../public/images/mustafa_speaker.webp'
+import konda_vishweshwar_reddy from '../../public/images/konda_vishweshwar_reddy.jpg'
+import WiCySIndia from '../../public/images/WiCySIndia.png'
+import IconFacebook from '../../public/images/icon-facebook.svg'
+import wikiLogo from '../../public/images/wikipedia.svg'
+
 
 export const HomeContent = {
     HiroBanner:{
@@ -154,19 +159,30 @@ export const HomeContent = {
         KeynoteSpeakerTitle: <>KEYNOTE <span>SPEAKERS</span></>,
         KeynoteSpeakerList:[
             {
-                speakerImage: SpeakerImage1,
-                speakerName: `Shubham Shah`,
-                speakerDesignation: `Co-founder of Assetnote`,
+                speakerImage: konda_vishweshwar_reddy,
+                speakerName: `Konda Vishweshwar Reddy`,
+                speakerDesignation: `Engineer, Innovator & Member of Parliament`,
+                pdfRef:"/pdf/KondaVishweshwarReddy.pdf",
                 speakerSocialMediaList:[
                     {
                         title:'X',
                         icon: IconTwitter,
-                        url:'https://x.com/bsidesahmedabad',
+                        url:'https://x.com/KVishReddy',
                     },
                     {
                         title:'Linkedin',
                         icon: IconLinkedin,
-                        url:'https://www.linkedin.com/company/bsides-ahmedabad/',
+                        url:'https://www.linkedin.com/in/kvrmpchevella',
+                    },
+                    // {
+                    //     title:'wikipedia',
+                    //     icon: wikiLogo,
+                    //     url:'https://en.m.wikipedia.org/wiki/Konda_Vishweshwar_Reddy',
+                    // },
+                    {
+                        title:'facebook',
+                        icon: IconFacebook,
+                        url:'https://www.facebook.com/KondaVishweshwarReddy/',
                     }
                 ]
             }
@@ -1523,6 +1539,9 @@ He's the architect behind CyberSmithSECURE, safeguarding corporations and MNCs, 
             {
                 image: SponsorCommunitySecurityWhite
             },
+            {
+                image:WiCySIndia
+            }
         ]
     },
      NetworkingDinnerSponsor: {

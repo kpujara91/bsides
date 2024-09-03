@@ -1,8 +1,27 @@
-import React from 'react';
+'use client'
+import React, { useState } from 'react';
 import Image from 'next/image';
 import {HomeContent} from '@/components/JsonFiles/home'
+import { Spinnaker } from 'next/font/google';
 
 const SpeakersAttending: React.FC = () => {
+
+    const [pdfOpen, setPDFopen] = useState(false)
+    const [pdfload, setpdfload] = useState("")
+    console.log("pdfload==>", pdfload);
+    
+    const openModalHandle=(pdf:any)=>{
+
+        console.log(pdf,"pdf")
+        
+        setPDFopen(true)
+        setpdfload(pdf)
+    }
+
+    const closeModalHandle = () => {
+        setPDFopen(false)
+        setpdfload("")
+    };
 
   return (
     <>
@@ -13,11 +32,15 @@ const SpeakersAttending: React.FC = () => {
                     <span className={`h3 caption`}>{HomeContent?.SpeakersAttending?.Caption}</span>
                     <h2 className='title text-center'>{HomeContent?.SpeakersAttending?.KeynoteSpeakerTitle}</h2>
                 </div>
-                {/* <div className={`flex items-start flex-wrap gap-y-6 xl:gap-y-8 mb-160 speakerCardList`}>
+                <div className={`flex items-start flex-wrap gap-y-6 xl:gap-y-8 mb-160 speakerCardList`}>
                     {HomeContent?.SpeakersAttending?.KeynoteSpeakerList?.map((SpeakerList,i)=>{
+                          console.log(SpeakerList?.pdfRef,"SpeakerList?.pdfRef")
+                          
                         return(
                             <React.Fragment key={i}>
-                                <div className={`relative w-1/2 sm:w-1/3 lg:w-1/4 speakerCard`}>
+                                <div className={`relative w-1/2 sm:w-1/3 lg:w-1/4 speakerCard`}
+                                onClick={()=>openModalHandle(SpeakerList?.pdfRef)}
+                                >
                                     <Image src={SpeakerList?.speakerImage} alt={SpeakerList?.speakerName} width={700} height={875} className={`speakerProfile`}/>
                                     <div className={`absolute left-0 bottom-0 w-full p-2 sm:p-3 flex items-start xxxl:items-center justify-between flex-col xxxl:flex-row gap-2 speakerData`}>
                                         <div>
@@ -40,8 +63,8 @@ const SpeakersAttending: React.FC = () => {
                             </React.Fragment>
                         )
                     })}
-                </div> */}
-                <div className='no-data mb-160'>Coming Soon</div>
+                </div>
+                {/* <div className='no-data mb-160'>Coming Soon</div> */}
 
 
 
@@ -147,6 +170,34 @@ const SpeakersAttending: React.FC = () => {
                  {/* <div className='no-data mb-160'>Coming Soon</div> */}
             </div>
         </section>
+        {pdfOpen && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+                    <div className="relative bg-white p-4 rounded-lg shadow-lg max-w-3xl w-full">
+                        <button
+                            onClick={closeModalHandle}
+                            className="absolute top-2 right-2 text-white hover:text-gray-900"
+                        >
+                            X
+                        </button>
+                        <iframe   
+                            src={pdfload} 
+                            height={700}
+                            width={"100%"}
+                            className="border-none" 
+                        />
+                         {/* <object
+                            data={pdfload}
+                            type="application/pdf"
+                            width="100%"
+                            height="500"
+                        >
+                            <p>Your browser does not support PDFs. Please download the PDF to view it: 
+                                <a href={pdfload}>Download PDF</a>.</p>
+                        </object> */}
+                    </div>
+                </div>
+            )}
+
     </>
   );
 };
