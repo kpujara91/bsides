@@ -40,6 +40,7 @@ const SpeakersAttending: React.FC = () => {
                             <React.Fragment key={i}>
                                 <div className={`relative w-1/2 sm:w-1/3 lg:w-1/4 speakerCard`}
                                 onClick={()=>openModalHandle(SpeakerList?.pdfRef)}
+                                style={{cursor:"pointer"}}
                                 >
                                     <Image src={SpeakerList?.speakerImage} alt={SpeakerList?.speakerName} width={700} height={875} className={`speakerProfile`}/>
                                     <div className={`absolute left-0 bottom-0 w-full p-2 sm:p-3 flex items-start xxxl:items-center justify-between flex-col xxxl:flex-row gap-2 speakerData`}>
@@ -175,7 +176,8 @@ const SpeakersAttending: React.FC = () => {
                     <div className="relative bg-white p-4 rounded-lg shadow-lg max-w-3xl w-full">
                         <button
                             onClick={closeModalHandle}
-                            className="absolute top-2 right-2 text-white hover:text-gray-900"
+                            className="absolute top-2 right-2 text-white"
+                            style={{backgroundColor:"black",borderRadius:"50%",width:"30px",height:"30px"}}
                         >
                             X
                         </button>
@@ -185,15 +187,6 @@ const SpeakersAttending: React.FC = () => {
                             width={"100%"}
                             className="border-none" 
                         />
-                         {/* <object
-                            data={pdfload}
-                            type="application/pdf"
-                            width="100%"
-                            height="500"
-                        >
-                            <p>Your browser does not support PDFs. Please download the PDF to view it: 
-                                <a href={pdfload}>Download PDF</a>.</p>
-                        </object> */}
                     </div>
                 </div>
             )}
