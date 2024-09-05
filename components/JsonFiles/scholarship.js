@@ -48,9 +48,7 @@ export const ScholarshipContent = {
                 BookNowButtonURL: ``
             },
         {
-            imagePath:
-            ScholarshipBannerBG
-            ,
+            imagePath: ScholarshipBannerBG,
             BookNowButtonURL: `closed`
         },
         {
