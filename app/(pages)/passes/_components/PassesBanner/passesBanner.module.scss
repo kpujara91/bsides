@@ -1,0 +1,69 @@
+@import '@/assets/scss/partial.scss';
+@import '@/assets/scss/variables.scss';
+
+
+.passesBannerwrapper{
+    text-align: center;
+    min-height: 250px;
+    padding: 180px 0 140px;
+    @media (min-width: $sm){
+        padding: 180px 0 160px;
+    }
+    @media (min-width: $lg){
+        padding: 180px 0;
+    }
+    @media (min-width: $xl){
+        padding: 240px 0;
+    }
+    @media (min-width: $xxl){
+        padding: 260px 0;
+    }
+    @media (min-width: $xxxl){
+        padding: 300px 0;
+    }
+    .Title{
+        position: relative;
+        font-size: 46px;
+        font-weight: 400;
+        line-height: 1.18;
+        text-align: center;
+        margin-bottom: 10px;
+        z-index: 1;
+        @media (min-width: $sm){
+            font-size: 54px;
+        }
+        @media (min-width: $md){
+            font-size: 64px;
+        }
+        @media (min-width: $lg){
+            font-size: 120px;
+        }
+        @media (min-width: $xxxl){
+            font-size: 160px;
+        }
+    }
+    .BannerBtn{
+        position: relative;
+        font-size: 14px;
+        padding: 8px 16px;
+        border-radius: 50px;
+        color: $white;
+        background: linear-gradient(180deg, $secondary 0%, $primary 100%);
+        z-index: 1;
+        transition: all 0.4s;
+        &:hover{
+            background: linear-gradient(90deg, $secondary 0%, $primary 100%);
+            transition: all 0.4s;
+        }
+        @media (min-width: $sm) {
+            font-size: 16px;
+            padding: 10px 20px;
+        }
+        @media (min-width: $xl) {
+            font-size: 18px;
+        }
+        @media (min-width: $xxxl) {
+            font-size: 24px;
+        }
+    }
+}

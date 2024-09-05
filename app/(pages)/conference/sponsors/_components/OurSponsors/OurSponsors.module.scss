@@ -1,0 +1,91 @@
+@import '@/assets/scss/partial.scss';
+@import '@/assets/scss/variables.scss';
+
+.ourSponsorsWrapper{
+    .SponsorsDetailsWrapper{
+        .sponsorsLists{
+            margin-bottom: 40px;
+            @media (min-width: $md) {
+                margin-bottom: 60px;
+            }
+            @media (min-width: $xl) {
+                margin-bottom: 80px;
+            }
+            &:last-child{
+                margin-bottom: 0;
+            }
+            .titleWrapper{
+                margin-bottom: 20px;
+                @media (min-width: $md) {
+                    margin-bottom: 30px;
+                }
+                @media (min-width: $xl) {
+                    margin-bottom: 40px;
+                }
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+            .sponsorsCard{
+                border: 1px solid $grey18;
+                background-color: $grey18;
+                border-radius: 10px;
+                padding: 15px;
+                margin-bottom: 20px;
+                transition: 0.3s ease-in-out;
+                @media (min-width: $md) {
+                    border-radius: 20px;
+                    padding: 20px;
+                    margin-bottom: 30px;
+                }
+                @media (min-width: $xl) {
+                    padding: 30px;
+                }
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                // &::before{
+                //     content: '';
+                //     position: absolute;
+                //     left: 0;
+                //     top: 0;
+                //     width: 100%;
+                //     height: 100%;
+                //     border: 1px solid transparent;
+                //     background: linear-gradient($grey18 0 0) padding-box, linear-gradient(180deg, #00FD9D 0%, #933AFA 100%)  border-box;
+                //     border-radius: 20px;
+                //     opacity: 0.6;
+                //     z-index: -2;
+                //     transition: 0.3s ease-in-out;
+                // }
+
+                &:hover{
+                    // &::before{
+                    //     opacity: 1;
+                    // }
+                }
+                .imageBox{
+                    @media (min-width: $md) {
+                        width: 40%;
+                    }
+                    img{
+                        max-width: 240px;
+                        width: 100%;
+                        margin: 0 auto;
+                        @media (min-width: $md) {
+                            max-width: 300px;
+                        }
+                    }
+                }
+                .content{
+                    @media (min-width: $md) {
+                        width: 60%;
+                    }
+                    .urlLink{
+                        word-break: break-word;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+@import '@/assets/scss/partial.scss';
+@import '@/assets/scss/variables.scss';
+
+.whoWeAreWraper{
+    position: relative;
+    z-index: 1;
+    .BGImage, &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .BGImage{
+        background: url('../../../../../public/images/about-image4.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.1;
+        z-index: -2;
+    }
+    &::before{
+        background: linear-gradient(180deg, $secondary 0%, $primary 100%);
+        opacity: 0.1;
+        z-index: -1;
+    }
+    .PageCaption{
+        background: linear-gradient(#162b28 0 0) padding-box, linear-gradient(180deg, $secondary 0%, $primary 100%) border-box;
+    }
+    .movingCards{
+        li,.movingCardsItem{
+            background-color: $grey18;
+            border-radius: 16px;
+            overflow: hidden;
+            @media (min-width: $lg) {
+                border-radius: 40px;
+            }
+            &:hover{
+                img{
+                    transform: scale(1.1);
+                    transition: all 0.6s;
+                }
+            }
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 16px;
+                transition: all 0.6s;
+                @media (min-width: $lg) {
+                    border-radius: 40px;
+                }
+            }
+        }
+        .movingCardsItem{
+            background-color: transparent;
+            padding: 0 5px;
+            @media (min-width: $sm) {
+                padding: 0 10px;
+            }
+        }
+    }
+}
