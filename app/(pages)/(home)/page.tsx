@@ -3,6 +3,7 @@ import CommunityPartners from "./_components/CommunityPartners";
 import EventSponsors from "./_components/EventSponsors";
 import HeroBanner from "./_components/HeroBanner";
 import NetworkingDinnerSponsor from "./_components/NetworkingDinnerSponsor";
+import ScholarshipSponsor from "./_components/ScholarshipSponsor";
 import SpeakersAttending from "./_components/SpeakersAttending";
 import SpeakersBio from "./_components/SpeakersBio";
 import Sponsors from "./_components/Sponsors";
@@ -17,10 +18,11 @@ const Page: React.FC = () => {
       <SpeakersBio />
       <EventSponsors />
       <Sponsors />
+      <ScholarshipSponsor />
       <CommunityPartners />
       {/* <NetworkingDinnerSponsor /> */}
     </>
-  );
+  ); 
 }
 
 export default Page;

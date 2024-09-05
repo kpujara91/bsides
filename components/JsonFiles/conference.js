@@ -15,6 +15,11 @@ import SponsorRiskProfiler from '../../public/images/sponsor-risk-profiler.png'
 import SponsorCloudsek from '../../public/images/cloudsek-new-logo.png'
 import SponsorPrivacySquare from '../../public/images/sponsor-privacy-square.png'
 
+import cobaltLogo from '../../public/images/sponsorLogo.webp'
+import BugcrowdLogo from '../../public/images/BugcrowdLogo.png'
+import synackLogo from '../../public/images/synack.svg'
+
+
 export const ConferenceContent = {
     GlobalAnimateCircleImage: AnimateCircleImage,
     Sponsors : {
@@ -139,6 +144,31 @@ export const ConferenceContent = {
                         urlTitle : `Learn more : https://www.miniorange.com/`
                     }
                 ]
+            },
+
+            {
+                MainTitle : <>SCHOLARSHIP <span>SPONSOR</span></>,
+                SponsorsDetails : [
+                    {
+                        ImagePath: synackLogo,
+                        description : [],
+                        url:`https://www.synack.com/red-team/`,
+                        urlTitle : `Learn more : https://www.synack.com/red-team/`
+                    },
+                    {
+                        ImagePath: cobaltLogo,
+                        description : [],
+                        url:`https://www.cobalt.io`,
+                        urlTitle : `Learn more : https://www.cobalt.io`
+                    },
+                    {
+                        ImagePath: BugcrowdLogo,                    
+                        description : [],
+                        url:`https://www.bugcrowd.com`,
+                        urlTitle : `Learn more : https://www.bugcrowd.com`
+                    }
+                ],
+                show: true
             },
             // {
             //     MainTitle : <>POWERED <span>BY</span></>,

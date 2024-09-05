@@ -68,7 +68,7 @@ const Index = () => {
               className={`overflow-hidden transition-max-height duration-300 ease-in-out ${
                 isActive ? 'max-h-screen' : 'max-h-0'
               }`}
-              style={{ maxHeight: isActive ? '200px' : '0' }}
+              style={{ maxHeight: isActive ? '1200px' : '0' }}
             >
               <div className="flex items-center">
               

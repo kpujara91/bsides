@@ -1,7 +1,8 @@
 import AnimateCircleImage from '../../public/images/circle-animate.webp'
 import ConferenceBannerBG from '../../public/images/scholarshipsimportant.jpg'
 import ScholarshipBannerBG from '../../public/images/BountyScholarship.jpg'
-
+import bugCrowdscholarship from '../../public/images/bugCrowdscholarship.jpeg'
+import cobaltscholarship from '../../public/images/cobaltscholarship.jpeg'
 
 
 export const ScholarshipContent = {
@@ -29,7 +30,7 @@ export const ScholarshipContent = {
             // ],
             // banerTitle2: "0X04 SPONSORS & PARTNERS",
             BGImage: ConferenceBannerBG,
-            BookNowButtonURL:"https://docs.google.com/forms/d/e/1FAIpQLSetkxVOlQMxmQPQ95E8vtyARFm1XQ_GeQ9-vxD4bqkaktMKlQ/viewform"  
+            BookNowButtonURL:"https://docs.google.com/forms/d/e/1FAIpQLSetkxVOlQMxmQPQ95E8vtyARFm1XQ_GeQ9-vxD4bqkaktMKlQ/viewform"
         },
         
     },
@@ -41,7 +42,22 @@ export const ScholarshipContent = {
         
         // </>
         // ,
-
+        scholarshipslist:[
+            {
+                imagePath: bugCrowdscholarship,
+                BookNowButtonURL: ``
+            },
+        {
+            imagePath:
+            ScholarshipBannerBG
+            ,
+            BookNowButtonURL: `closed`
+        },
+        {
+            imagePath:cobaltscholarship,
+            BookNowButtonURL: `https://docs.google.com/forms/d/e/1FAIpQLSfSGkDmsvKFrCFWBPWZhbxTBsYJt2G68blnf7kI9k__8ksiRg/viewform?usp=sharing`
+        },
+         ],
         ScholarshipImage: ScholarshipBannerBG,
 
     },

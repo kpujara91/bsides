@@ -95,6 +95,18 @@ import IconFacebook from '../../public/images/icon-facebook.svg'
 // import wikiLogo from '../../public/images/wikipedia.svg'
 import Bio from '../../public/images/Bio.svg'
 
+import cobaltLogo from '../../public/images/sponsorLogo.webp'
+import BugcrowdLogo from '../../public/images/BugcrowdLogo.png'
+import synackLogo from '../../public/images/synack.svg'
+
+import ShriyaManiktala from '../../public/images/ShriyaManiktala.png'
+import Renuka from '../../public/images/Renuka.jpeg'
+import BinilKuriachan from '../../public/images/BinilKuriachan.jpeg'
+import HardikMehta from '../../public/images/HardikMehta.jpg'
+import rajanishpathak from '../../public/images/rajanishpathak.jpg'
+
+import credcommunity from '../../public/images/cred_community.png'
+
 export const HomeContent = {
     HiroBanner:{
         banerTitle: "BSIDES",
@@ -432,7 +444,91 @@ export const HomeContent = {
                         // }
                 ]
             },
-
+            {
+                speakerImage: ShriyaManiktala,
+                speakerName: `Shriya Maniktala`,
+                speakerDesignation: `Threat Hunter 2, Microsoft`,
+                speakerSocialMediaList:[
+                        // {
+                        //     title:'X',
+                        //     icon: IconTwitter,
+                        //     url:'https://x.com/mcipekci ',
+                        // },
+                        {
+                            title:'Linkedin',
+                            icon: IconLinkedin,
+                            url:'https://www.linkedin.com/in/shriya-maniktala-3b17a5108/',
+                        }
+                ]
+            },
+            {
+                speakerImage: BinilKuriachan,
+                speakerName: `Binil Kuriachan`,
+                speakerDesignation: `Senior Applied Scientist, Microsoft`,
+                speakerSocialMediaList:[
+                        // {
+                        //     title:'X',
+                        //     icon: IconTwitter,
+                        //     url:'https://x.com/mcipekci ',
+                        // },
+                        {
+                            title:'Linkedin',
+                            icon: IconLinkedin,
+                            url:'https://www.linkedin.com/in/binil-kuriachan-08aa911a/',
+                        }
+                ]
+            },
+            {
+                speakerImage: Renuka,
+                speakerName: `Renuka Talegaon`,
+                speakerDesignation: ` Security Researcher II, Microsoft`,
+                speakerSocialMediaList:[
+                        // {
+                        //     title:'X',
+                        //     icon: IconTwitter,
+                        //     url:'https://x.com/mcipekci ',
+                        // },
+                        {
+                            title:'Linkedin',
+                            icon: IconLinkedin,
+                            url:'https://www.linkedin.com/in/renuka07/',
+                        }
+                ]
+            },
+            {
+                speakerImage: rajanishpathak,
+                speakerName: `Rajanish Pathak`,
+                speakerDesignation: ` Security Researcher - Engineering Ops at KATIM`,
+                speakerSocialMediaList:[
+                        // {
+                        //     title:'X',
+                        //     icon: IconTwitter,
+                        //     url:'https://x.com/mcipekci ',
+                        // },
+                        {
+                            title:'Linkedin',
+                            icon: IconLinkedin,
+                            url:'https://www.linkedin.com/in/rajanish-pathak/',
+                        }
+                ]
+            },
+            {
+                speakerImage: HardikMehta,
+                speakerName: `Hardik Mehta`,
+                speakerDesignation: `  Lead Security Researcher at Xen1thLabs to KATIM`,
+                speakerSocialMediaList:[
+                        // {
+                        //     title:'X',
+                        //     icon: IconTwitter,
+                        //     url:'https://x.com/mcipekci ',
+                        // },
+                        {
+                            title:'Linkedin',
+                            icon: IconLinkedin,
+                            url:'https://www.linkedin.com/in/hardik-mehta-60a679130/',
+                        }
+                ]
+            },
         ],
         CxoSpeakersTitle : <>CXO <span>SPEAKERS</span></>,
         CxoSpeakerList:[
@@ -1434,36 +1530,8 @@ Krishna is also a dedicated community leader, having served as President of the 
                 content: () => {
                     return (
                     <p>
-                     {`Rahul founded CloudSEK in 2015, when he
-realized that there wasn’t a comprehensive
-solution to monitor external cyber threats. He
-set out to build intelligent machines that can
-emulate human cognition, to provide contextual
-threat intelligence, even before an incident
-occurs - thus empowering organizations to
-anticipate and preempt large-scale cyber
-attacks.
-Rahul started his cybersecurity journey with
-Garage4Hackers, an online community of cyber
-security researchers back in 2006. He spent his
-college days researching, programming, and
-contributing to the cybersecurity community.
-Later, he dropped out of college to pursue his
-passion for cybersecurity by joining iSIGHT
-Partners. iSIGHT Partners has since been
-acquired by Google. Subsequently, Rahul joined
-Citrix, where he was the first person without an
-engineering degree to be hired by Citrix India.
-Thereafter, in 2015, Rahul established
-CloudSEK.
-
-Rahul is well-known for his significant open-
-source contributions to the cybersecurity
-
-landscape, and has spoken at events and
-conferences in over 22 countries. He is also
-part of the working committees of The Reserve
-Bank of India, where he is the youngest member
+                     {`Rahul founded CloudSEK in 2015, when he realized that there wasn’t a comprehensive solution to monitor external cyber threats. He set out to build intelligent machines that can emulate human cognition, to provide contextual threat intelligence, even before an incident occurs - thus empowering organizations to anticipate and preempt large-scale cyber attacks.Rahul started his cybersecurity journey with Garage4Hackers, an online community of cyber security researchers back in 2006. He spent his college days researching, programming, and contributing to the cybersecurity community. Later, he dropped out of college to pursue his passion for cybersecurity by joining iSIGHT Partners. iSIGHT Partners has since been
+acquired by Google. Subsequently, Rahul joined Citrix, where he was the first person without an engineering degree to be hired by Citrix India. Thereafter, in 2015, Rahul established CloudSEK.Rahul is well-known for his significant open-source contributions to the cybersecuritylandscape, and has spoken at events and conferences in over 22 countries. He is also part of the working committees of The Reserve Bank of India, where he is the youngest member
 of the digital lending committee, and MeitY.`}
                     </p>
                     );
@@ -1510,7 +1578,117 @@ He's the architect behind CyberSmithSECURE, safeguarding corporations and MNCs, 
                     </p>
                     );
                 },
+            },
+            {
+                title: "Tech Speaker",
+                description: "Shriya Maniktala",
+                src: ShriyaManiktala,
+                ctaText: "View",
+                content: () => {
+                    return (
+                    <p>
+                    {`I am a skilled cyber-security professional with
+over 8+ years of experience as a Threat
+Researcher for Microsoft Defender Advanced
+Threat Protection investigating and thwarting
+major threats, malware, and other security
+incidents related to Microsoft Defender, the
+Defender Experts service.
+I have expertise in threat hunting and
+research, malware analysis, and threat
+intelligence, thereby protecting Microsoft’s
+customers from sophisticated threat
+adversaries. I also have experience in
+collaborating with different product teams to
+ensure threat intel coverage and reporting
+product detection gaps.
+Outside of work, I enjoy a variety of hobbies
+and interests. I am an avid reader and enjoy
+staying up to date on the latest
+developments in the cyber-security industry.
+I am also a fan of hiking and enjoy exploring
+new trails in my free time.
+`}
+                    </p>
+                    );
+                },
+            },
+
+            
+            {
+
+                title: "Tech Speaker",
+                description: "Binil Kuriachan",
+                src: BinilKuriachan,
+                ctaText: "View",
+                content: () => {
+                    return (
+                    <p>
+                    {`Binil Kuriachan is a Sr. Applied Scientist at Microsoft (R&D) and part of Cybersecurity Research team. He has done his master's in computer science from Arizona State University, USA and pursued research in information systems from IITM. Binil has handled multiple AI projects comprising of natural language processing, information retrieval, personalization, supply chain, geospatial modelling, cybersecurity etc. in his industrial career. He is an expert in designing and building scalable machine learning and deep learning pipelines. Binil has 7 research papers and 20+ certifications in Machine Learning, Deep Learning, Data Structures, Algorithms etc. to his credit.`}
+                    </p>
+                    );
+                },
+            },
+            {
+             
+
+                 title: "Tech Speaker",
+                 description: "Renuka Talegaon",
+                 src: Renuka,
+                 ctaText: "View",
+                 content: () => {
+                     return (
+                     <p>
+                     {`Renuka Talegaon is a Security Researcher with over 6 years of experience in the security industry. Her expertise encompasses Incident Response, Endpoint Security, and Email Research. Specializing in Email Security, Renuka has contributed to key projects aimed at strengthening security measures and addressing new threats. She is committed to staying at the forefront of cybersecurity and helping organizations defend against emerging risks.`}
+                     </p>
+                     );
+                 },
+             },
+             {
+                title: "Tech Speaker",
+                description: "Hardik Mehta",
+                src: HardikMehta,
+                ctaText: "View",
+                content: () => {
+                    return (
+                    <p>
+                        {`A security researcher previously worked as a cyber security consultant with various consulting firms. He has worked with clients in the Telecommunication, Media, Technology, Manufacturing and BFSI sectors across South-Asian and Middle Eastern countries.`}
+                    {/* <>A security researcher previously worked as a cyber security consultant with various consulting firms. I have worked with clients inthe Telecommunication, Media, Technology, Manufacturing and BFSI sectors across South-Asian and Middle Eastern countries.
+                      <br/>  Title: Hacking into the iOS's VOLTE implementation.<br/>
+             Abstract : In this talk, we will be discussing a critical security vulnerability that has been discovered in the Voice over LTE (VoLTE) interface of iOS devices, including iPhones and Apple Watches. This vulnerability has been present in the iOS operating system since the inception of 4G VoLTE, and we will shed light on the issue, its root cause, and how it arises due to improper implementation of GSMA guidelines, highlighting a design flaw in the implementation of the iOS IMS SIP agent.
+             We will delve into the technical details of the vulnerability, providing a comprehensive analysis of its impact on iOS devices and the potential risks it poses to users' privacy and security. We will also explore the challenges faced during the discovery and disclosure of the vulnerability to Apple and discuss the response and mitigation measures taken by the company.
+             Furthermore, we will discuss the lessons learned from this vulnerability, highlighting the importance of adhering to industry standards and best practices in the implementation of communication protocols. We will also provide recommendations for improving the security of VoLTE interfaces in iOS devices and similar systems.             
+             This talk is a must-attend for security researchers, mobile device manufacturers, network operators, and anyone interested in understanding the intricacies of VoLTE security and the implications of design flaws in the implementation of communication protocols in iOS devices. Join us as we uncover the details of this critical security issue and discuss its implications for the iOS ecosystem.</> */}
+                    </p>
+                    );
+                },
+            },
+            {
+                title: "Tech Speaker",
+                description: "Rajnish Pathak",
+                src: rajanishpathak,
+                ctaText: "View",
+                content: () => {
+                    return (
+                    <p>
+                    {`A seasoned Security Researcher with a strong background in application security. His current role involves identifying and analyzing potential security threats, as well as implementing effective countermeasures in ultra secure communication solutions.He is dedicated to staying at the forefront of the ever-evolving security landscape.`}
+                    </p>
+                    );
+                },
             }
+
+
+
+            
+
+
+           
+
+            // speakerImage: BinilKuriachan,
+            // speakerName: `Binil Kuriachan`,
+            // speakerImage: Renuka,
+            // speakerName: `Renuka Talegaon`,
+
         ]
     },
     EventSponsors:{
@@ -1541,6 +1719,24 @@ He's the architect behind CyberSmithSECURE, safeguarding corporations and MNCs, 
         ]
     },
 
+    ScholarshipSponsor: {
+        Title: <>SCHOLARSHIP <span>SPONSOR</span></> ,
+        ScholarshipSponsorList: [
+            {
+                image: synackLogo,
+                link:'https://www.synack.com/red-team/'
+            },
+            {
+                image: cobaltLogo,
+                link:'https://www.cobalt.io'
+            },
+            {
+                image: BugcrowdLogo,
+                link:'https://www.bugcrowd.com'
+            }
+        ]
+    },
+
     CommunityPartners: {
         Title: <>COMMUNITY <span>PARTNERS</span></> ,
         CommunityPartnerList: [
@@ -1555,7 +1751,10 @@ He's the architect behind CyberSmithSECURE, safeguarding corporations and MNCs, 
             },
             {
                 image:WiCySIndia
-            }
+            },
+            // {
+            //     image:credcommunity
+            // }
         ]
     },
      NetworkingDinnerSponsor: {
