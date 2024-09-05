@@ -101,7 +101,7 @@ import synackLogo from '../../public/images/synack.svg'
 
 import ShriyaManiktala from '../../public/images/ShriyaManiktala.png'
 import Renuka from '../../public/images/Renuka.jpeg'
-import BinilKuriachan from '../../public/images/BinilKuriachan.jpeg'
+import BinilKuriachan from '../../public/images/BinilKuriachan.JPEG'
 import HardikMehta from '../../public/images/HardikMehta.jpg'
 import rajanishpathak from '../../public/images/rajanishpathak.jpg'
 
