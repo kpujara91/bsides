@@ -1751,7 +1751,7 @@ new trails in my free time.
             },
             {
                 image:WiCySIndia
-            },
+            }
             // {
             //     image:credcommunity
             // }
