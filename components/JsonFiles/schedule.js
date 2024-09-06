@@ -993,7 +993,7 @@ export const ScheduleContent = {
           url: `/schedule`,
         },
         {
-          title: `Trainings`,
+          title: `Training`,
         },
       ],
       // banerTitle: "TRAININGS SCHEDULE",
