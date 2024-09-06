@@ -883,7 +883,7 @@ export const ScheduleContent = {
                 speakerTitle: `Village Speaker`,
                 imagePath: JayTurlaImage,
                 name: `Jay Turla`,
-                description: `Principal Security Researcher at VikingCloud`,
+                description: `Principal Security Researcher at VicOne`,
                 url: ``,
                 subtitle: `Title - Car hacking village`,
               },
