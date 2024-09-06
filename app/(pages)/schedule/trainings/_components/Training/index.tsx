@@ -2,7 +2,10 @@
 import React from "react";
 import styles from "./Training.module.scss";
 import { ScheduleContent } from "@/components/JsonFiles/schedule";
+import { PassesContent } from "@/components/JsonFiles/passes";
 import Image from "next/image";
+import { trainings } from '@/components/JsonFiles/trainings'
+import Link from "next/link";
 
 const Training: React.FC = () => {
   return (
@@ -12,26 +15,155 @@ const Training: React.FC = () => {
           <h2 className={`title ${styles.title}`}>
             {ScheduleContent?.Trainings?.traingsContent?.MainTitle}
           </h2>
+          <div className='mb-10'>
+            <Link href={PassesContent?.Banner?.BookNowButtonURL} target="_blank" className={`font-nasalization ${styles.BannerBtn}`}>{PassesContent?.Banner?.BookNowButtonText}</Link>
+          </div>
           <div
             className={`flex items-center justify-center flex-wrap gap-5 ${styles.eventsTimeLine}`}
           >
-            <p className="caption inline-block">
+            {/* <p className="caption inline-block">
               {ScheduleContent?.Trainings?.traingsContent?.LocationTitle}
-            </p>
+            </p> */}
             {ScheduleContent?.Trainings?.traingsContent?.Date && (
               <p className="caption inline-block">
-              {
-                ScheduleContent?.Trainings?.traingsContent?.Date
-              }
-            </p>
+                {
+                  ScheduleContent?.Trainings?.traingsContent?.Date
+                }
+              </p>
             )}
           </div>
         </div>
 
-  
 
-{/* 
-  <div className={styles.technicalCardsWrapper}>
+        <div className={`title-wrapper ${styles.CfpDetailsWrapper}`}>
+          <h2 className='title mb-8'>{trainings?.CfpContents?.MainTitle}</h2>
+          <p className='mb-10'>{trainings?.CfpContents?.description}</p>
+          <h3 className='title mb-8'>{trainings?.CfpContents?.TopicsCovered?.title}</h3>
+          <p className='mb-10'>{trainings?.CfpContents?.TopicsCovered?.description}</p>
+          {/* <div className='mb-10'>
+            <Link href={PassesContent?.Banner?.BookNowButtonURL} target="_blank" className={`font-nasalization ${styles.BannerBtn}`}>{PassesContent?.Banner?.BookNowButtonText}</Link>
+          </div> */}
+          {/* <ul className='mb-10'>{trainings?.CfpContents?.TopicsCovered?.topicLists?.map((topic, index) => (
+            <li key={index} className={styles.bulletPoint}>{`${topic}`}</li>
+          ))}</ul> */}
+          <h3 className='title mb-8'>{trainings?.CfpContents?.TechnicalTalks?.title}</h3>
+          <ul className='mb-0'>{trainings?.CfpContents?.TechnicalTalks?.RedTeamHighlights?.map((topic, index) => (
+            <li key={index} className={`${styles.bulletPoint} ml-10 list-disc`}>{`${topic}`}</li>
+          ))}</ul>
+          <ul className='mb-10'>{trainings?.CfpContents?.TechnicalTalks?.RedTeamHighlightsInner?.map((topic, index) => (
+            <li key={index} className={`${styles.bulletcirclePoint} ml-14 `} style={{marginLeft: '90px'}}>{`${topic}`}</li>
+          ))}</ul>
+          {/* <p className='mb-10'>{trainings?.CfpContents?.TechnicalTalks?.description}</p> */}
+          <h3 className='title mb-8'>{trainings?.CfpContents?.Workshops?.title}</h3>
+          <ul className='mb-10'>{trainings?.CfpContents?.Workshops?.BlueTeamHighlights?.map((topic, index) => (
+            <li key={index} className={`${styles.bulletPoint} ml-10 list-disc`}>{`${topic}`}</li>
+          ))}</ul>
+          {/* <p className='mb-10'>{trainings?.CfpContents?.Workshops?.BlueTeamHighlights}</p> */}
+          <div className="flex items-baseline">
+            <h3 className='title mb-8'>{trainings?.CfpContents?.Format?.title}</h3>
+            <p className='mb-10 pl-2'>{trainings?.CfpContents?.Format?.description}</p>
+          </div>
+          <div className="flex items-baseline">
+            <h3 className='title mb-8'>{trainings?.CfpContents?.Trainers?.title}</h3>
+            <p className='mb-10 pl-2'>{trainings?.CfpContents?.Trainers?.description}</p>
+          </div>
+          <h3 className='title mb-8'>{trainings?.CfpContents?.TableOfContent?.title}</h3>
+          <ul className='mb-10'>
+            {trainings?.CfpContents?.TableOfContent?.sections?.map((section: any, sectionIndex: any) => (
+              <li key={sectionIndex} className={`${styles.bulletPoint} ml-5 mb-8`}>
+                <h4 className='title mb-8'>{`${section.number}. ${section.title}`}</h4>
+                {section?.subsections?.length > 0 && (
+                  <ul className='ml-5'>
+                    {section.subsections.map((subsection: any, subsectionIndex: any) => (
+                      <li key={subsectionIndex} className='ml-5'>
+                        {`${subsection.letter}. ${subsection.title}`}
+                        {subsection?.subsubsections?.length > 0 && (
+                          <ul className='ml-5'>
+                            {subsection.subsubsections.map((subsubsection: any, subsubsectionIndex: any) => (
+                              <li key={subsubsectionIndex} className='ml-5'>
+                                {`${subsubsection.roman}. ${subsubsection.title}`}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            ))}
+          </ul>
+
+          <h3 className='title mb-8'>{trainings?.CfpContents?.Deliverable?.title}</h3>
+          <ul className='mb-10'>{trainings?.CfpContents?.Deliverable?.PreRequisitesHighlights?.map((topic, index) => (
+            <li key={index} className={`${styles.bulletPoint} ml-5 list-disc`}>{`${topic}`}</li>
+          ))}</ul>
+
+          <div className="flex items-baseline">
+            <h3 className='title mb-8'>{trainings?.CfpContents?.NOTE?.title}</h3>
+            <p className='mb-10 pl-2'>{trainings?.CfpContents?.NOTE?.description}</p>
+          </div>
+
+          <h3 className='title mb-8'>{trainings?.CfpContents?.PreRequisites?.title}</h3>
+          <ul className='mb-10'>{trainings?.CfpContents?.PreRequisites?.PreRequisitesHighlights?.map((topic, index) => (
+            <li key={index} className={`${styles.bulletPoint} ml-5 list-disc`}>{`${topic}`}</li>
+          ))}</ul>
+
+          <h3 className='title mb-8'>{trainings?.CfpContents?.AttendeesTakeaway?.title}</h3>
+          <ul className='mb-10'>{trainings?.CfpContents?.AttendeesTakeaway?.PreRequisitesHighlights?.map((topic, index) => (
+            <li key={index} className={`${styles.bulletPoint} ml-5 list-disc`}>{`${topic}`}</li>
+          ))}</ul>
+
+          {/* <h3 className='title mb-8'>{trainings?.CfpContents?.TrainerInfraRequirements?.title}</h3>
+          <ul className='mb-10'>{trainings?.CfpContents?.TrainerInfraRequirements?.PreRequisitesHighlights?.map((topic, index) => (
+            <li key={index} className={`${styles.bulletPoint} ml-5 list-disc`}>{`${topic}`}</li>
+          ))}</ul> */}
+
+          <div className={`${styles.sponsorsLists}`}>
+            {
+              trainings?.CfpContents?.BIO?.map((items, i) => {
+                return (
+                  <React.Fragment key={i}>
+                    <div className={`flex gap-5 md:gap-7 flex-col md:flex-row overflow-hidden relative ${styles.sponsorsCard}`}>
+                      <div className={styles.imageBox}>
+                        <Image src={items?.ImagePath} alt='Sponsors Image' />
+                      </div>
+                      <div className={styles.content}>
+                        <h3 className='title mb-8'>{items?.title}</h3>
+                        {items?.description && items?.description?.map((des, i) => {
+                          return (
+                            <React.Fragment key={i}>
+                              <p className='mb-3 last:mb-0'>{des}</p>
+                            </React.Fragment>
+                          )
+                        })}
+                        <ul className={`flex gap-2 flex-shrink-0 socialMediaList speakersocialMediaList`}>
+                          {items?.speakerSocialMediaList?.map((list, j) => {
+                            return (
+                              <React.Fragment key={j}>
+                                <li className={`inline-flex items-center justify-center`}><a href={list?.url} title={list?.title} className={`inline-flex items-center justify-center`} target='_blank'><Image src={list?.icon} alt={list?.title} width={16} height={16} /></a></li>
+                              </React.Fragment>
+                            )
+                          })}
+                        </ul>
+                      </div>
+                    </div>
+                  </React.Fragment>
+                )
+              })
+            }
+          </div>
+
+          {/* <ul className='mb-10'>{trainings?.CfpContents?.TopicOfInterest?.interestTopicLists?.map((topic, index) => (
+            <li key={index} className={styles.bulletPoint}>{topic}</li>
+          ))}</ul> */}
+          {/* <h3 className='title mb-8'>{trainings?.CfpContents?.CfpGuidelines?.title}</h3>
+          <p className='mb-10'>{trainings?.CfpContents?.CfpGuidelines?.description}</p> */}
+        </div>
+
+
+
+        {/* <div className={styles.technicalCardsWrapper}>
           {ScheduleContent?.Trainings?.traingsContent?.TechnicalTalkLists?.map(
             (lists, i) => {
               return (
@@ -119,8 +251,8 @@ const Training: React.FC = () => {
           )}
         </div>  */}
 
-        
-        <div className='no-data'>Coming Soon</div>
+
+        {/* <div className='no-data'>Coming Soon</div> */}
       </div>
     </section>
   );

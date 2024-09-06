@@ -60,7 +60,7 @@ export const HeaderContent = {
             HeadMenuURL: `/schedule/`,
             SubMenuList: [
                 {
-                    Menu: `Trainings`,
+                    Menu: `Training`,
                     Url: `/schedule/trainings/`,
                 },
                 {

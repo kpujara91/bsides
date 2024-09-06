@@ -997,13 +997,13 @@ export const ScheduleContent = {
         },
       ],
       // banerTitle: "TRAININGS SCHEDULE",
-      banerTitle: "TRAININGS SCHEDULE",
+      banerTitle: "Advanced Threat Emulation & Detection",
       BGImage: TrainingsBannerImage,
     },
     traingsContent: {
-      MainTitle: <>Trainings</>,
+      MainTitle: <>Training</>,
       LocationTitle: `Location: The Forum, Club 07, Ahmedabad`,
-      Date: `12 & 13 October, 2024`,
+      Date: `11 October 2024`,
       TechnicalTalkLists: [
         {
           break: [
