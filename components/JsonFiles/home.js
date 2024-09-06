@@ -396,7 +396,7 @@ export const HomeContent = {
             {
                 speakerImage: TechSpeakerJayTurla,
                 speakerName: `Jay Turla`,
-                speakerDesignation: `Principal Security Consultant at VikingCloud`,
+                speakerDesignation: `Principal Security Researcher at VikingCloud`,
                 speakerSocialMediaList:[
                         // {
                         //     title:'X',

@@ -110,7 +110,7 @@ export const ScheduleContent = {
           Event <span>Timeline</span>
         </>
       ),
-      Date: `12 & 13 October, 2024`,
+      Date: `11 October 2024`,
       LocationTitle: `The Forum, Club 07, Ahmedabad`,
       EventsLists: [
         {
@@ -883,7 +883,7 @@ export const ScheduleContent = {
                 speakerTitle: `Village Speaker`,
                 imagePath: JayTurlaImage,
                 name: `Jay Turla`,
-                description: `Principal Security Consultant at VikingCloud`,
+                description: `Principal Security Researcher at VikingCloud`,
                 url: ``,
                 subtitle: `Title - Car hacking village`,
               },
@@ -996,6 +996,7 @@ export const ScheduleContent = {
           title: `Trainings`,
         },
       ],
+      // banerTitle: "TRAININGS SCHEDULE",
       banerTitle: "TRAININGS SCHEDULE",
       BGImage: TrainingsBannerImage,
     },
@@ -1033,46 +1034,46 @@ export const ScheduleContent = {
             },
           ],
         },
-        {
-          break: [
-            {
-              breakTitle: `LUNCH`,
-              breakTime: `01:00 - 02:00`,
-            },
-            {
-              breakTitle: `LOCATION`,
-              breakTime: `MoMo Café, Courtyard by Marriott`,
-            },
-          ],
-          SpeakerDetails: [
-            {
-              mainStageName: `TRAINING`,
-              providedTime: `10:00 - 05:00`,
-              MainTitle: `Training - Web3 Hacking`,
-              innerDetails: [
-                {
-                  speakerTitle: `Speaker`,
-                  imagePath: ShashankImage,
-                  name: `Shashank`,
-                  description: `CEO & Co-founder CredShields`,
-                },
-              ],
-            },
-            {
-              mainStageName: `TRAINING`,
-              providedTime: `10:00 - 05:00`,
-              MainTitle: `Training - WEB APPLICATION HACKING [BUG BOUNTY EDITION]`,
-              innerDetails: [
-                {
-                  speakerTitle: `Speaker`,
-                  imagePath: HusseinImage,
-                  name: `Hussein Daher`,
-                  description: `CEO of Web Immunify`,
-                },
-              ],
-            },
-          ],
-        },
+        // {
+        //   break: [
+        //     {
+        //       breakTitle: `LUNCH`,
+        //       breakTime: `01:00 - 02:00`,
+        //     },
+        //     {
+        //       breakTitle: `LOCATION`,
+        //       breakTime: `MoMo Café, Courtyard by Marriott`,
+        //     },
+        //   ],
+        //   SpeakerDetails: [
+        //     {
+        //       mainStageName: `TRAINING`,
+        //       providedTime: `10:00 - 05:00`,
+        //       MainTitle: `Training - Web3 Hacking`,
+        //       innerDetails: [
+        //         {
+        //           speakerTitle: `Speaker`,
+        //           imagePath: ShashankImage,
+        //           name: `Shashank`,
+        //           description: `CEO & Co-founder CredShields`,
+        //         },
+        //       ],
+        //     },
+        //     {
+        //       mainStageName: `TRAINING`,
+        //       providedTime: `10:00 - 05:00`,
+        //       MainTitle: `Training - WEB APPLICATION HACKING [BUG BOUNTY EDITION]`,
+        //       innerDetails: [
+        //         {
+        //           speakerTitle: `Speaker`,
+        //           imagePath: HusseinImage,
+        //           name: `Hussein Daher`,
+        //           description: `CEO of Web Immunify`,
+        //         },
+        //       ],
+        //     },
+        //   ],
+        // },
       ],
     },
   },

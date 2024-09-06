@@ -27,7 +27,11 @@ const Training: React.FC = () => {
             )}
           </div>
         </div>
-        {/* <div className={styles.technicalCardsWrapper}>
+
+  
+
+{/* 
+  <div className={styles.technicalCardsWrapper}>
           {ScheduleContent?.Trainings?.traingsContent?.TechnicalTalkLists?.map(
             (lists, i) => {
               return (
@@ -113,7 +117,9 @@ const Training: React.FC = () => {
               );
             }
           )}
-        </div> */}
+        </div>  */}
+
+        
         <div className='no-data'>Coming Soon</div>
       </div>
     </section>
