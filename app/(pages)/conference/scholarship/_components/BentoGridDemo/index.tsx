@@ -144,7 +144,9 @@ export const BentoGridItem = ({
         </div>
         {btnurl === "" ? (
           <div className="content global-btn">
-            <span className="comonBtn">Coming Soon</span>
+            <a href={btnurl} className="comonBtn" target="_blank" rel="noopener noreferrer">
+              Submit Your Nomination
+            </a>
           </div>
         ) : btnurl === "closed" ? (
           <div className="content global-btn">
@@ -152,9 +154,9 @@ export const BentoGridItem = ({
           </div>
         ) : typeof btnurl === "string" ? ( // Check if btnurl is a string
           <div className="content global-btn">
-            <a href={btnurl} className="comonBtn" target="_blank" rel="noopener noreferrer">
-              Submit Your Nomination
-            </a>
+        
+         <span className="redBtn">Closed</span>
+
           </div>
         ) : (
           <div>No valid URL provided</div> // Handle non-string btnurl case
