@@ -142,7 +142,7 @@ export const BentoGridItem = ({
             <div>No Image Available</div> // Fallback content when imgPath is undefined
           )}
         </div>
-        {btnurl != "" ? (
+        {btnurl === "https://docs.google.com/forms/d/e/1FAIpQLSe2W1BK74tkljI71xVZ2DPp5CCezjzuzVctVVufUMVefUOAeA/viewform?usp=sf_link" ? (
           <div className="content global-btn">
             <a href={btnurl} className="comonBtn" target="_blank" rel="noopener noreferrer">
               Submit Your Nomination
