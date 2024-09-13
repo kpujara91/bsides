@@ -144,9 +144,11 @@ export const BentoGridItem = ({
             <div>No Image Available</div> // Fallback content when imgPath is undefined
           )}
         </div>
-        {btnurl === "" ? (
+        {btnurl === "https://docs.google.com/forms/d/e/1FAIpQLSe2W1BK74tkljI71xVZ2DPp5CCezjzuzVctVVufUMVefUOAeA/viewform?usp=sf_link" ? (
           <div className="content global-btn">
-            <span className="comonBtn">Coming Soon</span>
+            <a href={btnurl} className="comonBtn" target="_blank" rel="noopener noreferrer">
+              Submit Your Nomination
+            </a>
           </div>
         ) : btnurl === "closed" ? (
           <div className="content global-btn">
@@ -154,9 +156,9 @@ export const BentoGridItem = ({
           </div>
         ) : typeof btnurl === "string" ? ( // Check if btnurl is a string
           <div className="content global-btn">
-            <a href={btnurl} className="comonBtn" target="_blank" rel="noopener noreferrer">
-              Submit Your Nomination
-            </a>
+        
+         <span className="redBtn">Closed</span>
+
           </div>
         ) : (
           <div>No valid URL provided</div> // Handle non-string btnurl case
