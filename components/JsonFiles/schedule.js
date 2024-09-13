@@ -78,6 +78,8 @@ import LopaImage from "../../public/images/speaker-lopa.jpg";
 import NeeluTripathyImage from "../../public/images/speaker-neelu-tripathy.jpg";
 import JayTurlaImage from "../../public/images/speaker-jayturla.jpg";
 import SaurabhImage from "../../public/images/speaker-saurabh.jpg";
+import immunefi from '../../public/images/immunefi.png'
+// import immunefi from '../../public/images/immunify.svg'
 
 export const ScheduleContent = {
   GlobalAnimateCircleImage: AnimateCircleImage,
@@ -337,7 +339,7 @@ export const ScheduleContent = {
                   speakerTitle: `Technical Speaker`,
                   imagePath: RajanishPathakImage,
                   name: `Rajanish Pathak`,
-                  description: `Security Researcher - Engineering Ops At KATIM`,
+                  description: `Manager Security Services - Katim`,
                   url: ``,
                   subtitle: ``,
                 },
@@ -993,7 +995,7 @@ export const ScheduleContent = {
           url: `/schedule`,
         },
         {
-          title: `Training`,
+          title: `Trainings`,
         },
       ],
       // banerTitle: "TRAININGS SCHEDULE",
@@ -1110,6 +1112,10 @@ export const ScheduleContent = {
           image: CloudsekLogo,
           urlLink : 'https://www.cloudsek.com/'
         },
+        {
+          image:immunefi,
+          urlLink: 'https://immunefi.com/bug-bounty/?utm_source=Security-BSides&utm_medium=events&utm_campaign=Security-BSides'
+        }
         // {
         //   image: ExhibitorLogo1,
         // },

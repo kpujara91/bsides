@@ -18,6 +18,9 @@ import SponsorPrivacySquare from '../../public/images/sponsor-privacy-square.png
 import cobaltLogo from '../../public/images/sponsorLogo.webp'
 import BugcrowdLogo from '../../public/images/BugcrowdLogo.png'
 import synackLogo from '../../public/images/synack.svg'
+// import immunefi from '../../public/images/immunefi.png'
+import immunefi from '../../public/images/immunify.svg'
+
 
 
 export const ConferenceContent = {
@@ -47,14 +50,15 @@ export const ConferenceContent = {
             BGImage: ConferenceBannerBG,
         },
         SponsorsContent : [
-            {
-                MainTitle : <>GOLD <span>SPONSOR</span></>,
-            },
+            // {
+            //     MainTitle : <>GOLD <span>SPONSOR</span></>,
+            // },
             {
                 MainTitle : <>SILVER <span>SPONSOR</span></>,
                 SponsorsDetails : [
                     {
                         ImagePath : SponsorControlCase,
+                        extraTitle:"",
                         description : [
                             `ControlCase, the global leader in Compliance as a Service(CaaS), has successfully assisted hundreds of clients worldwide in becoming compliant with various security standards and regulations in a cost-effective and optimal manner. From PCI to SOX to GLBA, ControlCase has assisted clients in meeting their compliance and security objectives in a timely and cost-effective manner.`
                         ],
@@ -63,6 +67,7 @@ export const ConferenceContent = {
                     },
                     {
                         ImagePath : SponsorKyzotrick,
+                        extraTitle:"",
                         description : [
                             `Keyzotrick is a global cyber intelligence and security organization based in Jamshedpur, Jharkhand, with operations in Ahmedabad, Gujarat. We serve the Intelligence Community, Law Enforcement, and Corporations with top-tier excellence, offering expertise in police modernization, fraud investigation, surveillance, and cutting-edge technology solutions. Partnered with major government agencies and private sector organizations, we focus solely on cyber intelligence and investigations, delivering vendor- neutral, high-end security solutions.`,
                             `Our advanced data-driven media monitoring services provide important insights to authorities in monitoring, tracking, and analyzing online activity on all levels of the internet, including the CyberHumint, SIGINT, COMMINT, Deep and Dark web, in order to identify new data sources and leads to maximize their investigations. Our value and motive stand true to social-equity, law and order, and national security.`
@@ -80,6 +85,7 @@ export const ConferenceContent = {
                 SponsorsDetails : [
                     {
                         ImagePath : SponsorHackerOne,
+                        extraTitle:"",
                         description : [
                             `HackerOne is a vulnerability coordination and bug bounty platform that connects businesses with penetration testers and cybersecurity researchers.`
                         ],
@@ -94,6 +100,7 @@ export const ConferenceContent = {
                 SponsorsDetails : [
                     {
                         ImagePath : SponsorCloudsek,
+                        extraTitle:"",
                         description : [
                             `CloudSEK’s central proposition is leverage Artificial Intelligence to build a rapid and reliable detection, analysis, and alert system that offers swift detection across internet sources , precision analysis of threats and prompt resolution with minimal human intervention`
                         ],
@@ -104,10 +111,26 @@ export const ConferenceContent = {
                 show: true
             },
             {
+                MainTitle : <>CROWDSOURCED SECURITY <span> PARTNER</span></>,
+                SponsorsDetails : [
+                    {
+                        ImagePath : immunefi,
+                        extraTitle:"Earn the World’s Largest Bounties",
+                        description : [
+                            `Immunefi is the leading onchain crowdsourced security platform with the world’s largest bounties. We offer legendary response times and top-notch support for our hackers. The assets we protect — blockchains, NFT projects, and smart contracts — are the world’s most valuable assets, and our security researchers earn life-changing sums while boosting onchain security.`
+                        ],
+                        url : `https://immunefi.com/bug-bounty/?utm_source=Security-BSides&utm_medium=events&utm_campaign=Security-BSides`,
+                        urlTitle : `Learn more : https://immunefi.com/bug-bounty/`
+                    }
+                ],
+                show: true
+            },
+            {
                 MainTitle :  <>LANYARD <span>SPONSOR</span></>,
                 SponsorsDetails : [
                     {
                         ImagePath : SponsorRiskProfiler,
+                        extraTitle:"",
                         description : [
                             `Risk Profiler fills the gaps in cyber protection by looking at the shadow risks, their paths and implications back into the customers infrastructure. Through its modern, AI based, approach to giving complete cybersecurity risk analysis, the customer gets an unprecedented understanding of risk and its origin.`
                         ],
@@ -121,6 +144,7 @@ export const ConferenceContent = {
                 SponsorsDetails : [
                     {
                         ImagePath : SponsorCobalt,
+                        extraTitle:"",
                         description : [
                             `Cobalt's Pentest as a Service (PtaaS) platform is modernizing traditional pentesting. By combining a SaaS platform with an exclusive community of testers, we deliver the real-time insights you need to remediate risk quickly and innovate securely.`
                         ],
@@ -132,37 +156,41 @@ export const ConferenceContent = {
             {
                 MainTitle : <>BADGE <span>SPONSOR</span></>,
             },
-            {
-                MainTitle : <>CXO TRACK <span> SPONSOR</span></>,
-                SponsorsDetails : [
-                    {
-                        ImagePath : SponsorMiniOrange,
-                        description : [
-                            `MiniOrange is an established cybersecurity organization specializing in Identity & Access Management (IAM). With a wealth of technical expertise and unwavering 24x7 customer support, miniOrange is dedicated to delivering innovative and disruptive products within the IAM space such as Single Sign-On, Multi-Factor Authentication, Adaptive Authentication, User Lifecycle Management, Identity Federation, and External Directory support via a centralized identity product. Additionally, miniOrange offers a comprehensive suite of plugins and connectors to ensure the security of all applications (including Atlassian, WordPress, Shopify, Drupal, etc.), technologies, and frameworks. miniOrange also offers products related to Privileged Access Management and CASB, further bolstering cybersecurity efforts.`
-                        ],
-                        url : `https://www.miniorange.com/`,
-                        urlTitle : `Learn more : https://www.miniorange.com/`
-                    }
-                ]
-            },
+            // {
+            //     MainTitle : <>CXO TRACK <span> SPONSOR</span></>,
+            //     SponsorsDetails : [
+            //         {
+            //             ImagePath : SponsorMiniOrange,
+            //             extraTitle:"",
+            //             description : [
+            //                 `MiniOrange is an established cybersecurity organization specializing in Identity & Access Management (IAM). With a wealth of technical expertise and unwavering 24x7 customer support, miniOrange is dedicated to delivering innovative and disruptive products within the IAM space such as Single Sign-On, Multi-Factor Authentication, Adaptive Authentication, User Lifecycle Management, Identity Federation, and External Directory support via a centralized identity product. Additionally, miniOrange offers a comprehensive suite of plugins and connectors to ensure the security of all applications (including Atlassian, WordPress, Shopify, Drupal, etc.), technologies, and frameworks. miniOrange also offers products related to Privileged Access Management and CASB, further bolstering cybersecurity efforts.`
+            //             ],
+            //             url : `https://www.miniorange.com/`,
+            //             urlTitle : `Learn more : https://www.miniorange.com/`
+            //         }
+            //     ]
+            // },
 
             {
                 MainTitle : <>SCHOLARSHIP <span>SPONSOR</span></>,
                 SponsorsDetails : [
                     {
                         ImagePath: synackLogo,
+                        extraTitle:"",
                         description : [],
                         url:`https://www.synack.com/red-team/`,
                         urlTitle : `Learn more : https://www.synack.com/red-team/`
                     },
                     {
                         ImagePath: cobaltLogo,
+                        extraTitle:"",
                         description : [],
                         url:`https://www.cobalt.io`,
                         urlTitle : `Learn more : https://www.cobalt.io`
                     },
                     {
-                        ImagePath: BugcrowdLogo,                    
+                        ImagePath: BugcrowdLogo,  
+                        extraTitle:"",                  
                         description : [],
                         url:`https://www.bugcrowd.com`,
                         urlTitle : `Learn more : https://www.bugcrowd.com`

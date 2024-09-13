@@ -44,6 +44,7 @@ const Awards: React.FC = () => {
           header="hello header"
           btnurl={item?.BookNowButtonURL}
           imgPath={item?.imagePath}
+          // extraTitle={item?.extraTitle}
           // className={item.className}
           // icon={item.imagePath}
         />

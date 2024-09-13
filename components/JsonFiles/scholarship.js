@@ -45,7 +45,7 @@ export const ScholarshipContent = {
         scholarshipslist:[
             {
                 imagePath: bugCrowdscholarship,
-                BookNowButtonURL: ``
+                BookNowButtonURL: `https://docs.google.com/forms/d/e/1FAIpQLSe2W1BK74tkljI71xVZ2DPp5CCezjzuzVctVVufUMVefUOAeA/viewform?usp=sf_link`
             },
         {
             imagePath: ScholarshipBannerBG,
@@ -53,7 +53,7 @@ export const ScholarshipContent = {
         },
         {
             imagePath:cobaltscholarship,
-            BookNowButtonURL: `https://docs.google.com/forms/d/e/1FAIpQLSfSGkDmsvKFrCFWBPWZhbxTBsYJt2G68blnf7kI9k__8ksiRg/viewform?usp=sharing`
+             BookNowButtonURL: `closed`
         },
          ],
         ScholarshipImage: ScholarshipBannerBG,

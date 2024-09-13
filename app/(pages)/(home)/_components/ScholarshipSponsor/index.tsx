@@ -15,7 +15,9 @@ const ScholarshipSponsor: React.FC= () => {
                     <h2 className='title'>{HomeContent?.ScholarshipSponsor?.Title}</h2>
                 </div>
                 {HomeContent?.ScholarshipSponsor?.ScholarshipSponsorList &&
-                    <ul className={`flex items-center justify-center flex-wrap ${styles.CommunityPartnerList}`}>
+                    <ul className={`
+                        flex items-center flex-wrap sm:gap-0 gap-6 sm:gap-x-0 gap-x-6 justify-center sm:justify-start
+                    ${styles.CommunityPartnerList}`}>
                         {HomeContent?.ScholarshipSponsor?.ScholarshipSponsorList?.map((list,i)=>{
                             return(
                                 <React.Fragment key={i}>

@@ -122,6 +122,7 @@ export const BentoGridItem = ({
   btntext,
   btnurl,
   imgPath,
+  // extraTitle
 }: {
   className?: string;
   title?: string | React.ReactNode;
@@ -131,6 +132,7 @@ export const BentoGridItem = ({
   btntext?: React.ReactNode;
   btnurl?: string | undefined; // Ensure btnurl is a string or undefined
   imgPath?: string | StaticImageData;
+  // extraTitle: string | React.ReactNode;
 }) => {
   return (
     <>

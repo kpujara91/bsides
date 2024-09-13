@@ -12,12 +12,12 @@ const CommunityPartners: React.FC = () => {
                     <h2 className='title'>{HomeContent?.CommunityPartners?.Title}</h2>
                 </div>
                 {HomeContent?.CommunityPartners?.CommunityPartnerList &&
-                    <ul className={`flex items-stretch justify-center flex-wrap ${styles.CommunityPartnerList}`}>
+                    <ul className={`flex items-stretch sm:gap-y-12 gap-6 flex-wrap sm:gap-x-0 gap-x-6 justify-center sm:justify-start ${styles.CommunityPartnerList}`}>
                         {HomeContent?.CommunityPartners?.CommunityPartnerList?.map((list,i)=>{
                             return(
                                 <React.Fragment key={i}>
                                     <li className='w-1/2 md:w-1/3 xl:w-1/4'>
-                                        <div className={`w-full h-full flex items-center justify-center relative ${styles.SponsorItem}`}>
+                                        <div className={`w-full h-full flex  justify-center relative ${styles.SponsorItem}`}>
                                             <Image src={list?.image} alt='logo' width={228} height={70}/>
                                         </div>
                                     </li>

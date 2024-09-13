@@ -6,6 +6,8 @@ import {ConferenceContent} from '@/components/JsonFiles/conference'
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+
+
 const OurSponsors: React.FC = () => {
 
 
@@ -30,6 +32,15 @@ const OurSponsors: React.FC = () => {
                                                         <div className={`flex items-center gap-5 md:gap-7 flex-col md:flex-row overflow-hidden relative ${styles.sponsorsCard}`}>
                                                             <div className={styles.imageBox}>
                                                                 <Image src={items?.ImagePath} alt='Sponsors Image' />
+                                                               {
+                                                                items?.extraTitle !== "" && 
+                                                                (
+                                                                    <>
+                                                                    <br/>
+                                                                    <span className='ml-40 text-center'>{items?.extraTitle}</span>
+                                                                    </>
+                                                                )
+                                                               }
                                                             </div>
                                                             <div className={styles.content}>
                                                                 {items?.description && items?.description?.map((des,i) => {
