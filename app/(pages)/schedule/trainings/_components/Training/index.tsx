@@ -168,14 +168,14 @@ const Training: React.FC = () => {
             (lists, i) => {
               return (
                 <React.Fragment key={i}>
-                    {(lists?.break[i]?.breakTitle || lists?.break[i]?.breakTime ) && <div className={`${styles.breakBox} flex justify-center  gap-4 flex-wrap flex-col text-center sm:justify-between sm:flex-row`}>
+                    {(lists?.break[i]?.ScheduleTitle || lists?.break[i]?.ScheduleTime ) && <div className={`${styles.breakBox} flex justify-center  gap-4 flex-wrap flex-col text-center sm:justify-between sm:flex-row`}>
                       {lists?.break?.map((content,i) =>{
                         return(
                           <React.Fragment key={i}>
-                            {(content?.breakTitle || content?.breakTime) && (
+                            {(content?.ScheduleTitle || content?.ScheduleTime) && (
                             <div>
-                              <p className={`${styles.caption}`}>{content?.breakTitle}</p>
-                              <p className={styles.breakTime}>{content?.breakTime}</p>
+                              <p className={`${styles.caption}`}>{content?.ScheduleTitle}</p>
+                              <p className={styles.ScheduleTime}>{content?.ScheduleTime}</p>
                             </div>
                             )}
                           </React.Fragment>

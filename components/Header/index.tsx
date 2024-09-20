@@ -23,6 +23,16 @@ const Header: React.FC = () => {
   const pathname = usePathname();
   const [menu, setMenu] = useState(false);
 
+  const [scroll, setScroll] = useState(false);
+
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY > 50);
+    });
+  }, []);
+  
+
   useEffect(() => {
     if (menu) {
       document.body.classList.add('open-menu');
@@ -33,7 +43,7 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <header className={`${styles.siteHeader}`}>
+      <header className={`${styles.siteHeader} ${scroll===true ? styles.headerActive : "" } `}>
         <div className={`container ${styles.siteContent}`}>
           <div className={`flex items-center justify-between gap-2 ${styles.headerInner}`}>
             <div className={`flex items-center gap-4 md:gap-6 xl:gap-8 ${styles.headerActionGroup}`}>

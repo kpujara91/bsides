@@ -92,7 +92,7 @@ import CxoPatrickPitchappa from '../../public/images/cxo-patrik-Pitchappa.jpg'
 import CxoPraveenKumarMotupalli from '../../public/images/cxo-praveen-kumar-motupalli.jpeg'
 import CxoAmitKumbhat from '../../public/images/cxo-amit-kumbhat.jpeg'
 import CxoRamKumarGanapathi from '../../public/images/cxo-ram-kumar-ganapathi.jpeg'
-import CxoVikasChaubey from '../../public/images/cxo-vikas-choubey.jpeg'
+import CxoVikasChaubey from '../../public/images/vikas.jpeg'
 import BharatPanchalImage from "../../public/images/speaker-bharat-panchal.jpg";
 
 import CxoSriramPunniyakoti from '../../public/images/cxo-sriram-punniyakoti.jpeg'
@@ -100,6 +100,8 @@ import NitinBhatnagarImage from "../../public/images/speaker-nitin-bhatnagar.jpg
 
 import KishanKendreImage from "../../public/images/speaker-kishan-kendre.png";
 import KartikShindeImage from "../../public/images/speaker-kartik-shinde.png";
+import SaritaPadmini from "../../public/images/Sarita-Padmini.jpeg";
+import RaviVinjanampati from "../../public/images/Ravi-Vinjanampati.jpeg";
 
 import adityachandra from '../../public/images/adityachandra.jpeg'
 import mustafa_speaker from '../../public/images/mustafa_speaker.webp'
@@ -128,12 +130,37 @@ import ArbazHussain from '../../public/images/ArbazHussain.jpg'
 
 import ArunMane from '../../public/images/ArunMane.jpeg'
 import omkarmali from '../../public/images/omkarmali.jpeg'
+
+import bhargavRathod from '../../public/images/BhargavRathod .png'
+import abhimayuIyer from '../../public/images/abhimayuIyer.jpeg'
+import AvinashReddy from '../../public/images/AvinashReddy .jpg'
+import ChinamayJoshi from '../../public/images/chinamay-joshi.jpeg'
+
+import AryanJogia from '../../public/images/AryanJogia .jpg'
+import ChetanyaKunndra from '../../public/images/ChetanyaKunndra.jpg'
+import TarunKoyalwar from '../../public/images/Tarun-Koyalwar.jpg'
+import DhiyaneshwaranBalasubramaniam from '../../public/images/Dhiyaneshwaran-Balasubramaniam.jpg'
+
+import Chirag from '../../public/images/Chirag.jpg'
+import Raunakpic from '../../public/images/Raunakpic.jpg'
+import ShubhamMittal from '../../public/images/Shubham-0Mittal .jpeg'
+import AliBinDaranei from '../../public/images/ali-bin-daranei.jpeg'
+
+
 import mithileshkumar from '../../public/images/mithileshkumar.jpeg'
+
+import RameshKumarR from '../../public/images/RameshKumarR.jpg'
+import ChitrankShrivastav from '../../public/images/ChitrankShrivastav.jpeg'
+import PuneetTambi from '../../public/images/PuneetTambi .jpeg'
+
+
 
 // import ramganeshtechspeak from '../../public/images/ramganesh_techspeak.jpg'
 import ramganeshtechspeak from '../../public/images/ramganeshtechspeak.jpg'
 import raoarvindtechspeak from '../../public/images/raoarvind_techspeak.jpg'
 import cdrvivekyadav from '../../public/images/vivekyadav_govt.jpeg'
+import ColonelArijeetSen from '../../public/images/Colonel-Arijeet-Sen.jpeg'
+import CdrAkshayChuloo from '../../public/images/Akshay-Chuloo.jpeg'
 
 import ISC2Bangalore from '../../public/images/ISC2Bangalore.webp'
 
@@ -461,7 +488,7 @@ export const HomeContent = {
             {
                 speakerImage: TechSpeaker11,
                 speakerName: `Charlie Waterhouse`,
-                speakerDesignation: ` senior security analyst, synack special projects`,
+                speakerDesignation: `Senior security analyst, synack special projects`,
                 speakerSocialMediaList: [
                     // {
                     //     title:'X',
@@ -626,30 +653,164 @@ export const HomeContent = {
                     }
                 ]
             },
+            {
+                speakerDesignation: 'Security Analyst, Salesforce',
+                speakerName: 'Bhargav Rathod',
+                speakerImage: bhargavRathod,
+                speakerSocialMediaList: [
+                    {
+                        title: 'Linkedin',
+                        icon: IconLinkedin,
+                        url: 'https://www.linkedin.com/in/senorbhargavrathod/'
+                    }
+                ]
+            },
+            {
+                speakerDesignation: 'Lead Threat Detection Engineer at Salesforce',
+                speakerName: 'Abhimanyu Iyer',
+                speakerImage: abhimayuIyer,
+                speakerSocialMediaList: [
+                    {
+                        title: 'Linkedin',
+                        icon: IconLinkedin,
+                        url: 'https://www.linkedin.com/in/abhimanyu-iyer-48679386/'
+                    }
+                ]
+            },
+            {
+                speakerDesignation: 'Lead Threat Detection Engineer at Salesforce',
+                speakerName: 'Avinash Reddy Thumma',
+                speakerImage: AvinashReddy,
+                speakerSocialMediaList: [
+                    {
+                        title: 'Linkedin',
+                        icon: IconLinkedin,
+                        url: 'https://www.linkedin.com/in/avinash-reddy-thumma-65008844/'
+                    }
+                ]
+            },
+            {
+                speakerDesignation: 'Deputy Manager - Red Teaming at SecurityLit',
+                speakerName: 'Chinamay Joshi',
+                speakerImage: ChinamayJoshi,
+                speakerSocialMediaList: [
+                    // {
+                    //     title: 'Linkedin',
+                    //     icon: IconLinkedin,
+                    //     url: 'https://www.linkedin.com/in/avinash-reddy-thumma-65008844/'
+                    // }
+                ]
+            },
+            {
+                speakerDesignation: 'Security researcher',
+                speakerName: 'Aryan Jogia',
+                speakerImage: AryanJogia,
+                speakerSocialMediaList: [
+                    // {
+                    //     title: 'Linkedin',
+                    //     icon: IconLinkedin,
+                    //     url: 'https://www.linkedin.com/in/avinash-reddy-thumma-65008844/'
+                    // }
+                ]
+            },
+            {
+                speakerDesignation: 'Independent security researcher',
+                speakerName: 'Chetanya Kunndra',
+                speakerImage: ChetanyaKunndra,
+                speakerSocialMediaList: [
+                    // {
+                    //     title: 'Linkedin',
+                    //     icon: IconLinkedin,
+                    //     url: 'https://www.linkedin.com/in/avinash-reddy-thumma-65008844/'
+                    // }
+                ]
+            },
             // {
-            //     speakerDesignation: 'Founder & CEO, CyberEyeAdvisor, Cyber - Defense, Internal Security & Law Enforcement',
-            //     speakerName: 'Ram Ganesh',
-            //     speakerImage: ramganeshtechspeak,
+            //     speakerDesignation: 'Cyber Security Professional',
+            //     speakerName: 'Chirag Savla',
+            //     speakerImage: Chirag,
+            //     speakerSocialMediaList: [
+            //         {
+            //             title: 'X',
+            //             icon: IconTwitter,
+            //             url: 'https://twitter.com/chiragsavla94'
+            //         },
+            //         {
+            //             title: 'Linkedin',
+            //             icon: IconLinkedin,
+            //             url: 'https://www.linkedin.com/in/chirag-savla-4689161b4/'
+            //         }
+                   
+            //     ]
+            // },
+            // {
+            //     speakerDesignation: 'Senior Cloud Security Engineer',
+            //     speakerName: 'Raunak Parmar',
+            //     speakerImage: Raunakpic,
+            //     speakerSocialMediaList: [
+                   
+            //         {
+            //             title: 'X',
+            //             icon: IconTwitter,
+            //             url: 'https://twitter.com/trouble1_raunak'
+            //         },
+            //         {
+            //             title: 'Linkedin',
+            //             icon: IconLinkedin,
+            //             url: 'https://www.linkedin.com/in/trouble1raunak/'
+            //         },
+                   
+            //     ]
+            // },
+            {
+                speakerDesignation: 'Back End Developer , ProjectDiscovery.io',
+                speakerName: 'Tarun Koyalwar',
+                speakerImage: TarunKoyalwar,
+                speakerSocialMediaList: [
+                    {
+                        title: 'Linkedin',
+                        icon: IconLinkedin,
+                        url: 'https://www.linkedin.com/in/tarun-koyalwar/'
+                    }
+                ]
+            },
+            {
+                speakerDesignation: 'AppSec Researcher,  ProjectDiscovery.io',
+                speakerName: 'Dhiyaneshwaran Balasubramaniam',
+                speakerImage: DhiyaneshwaranBalasubramaniam,
+                speakerSocialMediaList: [
+                    {
+                        title: 'Linkedin',
+                        icon: IconLinkedin,
+                        url: 'https://www.linkedin.com/in/dhiyaneshwaran-bala/'
+                    }
+                ]
+            },
+            // {
+            //     speakerDesignation: 'Technical Director , Yogosha',
+            //     speakerName: 'Ali bawazeer',
+            //     speakerImage: AliBinDaranei,
             //     speakerSocialMediaList: [
             //         {
             //             title: 'Linkedin',
             //             icon: IconLinkedin,
-            //             url: 'https://www.linkedin.com/in/ramganeshindia/'
+            //             url: 'https://www.linkedin.com/in/alibawazeeer/'
             //         }
             //     ]
             // },
             // {
-            //     speakerDesignation: 'Coordinating Scientist, DRDO, Ministry of Defense, DIA-SVPCoE',
-            //     speakerName: 'Rao Arvind Mallari',
-            //     speakerImage: raoarvindtechspeak,
+            //     speakerDesignation: 'Co-Founder - RedHunt Lab',
+            //     speakerName: 'Shubham Mittal',
+            //     speakerImage: ShubhamMittal,
             //     speakerSocialMediaList: [
             //         {
             //             title: 'Linkedin',
             //             icon: IconLinkedin,
-            //             url: 'https://www.linkedin.com/in/arvind-rao-72548922/'
+            //             url: 'https://www.linkedin.com/in/upgoingstar/'
             //         }
             //     ]
             // },
+          
         ],
         CxoSpeakersTitle: (
             <>
@@ -888,7 +1049,7 @@ export const HomeContent = {
             {
                 speakerImage: CxoRahulTyagi,
                 speakerName: `Rahul Tyagi`,
-                speakerDesignation: `co founder safe security`,
+                speakerDesignation: `Co-Founder, Safe Security`,
                 speakerSocialMediaList: [
                     {
                         title: 'Linkedin',
@@ -1154,7 +1315,7 @@ export const HomeContent = {
             },
             {
                 speakerDesignation: 'Cyber Security & Risk Leader',
-                speakerName: 'Ram Kumar Ganapathi',
+                speakerName: 'Dr Ram Kumar G',
                 speakerImage: CxoRamKumarGanapathi,
                 speakerSocialMediaList: [
                     {
@@ -1178,7 +1339,7 @@ export const HomeContent = {
             },
             {
                 speakerDesignation: 'Founder @ Primefort',
-                speakerName: 'Sriram Punniyakoti',
+                speakerName: 'Sriram',
                 speakerImage: CxoSriramPunniyakoti,
                 speakerSocialMediaList: [
                     {
@@ -1197,6 +1358,114 @@ export const HomeContent = {
                         title: 'Linkedin',
                         icon: IconLinkedin,
                         url: 'https://www.linkedin.com/in/kumarmithilesh/'
+                    }
+                ]
+            },
+            {
+                speakerDesignation: 'CISO FOR BIOCON GROUP OF COMPANIES',
+                speakerName: 'Ramesh Kumar R',
+                speakerImage: RameshKumarR,
+                speakerSocialMediaList: [
+                    {
+                        title: 'Linkedin',
+                        icon: IconLinkedin,
+                        url: 'https://www.linkedin.com/in/ramesh-kumar-02900130'
+                    }
+                ]
+            },
+            {
+                speakerDesignation: 'OT SECURTIY - JT GENERAL MANAGER',
+                speakerName: 'Chitrank Shrivastav',
+                speakerImage: ChitrankShrivastav,
+                speakerSocialMediaList: [
+                    {
+                        title: 'Linkedin',
+                        icon: IconLinkedin,
+                        url: 'https://in.linkedin.com/in/chitrankshrivastav'
+                    }
+                ]
+            },
+            {
+                speakerDesignation: 'Chief Information Security Officer (CISO) at Godrej & Boyce',
+                speakerName: 'Ambarish Kumar Singh',
+                speakerImage: ambirshkumarsingh,
+                speakerSocialMediaList: [
+                    {
+                        title: 'Linkedin',
+                        icon: IconLinkedin,
+                        url: 'https://www.linkedin.com/in/ambarish-singh-02835119/'
+                    }
+                ]
+            },
+            {
+                speakerDesignation: 'Sr Staff OT Cybersecurity Architect at Baker Hughes and Founder at OT Security Professionals',
+                speakerName: 'Puneet Tambi',
+                speakerImage: PuneetTambi,
+                speakerSocialMediaList: [
+                    // {
+                    //     title: 'Linkedin',
+                    //     icon: IconLinkedin,
+                    //     url: 'https://in.linkedin.com/in/chitrankshrivastav'
+                    // }
+                ]
+            },
+            {
+                speakerDesignation: 'Technical Director , Yogosha',
+                speakerName: 'Ali bawazeer',
+                speakerImage: AliBinDaranei,
+                speakerSocialMediaList: [
+                    {
+                        title: 'Linkedin',
+                        icon: IconLinkedin,
+                        url: 'https://www.linkedin.com/in/alibawazeeer/'
+                    }
+                ]
+            },
+            {
+                speakerDesignation: 'Co-Founder - RedHunt Lab',
+                speakerName: 'Shubham Mittal',
+                speakerImage: ShubhamMittal,
+                speakerSocialMediaList: [
+                    {
+                        title: 'Linkedin',
+                        icon: IconLinkedin,
+                        url: 'https://www.linkedin.com/in/upgoingstar/'
+                    }
+                ]
+            },
+            {
+                speakerDesignation: 'Managing Principal, APAC, Synopsys Inc',
+                speakerName: 'Lekshmi Nair',
+                speakerImage: LekshmiNair,
+                speakerSocialMediaList: [
+                    // {
+                    //     title: 'Linkedin',
+                    //     icon: IconLinkedin,
+                    //     url: 'https://www.linkedin.com/in/upgoingstar/'
+                    // }
+                ]
+            },
+            {
+                speakerDesignation: 'Senior Director- Cyber Security and Data Privacy at Protiviti',
+                speakerName: 'Sarita Padmini',
+                speakerImage:SaritaPadmini ,
+                speakerSocialMediaList: [
+                    {
+                        title: 'Linkedin',
+                        icon: IconLinkedin,
+                        url: 'https://www.linkedin.com/in/spadmini?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                    }
+                ]
+            },
+            {
+                speakerDesignation: 'Director Threat Detection, Salesforce',
+                speakerName: 'Ravi Vinjanampati',
+                speakerImage:RaviVinjanampati ,
+                speakerSocialMediaList: [
+                    {
+                        title: 'Linkedin',
+                        icon: IconLinkedin,
+                        url: 'https://www.linkedin.com/in/rvinjanampati/'
                     }
                 ]
             },
@@ -1245,6 +1514,30 @@ export const HomeContent = {
                     icon: IconLinkedin,
                     url: 'https://www.linkedin.com/in/vivek-yadav-77084744/'
                 }
+            ]
+        },
+        {
+            speakerDesignation: '',
+            speakerName: 'Colonel Arijeet Sen',
+            speakerImage: ColonelArijeetSen,
+            speakerSocialMediaList: [
+                // {
+                //     title: 'Linkedin',
+                //     icon: IconLinkedin,
+                //     url: 'https://www.linkedin.com/in/vivek-yadav-77084744/'
+                // }
+            ]
+        },
+        {
+            speakerDesignation: '',
+            speakerName: 'Cdr Akshay Chuloo(Retd)',
+            speakerImage: CdrAkshayChuloo,
+            speakerSocialMediaList: [
+                // {
+                //     title: 'Linkedin',
+                //     icon: IconLinkedin,
+                //     url: 'https://www.linkedin.com/in/vivek-yadav-77084744/'
+                // }
             ]
         },
         ],
@@ -1778,6 +2071,19 @@ With international experience covering over 20 locations across three geographie
                     )
                 }
             },
+            {
+                title: 'CXO Panel',
+                description: 'Sarita Padmini',
+                src: SaritaPadmini,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {`Sarita is a Borad member at WiCyS India and Senior Director at Protiviti in cybersecurity & data privacy with more than a decade experience and being responsible to contribute to the evolving security challenges and developing innovative solutions for industry.`}
+                        </p>
+                    )
+                }
+            },
             // {
             //     title: "CXO Panel",
             //     description: "Vikas Chaubey",
@@ -2139,13 +2445,13 @@ Awarded the CXO Tech Champion Award 2022, Amit excels in IT strategy, cybersecur
             },
             {
                 title: 'CXO Panel',
-                description: ' Ram Kumar Ganapathi',
+                description: ' Dr Ram Kumar G',
                 src: CxoRamKumarGanapathi,
                 ctaText: 'View',
                 content: () => {
                     return (
                         <p>
-                            {`Ram Kumar Ganapathi is a renowned Cyber Security and Risk Leader with over 20 years of experience in building and managing agile cybersecurity functions for leading multinational companies. Recognized as a 5x LinkedIn Top Voice in Cyber Security, Ram specializes in aligning security strategies with business goals, driving culture change, and optimizing security postures in compliance with global regulations.
+                            {`Dr Ram Kumar G is a renowned Cyber Security and Risk Leader with over 20 years of experience in building and managing agile cybersecurity functions for leading multinational companies. Recognized as a 5x LinkedIn Top Voice in Cyber Security, Ram specializes in aligning security strategies with business goals, driving culture change, and optimizing security postures in compliance with global regulations.
 
 A certified corporate director, author, mentor, and community builder, Ram is passionate about mentoring the next generation and has received numerous accolades, including the Cyber Security Leadership Excellence Award. His expertise spans cybersecurity governance, risk management, cloud security, and incident management, making him a thought leader in the field.`}
                         </p>
@@ -2180,7 +2486,7 @@ A certified corporate director, author, mentor, and community builder, Ram is pa
             },
             {
                 title: 'CXO Panel',
-                description: ' Sriram Puuniyakoti',
+                description: ' Sriram',
                 src: CxoSriramPunniyakoti,
                 ctaText: 'View',
                 content: () => {
@@ -2272,19 +2578,19 @@ A certified corporate director, author, mentor, and community builder, Ram is pa
                     )
                 }
             },
-            // {
-            //     title: 'GOVT. Panel',
-            //     description: 'Rao Arvind Mallari',
-            //     src: raoarvindtechspeak,
-            //     ctaText: 'View',
-            //     content: () => {
-            //         return (
-            //             <p>
-            //                 {`Rao Arvind Mallari is Computer Scientist at the Defence Research and Development Organization (DRDO) currently tasked to coordinate with Gujarat University for DIA-SVPCoE(DRDO-Industry-Academia Sardar Vallabhbhai Patel Center of Excellence). With a career spanning 11.5 years, he has made significant contributions to the development of secure operating systems and has excelled in the domain of IT infrastructure compliance and auditing. Rao Arvind Mallari has been an integral part of DRDO's cutting-edge cyber security research and development efforts. His expertise in both Applied Mathematics and Information Security has provided a unique perspective to his work. His proficiency in information security has led to his involvement in the development of highly secure operating systems for sensitive government applications. His contributions to ensuring the confidentiality, integrity, and availability of data in these systems have been paramount in safeguarding national security. In addition to his involvement in secure OS development, Arvind has been instrumental in carrying out comprehensive compliance assessments and audits of IT infrastructure. His meticulous approach and in-depth knowledge have ensured that nation's IT systems adhere to the highest security standards and industry best practices. As coordinator DIA-SVPCoE, he is tasked to interface with academia and various volunteer based forums such as BSIDES, and identify potential areas as well as partners/talent for collaborative research.`}
-            //             </p>
-            //         )
-            //     }
-            // },
+            {
+                title: 'GOVT. Panel',
+                description: 'Cdr Akshay Chuloo(Retd)',
+                src: CdrAkshayChuloo,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {`Akshay is a professional with 20 years of military experience in Cyber Security and Operations Leadership. He has successfully led digital transformation initiatives, orchestrated large-scale Cyber Security projects and developed comprehensive information security frameworks and policies. His leadership in designing and deploying the Indian Navy’s first Security Operations Center (SOC) was key to driving Cyber Security strategy and governance.`}
+                        </p>
+                    )
+                }
+            },
             {
                 title: 'GOVT. Panel',
                 description: 'Commander Vivek Yadav',
@@ -2298,7 +2604,186 @@ A certified corporate director, author, mentor, and community builder, Ram is pa
                     )
                 }
             },
-           
+            {
+                title: 'CXO Panel',
+                description: 'Ramesh Kumar R',
+                src: RameshKumarR,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {`Ramesh Kumar R is currently the Chief Information Security Officer (CISO) at Biocon Group of Companies, managing cybersecurity and data privacy. He previously served as CISO at Tata Steel, where he developed cybersecurity strategies and risk management. With extensive experience in OT/ICS security from Olam and Adani Enterprise, he has led various cyber defense initiatives. He also held senior roles at Hindustan Coca-Cola Beverages, where he implemented security frameworks and IT operations across multiple regions. Ramesh is known for integrating IT-OT security and regulatory compliance.`}
+                        </p>
+                    )
+                }
+            },
+            {
+                title: 'CXO Panel',
+                description: 'Chitrank Shrivastav',
+                src: ChitrankShrivastav,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {`Chitrank Shrivastav is an accomplished OT security professional, currently serving as Jt. General Manager at Nayara Energy since June 2022. He has extensive experience in OT security, leading the security transformation for refineries, petrochemical plants, and fuel stations. Chitrank is skilled in developing security frameworks, integrating IT-OT systems, and managing risks in OT networks.`}
+                        </p>
+                    )
+                }
+            },
+            {
+                title: 'CXO Panel',
+                description: 'Ambarish Kumar Singh',
+                src: ambirshkumarsingh,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {`Ambrish kumar Singh is the Chief Information Security Officer (CISO) at Godrej & Boyce. A military veteran with over two decades of cybersecurity experience, Ambrish is passionate about building secure products and safeguarding corporate ecosystems. He believes in simplifying cybersecurity by focusing on people, processes, and technology, and emphasizes leadership and culture in driving successful security programs. With expertise in cybersecurity strategy, risk management, and cloud security, Ambrish continues to lead efforts in enhancing digital security and resilience.`}
+                        </p>
+                    )
+                }
+            },
+
+            {
+                title: 'CXO Panel',
+                description: 'Puneet Tambi',
+                src: PuneetTambi,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {`Puneet Tambi is a seasoned professional with over 18 years of experience in the Energy (Power Generation & Transmission) and Manufacturing sectors, specializing in Operational Technology (OT) Systems and OT Security. Having Credentials for delivering innovative, cost-effective, and value-driven engineering solutions blended with OT Security , he has effectively integrated OT security measures to protect critical infrastructure. Puneet’s expertise spans the entire program lifecycle, from budgeting and negotiations to engineering, design, testing, and implementation, making him a key asset for organizations looking to drive technology initiatives. His strategic vision, thought leadership, and practical skills in enhancing cybersecurity and resilience have had a significant impact on the OT and cybersecurity landscape. In December 2020, Puneet founded the OT Security Professionals Community, a platform with over 9,000 LinkedIn followers and 1,500+ WhatsApp community members globally, aimed at promoting a pragmatic and prudent approach to OT and cybersecurity through shared learning and networking`}
+                        </p>
+                    )
+                }
+            },
+   {
+                title: 'Tech Speaker',
+                description: ' Bhargav Rathod',
+                src: bhargavRathod,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {`Bhargav Rathod is a Security Analyst at Salesforce with a strong focus on macOS Forensics and Malware Analysis. Holding an MS in Digital Forensics, he is also GIAC GIME Certified. He has made significant contributions as an Organizing Committee member for the DFRWS USA & DFRWS APAC Conferences, helping to shape the discourse and direction of these prestigious events. His areas of interest are DFIR & Malware Analysis.`}
+                        </p>
+                    )
+                }
+            },
+     
+            {
+                title: 'Tech Speaker',
+                description: ' Abhimanyu Iyer',
+                src: abhimayuIyer,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {` I have 10+ years of experience in cybersecurity and blue team with roles in SOC, Incident Response and Threat Detection. My interests include researching threats and finding ways how attacks work. I like to explore frameworks to mature cyber defence. In my free time i like to watch horror movies and explore productivity hacks.`}
+                        </p>
+                    )
+                }
+            },
+            {
+                title: 'Tech Speaker',
+                description: ' Avinash Reddy Thumma ',
+                src: AvinashReddy,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {` Hi, I'm Avinash Reddy Thumma, Lead Threat Detection Engineer at Salesforce with over 12 years of experience in cybersecurity. I specialize in threat detection, incident response, cloud security, and digital forensics. My career spans roles at ServiceNow, VMware, and Symantec, where I honed my skills in security automation and orchestration.
+
+
+I'm passionate about delivering fast, impactful results and constantly pushing boundaries. Outside of work, I enjoy traveling, driving, cooking, and spending time with my 3-year-old, who keeps life exciting and balanced.`}
+                        </p>
+                    )
+                }
+            },
+            // {
+            //     title: 'CXO Panel',
+            //     description: ' Puneet Tambi ',
+            //     src: '',
+            //     ctaText: 'View',
+            //     content: () => {
+            //         return (
+            //             <p>
+            //                 {` Puneet Tambi is a seasoned professional with over 18 years of experience in the Energy (Power Generation & Transmission) and Manufacturing sectors, specializing in Operational Technology (OT) Systems and OT Security. Having Credentials for delivering innovative, cost-effective, and value-driven engineering solutions blended with OT Security , he has effectively integrated OT security measures to protect critical infrastructure. Puneet’s expertise spans the entire program lifecycle, from budgeting and negotiations to engineering, design, testing, and implementation, making him a key asset for organizations looking to drive technology initiatives. His strategic vision, thought leadership, and practical skills in enhancing cybersecurity and resilience have had a significant impact on the OT and cybersecurity landscape. In December 2020, Puneet founded the OT Security Professionals Community, a platform with over 9,000 LinkedIn followers and 1,500+ WhatsApp community members globally, aimed at promoting a pragmatic and prudent approach to OT and cybersecurity through shared learning and networking`}
+            //             </p>
+            //         )
+            //     }
+            // },
+            {
+                title: 'Tech Speaker',
+                description: ' Chinamay Joshi',
+                src: ChinamayJoshi,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {`I have more than 4 years of experience in handling Red Teaming operations, VAPT and
+SOC operations in major banks, government agencies and the BFSI sector. My
+background also includes working with SOC technologies like SIEM, XDR, PIM, and
+PAM, as well as network and endpoint security solutions. I have also contributed to the
+field with two CVEs: CVE-2023-37569 and CVE-2023-37570.`}
+                        </p>
+                    )
+                }
+            },
+
+            {
+                title: 'Tech Speaker',
+                description: ' Aryan Jogia',
+                src: AryanJogia,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {`Aryan is a security researcher with over 4+ years of experience. He’s a full time malware researcher and loves to evade AV and EDRs. His research interests are not just limited to Windows, but he even develops low level code for *nix systems. Even though his expertise lies in the domain of malware development and reversing, he also dabbles in the domain of red teaming. With his experience in low level programming, he also curates and develops toolkits extensively used for red team engagements. With his CRTO certification in tow, he has led and participated in numerous red team engagements with strong defense mechanisms.`}
+                        </p>
+                    )
+                }
+            },
+            {
+                title: 'Tech Speaker',
+                description: ' Chetanya Kunndra',
+                src: ChetanyaKunndra,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {`Chetanya Kunndra is a security researcher with over 3+ years of experience. His major area of expertise lies within the domain of pentesting and red teaming. Apart from red teaming, he has a knack for developing automation toolkits. He often dabbles with malware development and reverse engineering. With this knowledge he has been successfully able to evade sophisticated defenses in numeros red teaming exercises. He has published several researches in the domain of application of artificial intelligence in cyber security. He has received his Masters of Technology in the domain.`}
+                        </p>
+                    )
+                }
+            },
+            // {
+            //     title: 'Tech Speaker',
+            //     description: ' Chirag Savla',
+            //     src: Chirag,
+            //     ctaText: 'View',
+            //     content: () => {
+            //         return (
+            //             <p>
+            //                 {`Chirag Savla is a cyber security professional with 9+ years of experience. His areas of interest include penetration testing, red teaming, azure and active directory security, and post-exploitation research. For fun, he enjoys creating open-source tools and exploring new attack methodologies in his leisure. Chirag has worked extensively on Azure, Active Directory attacks and defense, and bypassing detection mechanisms. He is the author of multiple open-source tools such as Process Injection, Callidus, and others. He has presented at many conferences and local meetups and has trained people in international conferences like Blackhat, BSides Milano, HackSpaceCon, Wild West Hackin’ Fest, Vulncon.`}
+            //             </p>
+            //         )
+            //     }
+            // },
+            // {
+            //     title: 'Tech Speaker',
+            //     description: ' Raunak Parmar',
+            //     src: Raunakpic,
+            //     ctaText: 'View',
+            //     content: () => {
+            //         return (
+            //             <p>
+            //                 {`Raunak Parmar works as a senior cloud security engineer at White Knight Labs. His areas of interest include web penetration testing, Azure/AWS security, source code review, scripting, and development. He has 4+ years of experience in information security. He enjoys researching new attack methodologies and creating open-source tools that can be used during cloud red team activities. He has worked extensively on Azure and AWS and is the author of Vajra, an offensive cloud security tool. He has spoken at multiple respected security conferences like Black Hat, Defcon, Nullcon, RootCon, HackSpaceCon, Vulncon and also at local meetups.`}
+            //             </p>
+            //         )
+            //     }
+            // },
+
         ]
     },
     EventSponsors: {

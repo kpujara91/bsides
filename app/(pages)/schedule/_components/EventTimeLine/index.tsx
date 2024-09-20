@@ -8,12 +8,13 @@ import TechnicalTalkTrack from "../TechnicalTalkTrack";
 import CxoAndWomenSecurityTrack from "../CxoAndWomenSecurityTrack";
 import VillageTrack from "../VillageTrack";
 import { useRouter } from "next/navigation";
+import WorkshopTrack from "../WorkshopTrack/WorkshopTrack";
 
 const EventTimeLine: React.FC = () => {
   const router = useRouter();
   const techRef = useRef<HTMLDivElement>(null);
   const cxoRef = useRef<HTMLDivElement>(null);
-  const villageRef = useRef<HTMLDivElement>(null);
+  const workShopRef = useRef<HTMLDivElement>(null);
 
   const handleScroll = (id: any) => {
     if (id === 1) {
@@ -21,7 +22,7 @@ const EventTimeLine: React.FC = () => {
     } else if (id === 2) {
       cxoRef.current?.scrollIntoView({ behavior: "smooth" });
     } else if (id === 3) {
-      villageRef.current?.scrollIntoView({ behavior: "smooth" });
+      workShopRef.current?.scrollIntoView({ behavior: "smooth" });
     } else if (id === 4) {
       // router.push()
     }
@@ -72,6 +73,7 @@ const EventTimeLine: React.FC = () => {
                           <p>{lists?.description}</p>
                         </div>
                         {lists?.url  ? (
+                          
                           <Link href={lists?.url} className={styles.linkbtn}>
                             {lists?.urlTitle}
                               <svg
@@ -121,11 +123,11 @@ const EventTimeLine: React.FC = () => {
       <div ref={techRef}>
         <TechnicalTalkTrack />
       </div>
-      <div ref={cxoRef}>
+    <div ref={cxoRef}>
         <CxoAndWomenSecurityTrack />
       </div>
-      <div ref={villageRef}>
-        <VillageTrack />
+      <div ref={workShopRef}>
+        <WorkshopTrack />
       </div>
     </>
   );

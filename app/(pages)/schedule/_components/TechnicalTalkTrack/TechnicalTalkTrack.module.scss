@@ -21,6 +21,19 @@
     .technicalCardsWrapper{
         max-width: 1150px;
         margin: 0 auto;
+        .caption{
+            padding: 8px 16px;
+            border-radius: 50px;
+            color: #ffffff;
+            background: linear-gradient(180deg, #00FD9D 0%, #933AFA 100%);
+            display: inline-block;
+            margin: 0 auto;
+            @media (max-width: $sm){
+                order: 3;
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
         .breakBox{
             text-align: center;
             background-color: $grey18;
@@ -39,15 +52,8 @@
             &:last-child{
                 margin-bottom: 0;
             }
-            .caption{
-                padding: 8px 16px;
-                border-radius: 50px;
-                color: #ffffff;
-                background: linear-gradient(180deg, #00FD9D 0%, #933AFA 100%);
-                display: inline-block;
-                margin: 0 auto;
-            }
-            .breakTime{
+           
+            .ScheduleTime{
                 color: $white;
                 font-size: 20px;
                 margin-top: 15px;
@@ -105,6 +111,9 @@
                         display: block;
                         margin-top: 10px;
                         color: $secondary;
+                        @media (max-width: $sm){
+                            font-size: 12px;
+                        }
                     }
                 }
                 .EventMembersWrap{
@@ -161,6 +170,7 @@
                             }
 
                             .desc{
+                                text-align: center;
                                 font-size: 12px;
                                 @media (min-width: $sm){
                                     font-size: 14px;
@@ -173,10 +183,17 @@
                                     margin-bottom: 0;
                                 }
                                 a{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    gap: 6px;
                                     color: $white;
                                     transition: 0.3s ease-in-out;
                                     &:hover{
                                         color: $secondary;
+                                    }
+                                    @media (max-width: $md){
+                                        flex-direction: column;
                                     }
                                 }
                             }
@@ -189,3 +206,35 @@
     }
 
 }
+
+
+.tabButton {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    
+    &:hover {
+      border-color: #fff; /* Highlighted border on hover */
+      background-color: #933AFA; /* Slightly lighter background on hover */
+    }
+  }
+  
+  .activeTab {
+    background-color: #00FD9D; /* White background when active */
+    color: #000; /* Black text when active */
+    border-color: #fff; /* Border stays white */
+  }
+  
+  .eventsTimeLine {
+    gap: 15px;
+    // margin-top: 20px;
+    .tabButton {
+      min-width: 120px; /* Equal button width */
+    }
+  }
+  

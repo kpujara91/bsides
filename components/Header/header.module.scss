@@ -2,14 +2,18 @@
 @import '@/assets/scss/variables.scss';
 
 .siteHeader{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 10px 0;
-    z-index: 9;
+    z-index: 99;
     @media (min-width: $xl){
         padding: 0;
+    }
+    &.headerActive{
+        background-color: $black;
+        border-bottom: 1px solid #dfdfdf52;
     }
     .siteContent{
         overflow: hidden;

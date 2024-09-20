@@ -1,6 +1,8 @@
 import AnimateCircleImage from '../../public/images/circle-animate.webp'
 import ConferenceBannerBG from '../../public/images/conference-banner.webp'
 import SponsorControlCase from '../../public/images/sponsor-control-case.jpg'
+import SentinelOne from '../../public/images/sentinel-one.png'
+import SentinelOneWhite from '../../public/images/sentinel-one-white.png'
 import SponsorKyzotrick from '../../public/images/sponsor-kyzotrick.png'
 import SponsorMiniOrange from '../../public/images/sponsor-miniorange.png'
 import SponsorHackerOne from '../../public/images/sponsor-hackerone.png'
@@ -8,6 +10,13 @@ import SponsorSynack from '../../public/images/sponsor-synack.png'
 import SponsorProjectDiscovery from '../../public/images/sponsor-project-discovery.png'
 import SponsorBugBase from '../../public/images/sponsor-bugbase.svg'
 import SponsorCobalt from '../../public/images/sponsor-cobalt.png'
+
+
+import SalesForce from '../../public/images/sales-force.png'
+import RiskProfiler from '../../public/images/RiskProfiler.webp'
+import Amynasec from '../../public/images/amynas-logo.png'
+
+
 import SponsorSecasure from '../../public/images/sponsor-secasure.png'
 import SponsorRedTeamSummit from '../../public/images/sponsor-red-team-summit.png'
 import SponsorTheSecopsGroup from '../../public/images/sponsor-the-secops-group.svg'
@@ -57,28 +66,41 @@ export const ConferenceContent = {
                 MainTitle : <>SILVER <span>SPONSOR</span></>,
                 SponsorsDetails : [
                     {
-                        ImagePath : SponsorControlCase,
+                        ImagePath : SentinelOneWhite,
                         extraTitle:"",
                         description : [
-                            `ControlCase, the global leader in Compliance as a Service(CaaS), has successfully assisted hundreds of clients worldwide in becoming compliant with various security standards and regulations in a cost-effective and optimal manner. From PCI to SOX to GLBA, ControlCase has assisted clients in meeting their compliance and security objectives in a timely and cost-effective manner.`
+                            `SentinelOne started with an idea: to protect the things that matter most to our customers by pushing the boundaries of cybersecurity. Over the decades, we’ve hustled and innovated, we’ve grown and transformed, to create the world’s most advanced cybersecurity platform. Valuing trust, accountability, ingenuity, and unstoppable drive above all else, our teams are inspired to challenge the status quo and build lasting partnerships with every customer.`
                         ],
-                        url : `https://www.controlcase.com/`,
-                        urlTitle : `Learn more : https://www.controlcase.com/`
+                        url : `https://www.sentinelone.com/`,
+                        urlTitle : `Learn more : https://www.sentinelone.com/`
                     },
-                    {
-                        ImagePath : SponsorKyzotrick,
-                        extraTitle:"",
-                        description : [
-                            `Keyzotrick is a global cyber intelligence and security organization based in Jamshedpur, Jharkhand, with operations in Ahmedabad, Gujarat. We serve the Intelligence Community, Law Enforcement, and Corporations with top-tier excellence, offering expertise in police modernization, fraud investigation, surveillance, and cutting-edge technology solutions. Partnered with major government agencies and private sector organizations, we focus solely on cyber intelligence and investigations, delivering vendor- neutral, high-end security solutions.`,
-                            `Our advanced data-driven media monitoring services provide important insights to authorities in monitoring, tracking, and analyzing online activity on all levels of the internet, including the CyberHumint, SIGINT, COMMINT, Deep and Dark web, in order to identify new data sources and leads to maximize their investigations. Our value and motive stand true to social-equity, law and order, and national security.`
-                        ],
-                        url : `https://www.keyzotrickintelligence.com/`,
-                        urlTitle : `Learn more : https://www.keyzotrickintelligence.com/`
-                    }
-                ]
+                    // {
+                    //     ImagePath : SponsorKyzotrick,
+                    //     extraTitle:"",
+                    //     description : [
+                    //         `Keyzotrick is a global cyber intelligence and security organization based in Jamshedpur, Jharkhand, with operations in Ahmedabad, Gujarat. We serve the Intelligence Community, Law Enforcement, and Corporations with top-tier excellence, offering expertise in police modernization, fraud investigation, surveillance, and cutting-edge technology solutions. Partnered with major government agencies and private sector organizations, we focus solely on cyber intelligence and investigations, delivering vendor- neutral, high-end security solutions.`,
+                    //         `Our advanced data-driven media monitoring services provide important insights to authorities in monitoring, tracking, and analyzing online activity on all levels of the internet, including the CyberHumint, SIGINT, COMMINT, Deep and Dark web, in order to identify new data sources and leads to maximize their investigations. Our value and motive stand true to social-equity, law and order, and national security.`
+                    //     ],
+                    //     url : `https://www.keyzotrickintelligence.com/`,
+                    //     urlTitle : `Learn more : https://www.keyzotrickintelligence.com/`
+                    // }
+                ],
+                show: true
             },
             {
                 MainTitle : <>BRONZE <span>SPONSOR</span></>,
+                SponsorsDetails : [
+                    {
+                        ImagePath : BugcrowdLogo,
+                        extraTitle:"",
+                        description : [
+                            ``
+                        ],
+                        url:`https://www.bugcrowd.com`,
+                        urlTitle : `Learn more : https://www.bugcrowd.com`
+                    }
+                ],
+                show: true
             },
             {
                 MainTitle : <>Networking Dinner <span>SPONSOR</span></>,
@@ -126,35 +148,81 @@ export const ConferenceContent = {
                 show: true
             },
             {
-                MainTitle :  <>LANYARD <span>SPONSOR</span></>,
+                MainTitle :  <>AWARD SHOW <span>SPONSOR</span></>,
                 SponsorsDetails : [
                     {
-                        ImagePath : SponsorRiskProfiler,
+                        ImagePath : RiskProfiler,
                         extraTitle:"",
                         description : [
-                            `Risk Profiler fills the gaps in cyber protection by looking at the shadow risks, their paths and implications back into the customers infrastructure. Through its modern, AI based, approach to giving complete cybersecurity risk analysis, the customer gets an unprecedented understanding of risk and its origin.`
+                            ` Risk Profiler fills the gaps in cyber protection by looking at the shadow risks, their paths and implications back into the customers infrastructure. Through its modern, AI based, approach to giving complete cybersecurity risk analysis, the customer gets an unprecedented understanding of risk and its origin.`
                         ],
                         url : `https://riskprofiler.io/`,
                         urlTitle : `Learn more : https://riskprofiler.io/`
                     }
-                ]
+                    
+                ],
+                show: true
+            },
+            {
+                MainTitle :  <>LANYARD <span>SPONSOR</span></>,
+                SponsorsDetails : [
+                    {
+                        ImagePath : SalesForce,
+                        extraTitle:"",
+                        description : [
+                            ` Upholding our company's core value, the Salesforce Security team is responsible for securing our customers' data as well as the creation and execution of programs that drive a security culture with Salesforce's customers, partners and employees. We continuously invest in the security of our products and empower our community to do the same.`
+                        ],
+                        url : `https://www.salesforce.com/`,
+                        urlTitle : `Learn more : https://www.salesforce.com/`
+                    }
+                    
+                ],
+                show: true
             },
             {
                 MainTitle : <>T-SHIRT <span>SPONSOR</span></>,
                 SponsorsDetails : [
                     {
-                        ImagePath : SponsorCobalt,
+                        ImagePath : SalesForce,
                         extraTitle:"",
                         description : [
-                            `Cobalt's Pentest as a Service (PtaaS) platform is modernizing traditional pentesting. By combining a SaaS platform with an exclusive community of testers, we deliver the real-time insights you need to remediate risk quickly and innovate securely.`
+                            ` Upholding our company's core value, the Salesforce Security team is responsible for securing our customers' data as well as the creation and execution of programs that drive a security culture with Salesforce's customers, partners and employees. We continuously invest in the security of our products and empower our community to do the same.`
                         ],
-                        url : `https://www.cobalt.io/`,
-                        urlTitle : `Learn more : https://www.cobalt.io/`
+                        url : `https://www.salesforce.com/`,
+                        urlTitle : `Learn more : https://www.salesforce.com/`
                     }
-                ]
+                ],
+                show: true
             },
             {
                 MainTitle : <>BADGE <span>SPONSOR</span></>,
+                SponsorsDetails : [
+                    {
+                        ImagePath : SalesForce,
+                        extraTitle:"",
+                        description : [
+                            ` Upholding our company's core value, the Salesforce Security team is responsible for securing our customers' data as well as the creation and execution of programs that drive a security culture with Salesforce's customers, partners and employees. We continuously invest in the security of our products and empower our community to do the same.`
+                        ],
+                        url : `https://www.salesforce.com/`,
+                        urlTitle : `Learn more : https://www.salesforce.com/`
+                    }
+                ],
+                show: true
+            },
+            {
+                MainTitle : <>AUT0MOTIVE CYBERSECURITY <span>SPONSOR</span></>,
+                SponsorsDetails : [
+                    {
+                        ImagePath : Amynasec  ,
+                        extraTitle:"",
+                        description : [
+                            `Amynasec Research Labs is a prominent provider of automotive cyber security services in India. We provide services such as TARA, penetration testing, cyber security implementation and design for both AUTOSAR and non-AUTOSAR architectures based on J3061, ISO 21434, WP.29, R155, R156.`
+                        ],
+                        url : `https://amynasec.io/`,
+                        urlTitle : `Learn more : https://amynasec.io/`
+                    }
+                ],
+                show: true
             },
             // {
             //     MainTitle : <>CXO TRACK <span> SPONSOR</span></>,

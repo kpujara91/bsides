@@ -37,7 +37,7 @@ const OurSponsors: React.FC = () => {
                                                                 (
                                                                     <>
                                                                     <br/>
-                                                                    <span className='ml-40 text-center'>{items?.extraTitle}</span>
+                                                                    <span className='text-center' style={{width: '100%'}}>{items?.extraTitle}</span>
                                                                     </>
                                                                 )
                                                                }
@@ -46,12 +46,17 @@ const OurSponsors: React.FC = () => {
                                                                 {items?.description && items?.description?.map((des,i) => {
                                                                     return(
                                                                         <React.Fragment key={i}>
-                                                                        <p className='mb-3 last:mb-0'>{des}</p>
+                                                                            {
+                                                                                des &&
+                                                                                (
+                                                                                    <p className='mb-3 xl:mb-6 last:mb-0'>{des}</p>
+                                                                                )
+                                                                            }
                                                                         </React.Fragment>
                                                                     )
                                                                 })}
     
-                                                                <Link href={items?.url} className={`xl:mt-4 ${styles.urlLink}`} target='_blank'>{items.urlTitle}</Link>
+                                                                <Link href={items?.url} className={`${styles.urlLink}`} target='_blank'>{items.urlTitle}</Link>
                                                             </div>
                                                         </div>
                                                     </React.Fragment>

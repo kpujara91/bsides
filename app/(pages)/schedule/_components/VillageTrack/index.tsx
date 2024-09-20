@@ -8,7 +8,7 @@ const VillageTrack: React.FC = () => {
   return (
     <section className={`${styles.TechnicalTalkTrackWrapper} ptb-160`}>
       <div className="container">
-        <div className={`${styles.titleWrapper} title-wrapper text-center`}>
+         {/*<div className={`${styles.titleWrapper} title-wrapper text-center`}>
           <h2 className={`title ${styles.title}`}>
             {ScheduleContent?.Schedule?.VillageTrackContent?.MainTitle}
           </h2>
@@ -26,7 +26,7 @@ const VillageTrack: React.FC = () => {
             </p>
             )}
           </div>
-        </div>
+        </div> */}
         {/* <div className={styles.technicalCardsWrapper}>
           {ScheduleContent?.Schedule?.VillageTrackContent?.VillageTrackLists?.SpeakerDetails.map(
             (lists, i) => {
@@ -107,10 +107,10 @@ const VillageTrack: React.FC = () => {
           {ScheduleContent?.Schedule?.VillageTrackContent?.VillageTrackLists?.mainStage?.map((content,i) =>{
             return(
               <React.Fragment key={i}>
-                {(content?.breakTitle || content?.breakTime) && (
+                {(content?.ScheduleTitle || content?.ScheduleTime) && (
                 <div>
-                  <p className={`${styles.caption}`}>{content?.breakTitle}</p>
-                  <p className={styles.breakTime}>{content?.breakTime}</p>
+                  <p className={`${styles.caption}`}>{content?.ScheduleTitle}</p>
+                  <p className={styles.ScheduleTime}>{content?.ScheduleTime}</p>
                 </div>
                 )}
               </React.Fragment>
@@ -122,10 +122,10 @@ const VillageTrack: React.FC = () => {
           {ScheduleContent?.Schedule?.VillageTrackContent?.VillageTrackLists?.Confluence?.map((content,i) =>{
             return(
               <React.Fragment key={i}>
-                {(content?.breakTitle || content?.breakTime) && (
+                {(content?.ScheduleTitle || content?.ScheduleTime) && (
                 <div>
-                  <p className={`${styles.caption}`}>{content?.breakTitle}</p>
-                  <p className={styles.breakTime}>{content?.breakTime}</p>
+                  <p className={`${styles.caption}`}>{content?.ScheduleTitle}</p>
+                  <p className={styles.ScheduleTime}>{content?.ScheduleTime}</p>
                 </div>
                 )}
               </React.Fragment>
