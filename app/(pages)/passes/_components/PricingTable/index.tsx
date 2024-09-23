@@ -18,9 +18,9 @@ const PricingTable: React.FC = () => {
                             <td></td>
                             <td className={`${styles.TSWrapp}`} colSpan={2}>Early BIRD - 24 july to 10 august 2024</td>
 
-                            <td className={`${styles.TSWrapp}`} colSpan={2}>Standard Sale - 10 aug to 10 sep 2024</td>
+                            <td className={`${styles.TSWrapp}`} colSpan={2}>Standard Sale - 10 aug to until sold out</td>
 
-                            <td className={`${styles.TSWrapp}`} colSpan={2}>Last Min - 10 sep to until sold out</td>
+                            {/* <td className={`${styles.TSWrapp}`} colSpan={2}>Last Min - 10 sep to until sold out</td> */}
                             <td className={`${styles.MinWidth}`}></td>
                         </tr>
                         <tr>
@@ -31,8 +31,8 @@ const PricingTable: React.FC = () => {
                             <td>INR</td>
                             <td>USD</td>
                             
-                            <td>INR</td>
-                            <td>USD</td>
+                            {/* <td>INR</td>
+                            <td>USD</td> */}
                             <td className={`${styles.MinWidth}`}>DELIVERABLES</td>
                         </tr>
                         <tr>
@@ -43,8 +43,8 @@ const PricingTable: React.FC = () => {
                             <td>4000 INR</td>
                             <td>60 USD</td>
 
-                            <td>5000 INR</td>
-                            <td>70 USD</td>
+                            {/* <td>5000 INR</td>
+                            <td>70 USD</td> */}
 
                             <td className={`${styles.TSWrapp} ${styles.MinWidth}`}>
                                 <ul>
@@ -63,8 +63,8 @@ const PricingTable: React.FC = () => {
                             <td>8000 INR</td>
                             <td>100 USD</td>
 
-                            <td>10,000 INR</td>
-                            <td>140 USD</td>
+                            {/* <td>10,000 INR</td>
+                            <td>140 USD</td> */}
 
                             <td className={`${styles.TSWrapp} ${styles.MinWidth}`}>
                                 <ul>
@@ -83,8 +83,8 @@ const PricingTable: React.FC = () => {
                             <td>10,500 INR</td>
                             <td>140 USD</td>
 
-                            <td>12,000 INR</td>
-                            <td>180 USD</td>
+                            {/* <td>12,000 INR</td>
+                            <td>180 USD</td> */}
 
                             <td className={`${styles.TSWrapp} ${styles.MinWidth}`}>
                                 <ul>

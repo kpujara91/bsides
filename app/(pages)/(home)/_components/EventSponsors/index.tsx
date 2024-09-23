@@ -8,7 +8,7 @@ const EventSponsors: React.FC = () => {
     <>
         <section className={`pt-80 ${styles.eventSponsorsWrapper}`}>
             <div className="container">
-                <div className="title-wrapper">
+                <div className="title-wrapper text-center">
                     <span className={`h3 caption ${styles.PageCaption}`}>{HomeContent?.EventSponsors?.Caption}</span>
                     <h1 className={`${styles.MainTitle} title`}>{HomeContent?.EventSponsors?.Title}</h1>
                 </div>

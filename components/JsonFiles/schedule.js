@@ -77,6 +77,7 @@ import LekshmiNair from '../../public/images/LekshmiNair.png'
 
 import GunjanImage from "../../public/images/speaker-gunjan-chilllarv.jpg";
 import krishnaPandey from '../../public/images/krishnaPandey.jpeg'
+import SumitKumar from '../../public/images/Sumit-Kumar.jpeg'
 import BalaRamanan from '../../public/images/cxo-bala-ramanan.jpeg'
 
 
@@ -153,7 +154,14 @@ import AmitKumbhat from '../../public/images/cxo-amit-kumbhat.jpeg'
 
 import JayTurlaImage from "../../public/images/speaker-jayturla.jpg";
 import SaurabhImage from "../../public/images/speaker-saurabh.jpg";
+import BugcrowdLogo from '../../public/images/BugcrowdLogo.png'
 import immunefi from '../../public/images/immunefi.png'
+import RiskProfiler from '../../public/images/RiskProfiler.webp'
+import Amynasec from '../../public/images/amynas-logo.png'
+import synackLogo from '../../public/images/synack.svg'
+import cobaltLogo from '../../public/images/sponsorLogo.webp'
+import SentinelOneWhite from '../../public/images/sentinel-one-white.png'
+
 // import immunefi from '../../public/images/immunify.svg'
 import TechSpeakerAndrezj from '../../public/images/speaker-andrezj.jpg'
 import ParthShah from '../../public/images/ParthShah.jpg'
@@ -185,7 +193,8 @@ import ShriyaManiktala from '../../public/images/ShriyaManiktala.png'
 
 import konda_vishweshwar_reddy from '../../public/images/konda_vishweshwar_reddy.jpg'
 import SpeakerRahulSasi from '../../public/images/speaker-rahul-sasi.jpg'
-
+import NitinSharma from '../../public/images/Nitin-Sharma.png'
+import TapendraDev from '../../public/images/Tapendra-Dev.jpeg'
 import bhargavRathod from '../../public/images/BhargavRathod .png'
 import abhimayuIyer from '../../public/images/abhimayuIyer.jpeg'
 import AvinashReddy from '../../public/images/AvinashReddy .jpg'
@@ -549,7 +558,7 @@ export const ScheduleContent = {
                   imagePath: SpeakerRahulSasi,
                   name: `Rahul Sasi`,
                   logo:'',
-                  description: `CEO, Executive Chairman and Founder`,
+                  description: `CEO, Executive Chairman and Founder, CloudSek`,
                   url: `https://www.linkedin.com/in/fb1h2s/`,
                   subtitle: ``,
                 
@@ -1062,7 +1071,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                   speakerTitle: `Moderator`,
                   imagePath: AbhilashaImage,
                   name: `Dr. Abhilasha Vyas`,
-                  description: `Business Unit Head, Cloud Security & BI, CloudThat`,
+                  description: `Head Technical Sales at CloudThat`,
                   url: `https://www.linkedin.com/in/abhilasharvyas/`,
                   subtitle: ``,
                 },
@@ -1133,7 +1142,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                   speakerTitle: `Panelist`,
                   imagePath: KamalSharmaImage,
                   name: `Kamal Sharma`,
-                  description: `Vice President & CISO At ASM Technologies`,
+                  description: `Founder of AuthenticOne & CISO at ASM Technologies`,
                   url: `https://www.linkedin.com/in/kamalsh/`,
                   subtitle: ``,
                 },
@@ -1219,7 +1228,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                   speakerTitle: `Moderator`,
                   imagePath: AlexTugatijianImage,
                   name: `Alex Tugatijian`,
-                  description: `Middle-East Lead CSM-Synack`,
+                  description: `Independent Cybersecurity Consultant`,
                   url: `https://www.linkedin.com/in/alex-t-a5736022a/`,
                   subtitle: ``,
                 },
@@ -1245,14 +1254,14 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                   imagePath: PraveenKumarMotupalli,
                   name: `Praveen Kumar Motupalli`,
                   description: `Information Security and Technology Risk Executive`,
-                  url: `https://www.linkedin.com/in/patrickpitchappa/`,
+                  url: `https://www.linkedin.com/in/praveenmotupalli/`,
                   subtitle: ``,
                 },
                 {
                   speakerTitle: `Panelist`,
                   imagePath: NavaneethanImage,
                   name: `Navaneethan M`,
-                  description: `Vice President- Chief Information Security Officer & Data Privacy Officer, TataPlay Group`,
+                  description: `Chief Information Security Officer & Head IT at Confidential`,
                   url: `https://www.linkedin.com/in/navaneethan-m-2346052/`,
                   subtitle: ``,
                 },
@@ -1312,14 +1321,14 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
               providedTime: `3:30 PM - 4:15 PM`,
               MainTitle: `Case Studies: Real-World Incidents Involving Third-Party Cloud Integrations`,
               innerDetails: [
-                // {
-                //   speakerTitle: `Moderator`,
-                //   imagePath: GunjanImage,
-                //   name: `Gunjan Chhillar`,
-                //   description: `Security Specialist Crowdstrike`,
-                //   url: ``,
-                //   subtitle: ``,
-                // },
+                {
+                  speakerTitle: `Moderator`,
+                  imagePath: NitinSharma,
+                  name: `Nitin Sharma`,
+                  description: ` Manager, Platform Security at Salesforce`,
+                  url: ``,
+                  subtitle: ``,
+                },
                 {
                   speakerTitle: `Panelist`,
                   imagePath: GauravBatra,
@@ -1352,6 +1361,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                   url: `https://www.linkedin.com/in/kumaresan-m-b36b065/`,
                   subtitle: ``,
                 },
+
               ],
             },
            
@@ -1376,7 +1386,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                   speakerTitle: `Moderator`,
                   imagePath: GunjanImage,
                   name: `Gunjan Chhillar`,
-                  description: `Security Specialist Crowdstrike`,
+                  description: `Security Specialist at Crowdstrike`,
                   url: `https://www.linkedin.com/in/gunjanchhillar29/`,
                   subtitle: ``,
                 },
@@ -1412,6 +1422,14 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                   url: `https://www.linkedin.com/in/krishna-pandey1/`,
                   subtitle: ``,
                 },
+                {
+                  speakerTitle: `Panelist`,
+                  imagePath: SumitKumar,
+                  name: `Sumit Kumar`,
+                  description: `Chief Information Security Officer, Indian International Exchange ( IFSC) Ltd`,
+                  url: `https://www.linkedin.com/in/sumit-kumar-cissp%C2%AE-90427b53?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
+                  subtitle: ``,
+                },
   
               ],
             },
@@ -1435,7 +1453,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                 {
                   speakerTitle: `Speaker`,
                   imagePath:AliBinDaranei ,
-                  name: `Ali bawazeer`,
+                  name: `Ali Bawazeer`,
                   description: `Technical Director , Yogosha`,
                   url: ``,
                   subtitle: ``,
@@ -1458,7 +1476,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                 {
                   speakerTitle: `Panelist`,
                   imagePath: BrittoSadan,
-                  name: `Britto Sadan`,
+                  name: `Britto Sidhan`,
                   description: `General Manager (Global Security Lab) at Schneider Electric`,
                   url: `https://www.linkedin.com/in/brittosidhan/`,
                   subtitle: ``,
@@ -1475,7 +1493,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                   speakerTitle: `Panelist`,
                   imagePath: ChitrankShrivastav,
                   name: `Chitrank Shrivastav`,
-                  description: `OT SECURTIY - JT GENERAL MANAGER`,
+                  description: `Nayara Energy - JT GENERAL MANAGER`,
                   url: `https://in.linkedin.com/in/chitrankshrivastav`,
                   subtitle: ``,
                 },
@@ -1542,7 +1560,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
               MainTitle: `Scaling AWS GuardDuty: A Comprehensive Detection Strategy for Enhanced Threat Visibility`,
               innerDetails: [
                 {
-                  speakerTitle: `Panelist`,
+                  speakerTitle: `Speaker`,
                   imagePath: AvinashReddy,
                   name: `Avinash Reddy Thumma`,
                   description: `Lead Threat Detection Engineer at Salesforce`,
@@ -1634,7 +1652,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                   imagePath: PraveenKumarMotupalli,
                   name: `Praveen Kumar Motupalli`,
                   description: `Information Security and Technology Risk Executive`,
-                  url: `https://www.linkedin.com/in/patrickpitchappa/`,
+                  url: `https://www.linkedin.com/in/praveenmotupalli/`,
                   subtitle: ``,
                 },
                 {
@@ -1645,14 +1663,14 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                   url: `https://www.linkedin.com/in/kumarmithilesh/`,
                   subtitle: ``,
                 },
-                // {
-                //   speakerTitle: `Panelist`,
-                //   imagePath: CeliaImage,
-                //   name: `Celia Rexselin`,
-                //   description: `Global Architecture Risk And Assessments Lead (Vice President)`,
-                //   url: ``,
-                //   subtitle: ``,
-                // },
+                {
+                  speakerTitle: `Panelist`,
+                  imagePath: TapendraDev,
+                  name: `Tapendra Dev`,
+                  description: `Founder & CEO Of Secure Blink`,
+                  url: `https://www.linkedin.com/in/tapendradev/`,
+                  subtitle: ``,
+                },
                 // {
                 //   speakerTitle: `Panelist`,
                 //   imagePath: PatrickPitchappaImage,
@@ -2157,10 +2175,31 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
         {
           image:immunefi,
           urlLink: 'https://immunefi.com/bug-bounty/?utm_source=Security-BSides&utm_medium=events&utm_campaign=Security-BSides'
-        }
-        // {
-        //   image: ExhibitorLogo1,
-        // },
+        },
+        {
+          image: SentinelOneWhite,
+           urlLink: 'https://www.sentinelone.com/'
+        },
+        {
+          image:BugcrowdLogo,
+          urlLink: 'https://www.bugcrowd.com/'
+        },
+        {
+          image:RiskProfiler,
+          urlLink: 'https://riskprofiler.io/'
+        },
+        {
+          image:Amynasec,
+          urlLink: 'https://amynasec.io/'
+        },
+        {
+          image: synackLogo,
+           urlLink: 'https://www.synack.com/red-team/'
+        },
+        {
+          image: cobaltLogo,
+           urlLink: 'https://www.cobalt.io/'
+        },
         // {
         //   image: ExhibitorLogo2,
         // },

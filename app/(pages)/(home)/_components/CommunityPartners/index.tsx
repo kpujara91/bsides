@@ -8,11 +8,11 @@ const CommunityPartners: React.FC = () => {
     <>
         <section className={`pb-80 pt-80 ${styles.communityPartnersWrapper}`}>
             <div className="container">
-                <div className="title-wrapper">
+                <div className="title-wrapper text-center">
                     <h2 className='title'>{HomeContent?.CommunityPartners?.Title}</h2>
                 </div>
                 {HomeContent?.CommunityPartners?.CommunityPartnerList &&
-                    <ul className={`flex items-stretch sm:gap-y-12 gap-6 flex-wrap sm:gap-x-0 gap-x-6 justify-center sm:justify-start ${styles.CommunityPartnerList}`}>
+                    <ul className={`flex items-center sm:gap-y-12 gap-6 flex-wrap sm:gap-x-0 gap-x-6 justify-center ${styles.CommunityPartnerList}`}>
                         {HomeContent?.CommunityPartners?.CommunityPartnerList?.map((list,i)=>{
                             return(
                                 <React.Fragment key={i}>

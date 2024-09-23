@@ -12,6 +12,7 @@ import AboutImage10 from '../../public/images/about-image10.webp'
 import AboutImage11 from '../../public/images/about-image11.webp'
 import AboutImage12 from '../../public/images/about-image12.webp'
 import IconTwitter from '../../public/images/icon-twitter.svg'
+import IconInstagram from '../../public/images/icon-instagram.svg'
 import IconLinkedin from '../../public/images/icon-linkedin.svg'
 import SpeakerImage1 from '../../public/images/speaker-image1.webp'
 import SpeakerImage3 from '../../public/images/speaker-image3.webp'
@@ -102,7 +103,7 @@ import KishanKendreImage from "../../public/images/speaker-kishan-kendre.png";
 import KartikShindeImage from "../../public/images/speaker-kartik-shinde.png";
 import SaritaPadmini from "../../public/images/Sarita-Padmini.jpeg";
 import RaviVinjanampati from "../../public/images/Ravi-Vinjanampati.jpeg";
-
+import SumitKumar from "../../public/images/Sumit-Kumar.jpeg";
 import adityachandra from '../../public/images/adityachandra.jpeg'
 import mustafa_speaker from '../../public/images/mustafa_speaker.webp'
 import konda_vishweshwar_reddy from '../../public/images/konda_vishweshwar_reddy.jpg'
@@ -138,6 +139,8 @@ import ChinamayJoshi from '../../public/images/chinamay-joshi.jpeg'
 
 import AryanJogia from '../../public/images/AryanJogia .jpg'
 import ChetanyaKunndra from '../../public/images/ChetanyaKunndra.jpg'
+import NitinSharma from '../../public/images/Nitin-Sharma.png'
+import TapendraDev from '../../public/images/Tapendra-Dev.jpeg'
 import TarunKoyalwar from '../../public/images/Tarun-Koyalwar.jpg'
 import DhiyaneshwaranBalasubramaniam from '../../public/images/Dhiyaneshwaran-Balasubramaniam.jpg'
 
@@ -161,8 +164,13 @@ import raoarvindtechspeak from '../../public/images/raoarvind_techspeak.jpg'
 import cdrvivekyadav from '../../public/images/vivekyadav_govt.jpeg'
 import ColonelArijeetSen from '../../public/images/Colonel-Arijeet-Sen.jpeg'
 import CdrAkshayChuloo from '../../public/images/Akshay-Chuloo.jpeg'
+import ColHarkamalSidhu from '../../public/images/Col-Harkamal-Sidhu.jpeg'
+import LavinaSinha from '../../public/images/Lavina-Sinha.jpeg'
 
 import ISC2Bangalore from '../../public/images/ISC2Bangalore.webp'
+import OTSecurity from '../../public/images/OT-SECURITY.jpeg'
+import COCONLogo from '../../public/images/GandhinagarLogo.jpeg'
+import ISRALogo from '../../public/images/ISRA-Logo.jpeg'
 
 
 import credcommunity from '../../public/images/cred_community.png'
@@ -240,7 +248,7 @@ export const HomeContent = {
         KeynoteSpeakerList: [
             {
                 speakerImage: konda_vishweshwar_reddy,
-                speakerName: `Konda Vishweshwar Reddy`,
+                speakerName: `Shri Konda Vishweshwar Reddy`,
                 speakerDesignation: `Engineer, Innovator & Member of Parliament`,
                 // pdfRef:"https://www.kvrformp.org/_files/ugd/5f1b67_e61aabfb26574232a5772898dfe2552b.pdf",
                 speakerSocialMediaList: [
@@ -277,7 +285,7 @@ export const HomeContent = {
             {
                 speakerImage: SpeakerRahulSasi,
                 speakerName: `Rahul Sasi`,
-                speakerDesignation: `CEO, Executive Chairman and Founder`,
+                speakerDesignation: `CEO, Executive Chairman and Founder, CloudSek`,
                 speakerSocialMediaList: [
                     // {
                     //     title:'X',
@@ -821,7 +829,7 @@ export const HomeContent = {
             {
                 speakerImage: CxoAbhilasha,
                 speakerName: `Dr. Abhilasha Vyas`,
-                speakerDesignation: `Business unit Head, Cloud Security & BI at CloudThat`,
+                speakerDesignation: `Head Technical Sales At CloudThat`,
                 speakerSocialMediaList: [
                     {
                         title: 'Linkedin',
@@ -916,7 +924,7 @@ export const HomeContent = {
             },
             {
                 speakerImage: CxoBrittoSadan,
-                speakerName: `Britto Sadan`,
+                speakerName: `Britto Sidhan`,
                 speakerDesignation: `General Manager (Global Security Lab) at Schneider Electric`,
                 speakerSocialMediaList: [
                     {
@@ -1222,7 +1230,7 @@ export const HomeContent = {
             },
             {
                 speakerDesignation:
-                    'Independent cybersecurity consultant',
+                    'Independent Cybersecurity Consultant',
                 speakerName: 'Alex Tugatijian',
                 speakerImage: CxoAlexTugatijian,
                 speakerSocialMediaList: [
@@ -1374,7 +1382,7 @@ export const HomeContent = {
                 ]
             },
             {
-                speakerDesignation: 'OT SECURTIY - JT GENERAL MANAGER',
+                speakerDesignation: 'Nayara energy - JT GENERAL MANAGER',
                 speakerName: 'Chitrank Shrivastav',
                 speakerImage: ChitrankShrivastav,
                 speakerSocialMediaList: [
@@ -1411,7 +1419,7 @@ export const HomeContent = {
             },
             {
                 speakerDesignation: 'Technical Director , Yogosha',
-                speakerName: 'Ali bawazeer',
+                speakerName: 'Ali Bawazeer',
                 speakerImage: AliBinDaranei,
                 speakerSocialMediaList: [
                     {
@@ -1469,6 +1477,30 @@ export const HomeContent = {
                     }
                 ]
             },
+            {
+                speakerDesignation: 'Manager, Platform Security at Salesforce',
+                speakerName: 'Nitin Sharma',
+                speakerImage:NitinSharma ,
+                speakerSocialMediaList: [
+                    // {
+                    //     title: 'Linkedin',
+                    //     icon: IconLinkedin,
+                    //     url: 'https://www.linkedin.com/in/sumit-kumar-cissp%C2%AE-90427b53?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+                    // }
+                ]
+            },
+            {
+                speakerDesignation: 'Founder & CEO Of Secure Blink',
+                speakerName: 'Tapendra Dev',
+                speakerImage:TapendraDev , 
+                speakerSocialMediaList: [
+                    {
+                        title: 'Linkedin',
+                        icon: IconLinkedin,
+                        url: 'https://www.linkedin.com/in/tapendradev/'
+                    }
+                ]
+            },
             
          
         ],
@@ -1521,11 +1553,11 @@ export const HomeContent = {
             speakerName: 'Colonel Arijeet Sen',
             speakerImage: ColonelArijeetSen,
             speakerSocialMediaList: [
-                // {
-                //     title: 'Linkedin',
-                //     icon: IconLinkedin,
-                //     url: 'https://www.linkedin.com/in/vivek-yadav-77084744/'
-                // }
+                {
+                    title: 'Linkedin',
+                    icon: IconLinkedin,
+                    url: 'https://www.linkedin.com/in/arijeetchandrasen/'
+                }
             ]
         },
         {
@@ -1533,11 +1565,40 @@ export const HomeContent = {
             speakerName: 'Cdr Akshay Chuloo(Retd)',
             speakerImage: CdrAkshayChuloo,
             speakerSocialMediaList: [
-                // {
-                //     title: 'Linkedin',
-                //     icon: IconLinkedin,
-                //     url: 'https://www.linkedin.com/in/vivek-yadav-77084744/'
-                // }
+                {
+                    title: 'Linkedin',
+                    icon: IconLinkedin,
+                    url: 'https://www.linkedin.com/in/akshay-chuloo/'
+                }
+            ]
+        },
+        {
+            speakerDesignation: '',
+            speakerName: 'Lt Col Harkamal Sidhu (Retd)',
+            speakerImage: ColHarkamalSidhu,
+            speakerSocialMediaList: [
+                {
+                    title: 'Linkedin',
+                    icon: IconLinkedin,
+                    url: 'https://www.linkedin.com/in/harkamal-sidhu-53283a1bb/'
+                }
+            ]
+        },
+        {
+            speakerDesignation: 'DCP Cyber Crime , Ahmedabad',
+            speakerName: 'Dr. Lavina Sinha',
+            speakerImage: LavinaSinha,
+            speakerSocialMediaList: [
+                {
+                    title: 'Linkedin',
+                    icon: IconTwitter,
+                    url: 'https://x.com/drlavina_ips?lang=en'
+                },
+                {
+                    title: 'Instagram',
+                    icon: IconInstagram,
+                    url: 'https://www.instagram.com/dr.lavina_sinha/?hl=en'
+                }
             ]
         },
         ],
@@ -1791,7 +1852,7 @@ During his naval career, Amit maintained mission-critical weapon systems on Indi
             },
             {
                 title: 'CXO Panel',
-                description: 'Britto Sadan',
+                description: 'Britto Sidhan',
                 src: CxoBrittoSadan,
                 ctaText: 'View',
                 content: () => {
@@ -2593,6 +2654,44 @@ A certified corporate director, author, mentor, and community builder, Ram is pa
             },
             {
                 title: 'GOVT. Panel',
+                description: 'Lt Col Harkamal Sidhu (Retd)',
+                src: ColHarkamalSidhu,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {`Lt Col Harkamal Sidhu (Retd) is an alumnus of the Indian Military
+Academy, Dehradun. He was part of the IT Wing of Indian Army and
+was instrumental in managing networks, projects and training of
+technical manpower in India and abroad. He has been the CISO. He
+took voluntary retirement after 22 years of Defence Service. He was also
+part of the Cyber Wing at India&#39;s National Security Council Secretariat.
+He is well-read and has completed his MTech in Computers and Cyber
+Security. He has many National and International Cyber Security
+Certifications to his name. He is trained in Strategic Cyber Security at
+the Australian National University (ANU), Canberra, Australia. He is
+presently working as VP of Strategic Projects (Cyber &amp; AI) at TM
+Systems Pvt Ltd. His interests include Combating Cyber Crime and
+Cyber Incident Response.`}
+                        </p>
+                    )
+                }
+            },
+            {
+                title: 'GOVT. Panel',
+                description: 'Dr. Lavina Sinha',
+                src: LavinaSinha,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {`IPS 2017 Batch. She is MBBS, MD Medicine . Worked as Asssistant Professor at Sola Civil hospital and VS hospital prior to joining police service . Has worked as Assistant Superintendent of Police in Sabarkantha and Viramgam. Served as Deputy Commisiioner of Police DCP zone 1 , Ahmedadad city for 2 years and now currently serving as DCP Cyber crime Branch, Ahmedadad.`}
+                        </p>
+                    )
+                }
+            },
+            {
+                title: 'GOVT. Panel',
                 description: 'Commander Vivek Yadav',
                 src: cdrvivekyadav,
                 ctaText: 'View',
@@ -2783,6 +2882,32 @@ field with two CVEs: CVE-2023-37569 and CVE-2023-37570.`}
             //         )
             //     }
             // },
+            {
+                title: 'CXO Panel',
+                description: 'Nitin Sharma',
+                src: NitinSharma,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {`Nitin is a seasoned cybersecurity professional currently working as the Manager, Platform Security at Salesforce. With over 8 years of diverse experience, Nitin brings a wealth of expertise in areas such as threat modeling, cloud security, DevSecOps, and Product Security. Nitin holds several prominent industry certifications, including SANS GIAC GCSA, AWS Certified DevOps Engineer Professional, AWS Certified Security Specialty, CompTIA CySA+, CompTIA PenTest+, etc. Beyond his day job, Nitin is an active contributor to the cybersecurity community. He has published articles in CyberSecrets Publications and co-authored the book “Securing Docker: The Attack and Defense Ways,” which was named as BookAuthority’s Best New Docker Books. Nitin has also been a frequent speaker at various industry events, including Google Community Day Delhi 2024, HexNode Conference, AWS Community Day South Asia 2021, NullCon Webinars, Google Community Day Gurugram 2023, and DefCon Delhi 2023. In his personal time, Nitin enjoys reading personal finance books and staying active by going for marathon event runs.`}
+                        </p>
+                    )
+                }
+            },
+            {
+                title: 'CXO Panel',
+                description: 'Tapendra Dev',
+                src: TapendraDev,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {`Tapendra Dev is a seasoned entrepreneur, cybersecurity researcher, and IIT Kanpur fellow, recognized for his exceptional contributions by various prominent bodies. With over a decade of experience across multiple IT security domains, including Red and Blue teams, he has collaborated with Fortune 500 companies, government agencies, and law enforcement as a cybersecurity expert.`}
+                        </p>
+                    )
+                }
+            },
 
         ]
     },
@@ -2884,6 +3009,15 @@ field with two CVEs: CVE-2023-37569 and CVE-2023-37570.`}
             },
             {
                 image:ISC2Bangalore
+            },
+            {
+                image:OTSecurity
+            },
+            {
+                image:COCONLogo
+            },
+            {
+                image:ISRALogo
             }
         ]
     },

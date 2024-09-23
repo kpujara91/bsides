@@ -124,7 +124,7 @@ const Sponsors: React.FC = () => {
                         {
                             pathname === "/" ?
                                 (
-                                    ConferenceContent?.Sponsors?.SponsorsContent?.slice(0, 10).map((lists, i) => {
+                                    ConferenceContent?.Sponsors?.SponsorsContent?.slice(0, 11).map((lists, i) => {
                                         return (
                                             <React.Fragment key={i}>
                                                 <div className={`${styles.sponsorsLists}`}>

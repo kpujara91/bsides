@@ -11,12 +11,12 @@ const ScholarshipSponsor: React.FC= () => {
     <>
         <section className={`pb-80 pt-80 ${styles.communityPartnersWrapper}`}>
             <div className="container">
-                <div className="title-wrapper">
+                <div className="title-wrapper text-center">
                     <h2 className='title'>{HomeContent?.ScholarshipSponsor?.Title}</h2>
                 </div>
                 {HomeContent?.ScholarshipSponsor?.ScholarshipSponsorList &&
                     <ul className={`
-                        flex items-center flex-wrap sm:gap-0 gap-6 sm:gap-x-0 gap-x-6 justify-center sm:justify-start
+                        flex items-center sm:gap-y-12 gap-6 flex-wrap sm:gap-x-0 gap-x-6 justify-center
                     ${styles.CommunityPartnerList}`}>
                         {HomeContent?.ScholarshipSponsor?.ScholarshipSponsorList?.map((list,i)=>{
                             return(

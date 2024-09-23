@@ -124,7 +124,8 @@ const CxoAndWomenSecurityTrack: React.FC = () => {
                                               <h4>{subitem?.name}</h4>
                                               {subitem?.url ? (
                                                 <p className={styles.desc}>
-                                                  <a href={subitem.url}>
+                                                  <a href={subitem.url} 
+                                                  target='_blank'>
                                                     {subitem.description}
                                                   </a>
                                                 </p>
@@ -154,7 +155,7 @@ const CxoAndWomenSecurityTrack: React.FC = () => {
                                           <h4>{subitem?.name}</h4>
                                           {subitem?.url ? (
                                             <p className={styles.desc}>
-                                              <a href={subitem.url}>
+                                              <a href={subitem.url} target='_blank'>
                                                 {subitem.description}
                                               </a>
                                             </p>
@@ -252,7 +253,7 @@ const CxoAndWomenSecurityTrack: React.FC = () => {
                                               <h4>{subitem?.name}</h4>
                                               {subitem?.url ? (
                                                 <p className={styles.desc}>
-                                                  <a href={subitem.url}>
+                                                  <a href={subitem.url} target='_blank'>
                                                     {subitem.description}
                                                   </a>
                                                 </p>
@@ -282,7 +283,7 @@ const CxoAndWomenSecurityTrack: React.FC = () => {
                                           <h4>{subitem?.name}</h4>
                                           {subitem?.url ? (
                                             <p className={styles.desc}>
-                                              <a href={subitem.url}>
+                                              <a href={subitem.url} target='_blank'>
                                                 {subitem.description}
                                               </a>
                                             </p>

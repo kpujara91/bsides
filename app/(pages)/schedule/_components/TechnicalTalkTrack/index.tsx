@@ -129,6 +129,7 @@ const TechnicalTalkTrack: React.FC = () => {
                                         <p className={styles.desc}>
                                           <a
                                             href={subitem.url}
+                                            target='_blank'
                                             // style={{
                                             //   display: "flex",
                                             //   alignItems: "flex-start",
@@ -241,6 +242,7 @@ const TechnicalTalkTrack: React.FC = () => {
                                         <p className={styles.desc}>
                                           <a
                                             href={subitem.url}
+                                            target='_blank'
                                             // style={{
                                             //   display: "flex",
                                             //   alignItems: "flex-start",

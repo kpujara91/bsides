@@ -15,6 +15,7 @@ import SponsorCobalt from '../../public/images/sponsor-cobalt.png'
 import SalesForce from '../../public/images/sales-force.png'
 import RiskProfiler from '../../public/images/RiskProfiler.webp'
 import Amynasec from '../../public/images/amynas-logo.png'
+import Projectdiscovery from '../../public/images/projectdiscovery.webp'
 
 
 import SponsorSecasure from '../../public/images/sponsor-secasure.png'
@@ -205,6 +206,21 @@ export const ConferenceContent = {
                         ],
                         url : `https://www.salesforce.com/`,
                         urlTitle : `Learn more : https://www.salesforce.com/`
+                    }
+                ],
+                show: true
+            },
+            {
+                MainTitle : <>BUG BOUNTY <span>SPONSOR</span></>,
+                SponsorsDetails : [
+                    {
+                        ImagePath : Projectdiscovery  ,
+                        extraTitle:"",
+                        description : [
+                            `At ProjectDiscovery, we are on a mission to bring security to everyone. Our suite of open source tools powers a vibrant community that is among the largest in the infosec community. Our projects have accumulated over 50k stars on Github with monthly active users in the hundreds of thousands and year-over-year growth of over 400%. 8 of our tools recently made the Open Source Security Index, a list of the fastest growing open source security projects on GitHub, which is more than any other startup or corporation. Our tools are trusted by security and engineering teams at top internet companies like HashiCorp, Robinhood, Gitlab, CapitalOne, Fastly, Starbucks and many others.`
+                        ],
+                        url : `https://projectdiscovery.io/`,
+                        urlTitle : `Learn more : https://projectdiscovery.io/`
                     }
                 ],
                 show: true

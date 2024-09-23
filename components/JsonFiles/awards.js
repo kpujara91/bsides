@@ -136,7 +136,7 @@ export const AwardsContent = {
             {
                 Image: KamalSharma,
                 Name: `Kamal Sharma`,
-                Designation: ` Founder AuthenticOne and CISO at ASM technology `,
+                Designation: `Founder of AuthenticOne & CISO at ASM Technologies`,
                 SocialMediaList:[
                     {
                         title:'Linkedin',
