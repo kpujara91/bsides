@@ -173,12 +173,14 @@ const CxoAndWomenSecurityTrack: React.FC = () => {
                                 })}
                               </div>:<>   {items?.innerDetails?.map((subitem, i) => {
                                 return(
+                                  <React.Fragment key={i}>
                                 <div className={styles.imageBoxAward}>
                                           <Image
                                             src={subitem?.imagePath}
                                             alt="image1"
                                           />
                                         </div>
+                                        </React.Fragment>
                               )})}</>}
                             </div>
                           </div>
