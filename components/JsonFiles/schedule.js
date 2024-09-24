@@ -110,6 +110,9 @@ import SmithGonsalvesImage from "../../public/images/speaker-smith-gonsalves.jpg
 import KishanKendreImage from "../../public/images/speaker-kishan-kendre.png";
 import PpShreeImage from "../../public/images/speaker-pp-shree.jpg";
 import KamalSharmaImage from "../../public/images/speaker-kamal-sharma.png";
+import Ajit from '../../public/images/jury-ajit.png'
+import AbhijethDugginapeddi from '../../public/images/AbhijethDugginapeddi.jpeg'
+
 import DilipPanjwaniImage from "../../public/images/speaker-dilip-panjwani.png";
 import ShreyasDigheImage from "../../public/images/speaker-shreyas-dighe.jpg";
 import MinateeMishraImage from "../../public/images/speaker-minatee-mishra.png";
@@ -157,6 +160,9 @@ import SaurabhImage from "../../public/images/speaker-saurabh.jpg";
 import BugcrowdLogo from '../../public/images/BugcrowdLogo.png'
 import immunefi from '../../public/images/immunefi.png'
 import RiskProfiler from '../../public/images/RiskProfiler.webp'
+import AwardsBannerBG from '../../public/images/awards-banner.jpeg'
+import AwardImage from '../../public/images/AwardImage.jpeg'
+
 import Amynasec from '../../public/images/amynas-logo.png'
 import synackLogo from '../../public/images/synack.svg'
 import cobaltLogo from '../../public/images/sponsorLogo.webp'
@@ -1435,9 +1441,54 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
             },
           ],
         },
+
+        {
+          // ScheduleTitle: `HIGH TEA`,
+          // ScheduleTime: `04:15 - 04:45`,
+          SpeakerDetails: [
+            {
+              mainStageName: `AWARDS`,
+              providedTime: `07:00 PM - 10:00 PM`,
+              MainTitle: `Award Show & Dinner`,
+              innerDetails: [
+                {
+                  speakerTitle: ``,
+                  imagePath: AwardImage,
+                  name: ``,
+                  description: ``,
+                  url: ``,
+                  subtitle: ``,
+                },
+                
+                // {
+                //   speakerTitle: `Jury`,
+                //   imagePath: KamalSharmaImage,
+                //   name: `Kamal Sharma`,
+                //   description: `Founder of AuthenticOne & CISO at ASM Technologies`,
+                //   url: `https://www.linkedin.com/in/kamalsh/`,
+                //   subtitle: ``,
+                // },
+                // {
+                //   speakerTitle: `Jury`,
+                //   imagePath: AbhijethDugginapeddi,
+                //   name: `Abhijeth Dugginapeddi`,
+                //   description: `Cybersecurity Leader, Advisor and Adjunct Professor`,
+                //   url: `https://www.linkedin.com/in/abhijeth`,
+                //   subtitle: ``,
+                // },
+                
+              ],
+            },
+          ],
+        },
         // {
         //   ScheduleTitle: `CLOSING CEREMONY`,
         //   ScheduleTime: `06:15 - 06:30`,
+        // },
+
+        // {
+        //   ScheduleTitle: `Dinner`,
+        //   ScheduleTime: `8:00 PM - 10:00 PM`,
         // },
       ],
       TechnicalTalkListsDay2: [
@@ -2192,14 +2243,14 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
           image:Amynasec,
           urlLink: 'https://amynasec.io/'
         },
-        {
-          image: synackLogo,
-           urlLink: 'https://www.synack.com/red-team/'
-        },
-        {
-          image: cobaltLogo,
-           urlLink: 'https://www.cobalt.io/'
-        },
+        // {
+        //   image: synackLogo,
+        //    urlLink: 'https://www.synack.com/red-team/'
+        // },
+        // {
+        //   image: cobaltLogo,
+        //    urlLink: 'https://www.cobalt.io/'
+        // },
         // {
         //   image: ExhibitorLogo2,
         // },

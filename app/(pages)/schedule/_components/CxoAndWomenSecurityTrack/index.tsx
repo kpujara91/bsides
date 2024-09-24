@@ -99,7 +99,7 @@ const CxoAndWomenSecurityTrack: React.FC = () => {
                               {/* {items?.innerDetails?.speakerTitle
 
                               } */}
-                              <div
+                              {items?.mainStageName !='AWARDS' ?<div
                                 className={`flex items-stretch justify-center flex-wrap gap-5 ${styles.EventMembersWrap}`}
                               >
                                 {items?.innerDetails?.map((subitem, i) => {
@@ -118,9 +118,9 @@ const CxoAndWomenSecurityTrack: React.FC = () => {
                                             <div
                                               className={`${styles.content} text-center`}
                                             >
-                                              <span className={styles.speaker}>
+                                              {subitem?.speakerTitle &&<span className={styles.speaker}>
                                                 {subitem?.speakerTitle}
-                                              </span>
+                                              </span>}
                                               <h4>{subitem?.name}</h4>
                                               {subitem?.url ? (
                                                 <p className={styles.desc}>
@@ -149,9 +149,9 @@ const CxoAndWomenSecurityTrack: React.FC = () => {
                                         <div
                                           className={`${styles.content} text-center`}
                                         >
-                                          <span className={styles.speaker}>
+                                          {subitem?.speakerTitle&&<span className={styles.speaker}>
                                             {subitem?.speakerTitle}
-                                          </span>
+                                          </span>}
                                           <h4>{subitem?.name}</h4>
                                           {subitem?.url ? (
                                             <p className={styles.desc}>
@@ -171,7 +171,15 @@ const CxoAndWomenSecurityTrack: React.FC = () => {
                                     </React.Fragment>
                                   );
                                 })}
-                              </div>
+                              </div>:<>   {items?.innerDetails?.map((subitem, i) => {
+                                return(
+                                <div className={styles.imageBoxAward}>
+                                          <Image
+                                            src={subitem?.imagePath}
+                                            alt="image1"
+                                          />
+                                        </div>
+                              )})}</>}
                             </div>
                           </div>
                         </React.Fragment>
