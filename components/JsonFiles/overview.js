@@ -15,6 +15,8 @@ import IconEmail from '../../public/images/icon-mail.svg'
 import IconCall from '../../public/images/icon-call.svg'
 import ContactUsImage from '../../public/images/contactus-banner.webp'
 
+import SentinelOneWhite from '../../public/images/sentinel-one-white-bg.png.svg'
+
 export const OverviewContent = {
     GlobalAnimateCircleImage: AnimateCircleImage,
     SecurityBsidesAhmedabad: {
@@ -33,13 +35,16 @@ export const OverviewContent = {
                 },
             ],
             banerTitle: "SECURITY BSIDES",
+            banerTitle2: "AHMEDABAD",
             bannerAnimationLoop: [
                 `AHMEDABAD`,
-                `AHMEDABAD`,
-                `AHMEDABAD`,
-                `AHMEDABAD`
+                // `AHMEDABAD`,
+                // `AHMEDABAD`,
+                // `AHMEDABAD`
             ],
             BGImage: SecurityBsidesAhmedabadBG,
+            PresentedBy: `Presents`,
+            PresentedByImg: SentinelOneWhite,
         },
         AboutBsidesAhmedabad:{
             Caption: `About`,

@@ -134,10 +134,10 @@ export function BackgroundGradientDemo({ data }: any) {
                                 </div>
                             </div>
                         </div>
-                        <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+                        <p className="text-base text-center sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
                             {dd?.speakerName}
                         </p>
-                        <p className="text-sm text-neutral-600 dark:text-neutral-400">
+                        <p className="text-sm text-center text-neutral-600 dark:text-neutral-400">
                             {dd?.speakerDesignation}
                         </p>
                     </BackgroundGradient>

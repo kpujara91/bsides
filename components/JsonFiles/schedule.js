@@ -166,7 +166,7 @@ import AwardImage from '../../public/images/AwardImage.jpeg'
 import Amynasec from '../../public/images/amynas-logo.png'
 import synackLogo from '../../public/images/synack.svg'
 import cobaltLogo from '../../public/images/sponsorLogo.webp'
-import SentinelOneWhite from '../../public/images/sentinel-one-white.png'
+import SentinelOneWhite from '../../public/images/sentinel-one-white-bg.png.svg'
 
 // import immunefi from '../../public/images/immunify.svg'
 import TechSpeakerAndrezj from '../../public/images/speaker-andrezj.jpg'
@@ -205,6 +205,7 @@ import bhargavRathod from '../../public/images/BhargavRathod .png'
 import abhimayuIyer from '../../public/images/abhimayuIyer.jpeg'
 import AvinashReddy from '../../public/images/AvinashReddy .jpg'
 import WorkshopImage from '../../public/images/WorkShopImage.jpeg'
+import Sponsors from "@/app/(pages)/(home)/_components/Sponsors";
 
 
 
@@ -231,7 +232,7 @@ export const ScheduleContent = {
     EventTimeLineContent: {
       MainTitle: (
         <>
-          BSIDES ahmedabad <span>2024</span>
+          BSIDES AHMEDABAD <span>2024</span>
         </>
       ),
       SubTitle: (
@@ -239,6 +240,8 @@ export const ScheduleContent = {
           Event <span>Timeline</span>
         </>
       ),
+      PresentTitle:"Presents",
+      SponsorImage:"",
       Date: `12 & 13 October 2024`,
       LocationTitle: `The Forum, Club 07, Ahmedabad`,
       EventsLists: [
@@ -1355,7 +1358,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                   speakerTitle: `Panelist`,
                   imagePath: AmitGhodekarImage,
                   name: `Amit Ghodekar`,
-                  description: `Global Cyber Security Leader at Axis Bank`,
+                  description: `Global CISO At Aramex`,
                   url: `https://www.linkedin.com/in/amitghodekar/`,
                   subtitle: ``,
                 },
@@ -2215,6 +2218,11 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
         </>
       ),
       EventExhibitorsList: [
+
+        {
+          image: SentinelOneWhite,
+           urlLink: 'https://www.sentinelone.com/'
+        },
         {
           image: HackerOneLogo,
           urlLink : 'https://www.hackerone.com/'
@@ -2227,10 +2235,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
           image:immunefi,
           urlLink: 'https://immunefi.com/bug-bounty/?utm_source=Security-BSides&utm_medium=events&utm_campaign=Security-BSides'
         },
-        {
-          image: SentinelOneWhite,
-           urlLink: 'https://www.sentinelone.com/'
-        },
+
         {
           image:BugcrowdLogo,
           urlLink: 'https://www.bugcrowd.com/'

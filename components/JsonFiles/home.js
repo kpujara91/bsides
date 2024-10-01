@@ -107,6 +107,7 @@ import SumitKumar from "../../public/images/Sumit-Kumar.jpeg";
 import adityachandra from '../../public/images/adityachandra.jpeg'
 import mustafa_speaker from '../../public/images/mustafa_speaker.webp'
 import konda_vishweshwar_reddy from '../../public/images/konda_vishweshwar_reddy.jpg'
+import CMGujarat from '../../public/images/CMGujarat.png'
 import WiCySIndia from '../../public/images/WiCySIndia.png'
 import IconFacebook from '../../public/images/icon-facebook.svg'
 // import wikiLogo from '../../public/images/wikipedia.svg'
@@ -156,6 +157,7 @@ import RameshKumarR from '../../public/images/RameshKumarR.jpg'
 import ChitrankShrivastav from '../../public/images/ChitrankShrivastav.jpeg'
 import PuneetTambi from '../../public/images/PuneetTambi .jpeg'
 
+import SentinelOneWhite from '../../public/images/sentinel-one-white-bg.png.svg'
 
 
 // import ramganeshtechspeak from '../../public/images/ramganesh_techspeak.jpg'
@@ -171,13 +173,14 @@ import ISC2Bangalore from '../../public/images/ISC2Bangalore.webp'
 import OTSecurity from '../../public/images/OT-SECURITY.jpeg'
 import COCONLogo from '../../public/images/GandhinagarLogo.jpeg'
 import ISRALogo from '../../public/images/ISRA-Logo.jpeg'
+import IWCONLogo from '../../public/images/IWCON_Logo.png'
 
 
 import credcommunity from '../../public/images/cred_community.png'
 
 export const HomeContent = {
     HiroBanner: {
-        banerTitle: 'BSIDES',
+        banerTitle: 'BSIDES AHMEDABAD',
         bannerAnimationLoop: [
             `AHMEDABAD`,
             `AHMEDABAD`,
@@ -189,7 +192,9 @@ export const HomeContent = {
         BannerCardList: [
             `The Forum, Club 07, Ahmedabad`,
             `Conference : 12 & 13 October, 2024`
-        ]
+        ],
+        PresentedBy: `Presents`,
+        PresentedByImg: SentinelOneWhite,
     },
     WhoWeAre: {
         Caption: `About Us`,
@@ -240,6 +245,43 @@ export const HomeContent = {
     },
     SpeakersAttending: {
         Caption: `Speakers Attending`,
+        OpemingSpeakerTitle: (
+            <>
+                OPENING NOTE (expected) <span>SPEAKER</span>
+            </>
+        ),
+        OpeningSpeakerList: [
+            {
+                speakerImage: CMGujarat,
+                speakerName: `Honourable Shri Bhupendrabhai Patel`,
+                speakerDesignation: `Chief Minister of Gujarat`,
+                // pdfRef:"https://www.kvrformp.org/_files/ugd/5f1b67_e61aabfb26574232a5772898dfe2552b.pdf",
+                speakerSocialMediaList: [
+                                     {
+                        title:'facebook',
+                        icon: IconFacebook,
+                        url:'https://www.facebook.com/BhupendraPatelCMofGujarat/',
+                    },
+                    {
+                        title: 'X',
+                        icon: IconTwitter,
+                        url: 'https://x.com/Bhupendrapbjp?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'
+                    },
+                    {
+                        title: 'Linkedin',
+                        icon: IconLinkedin,
+                        url: 'https://www.linkedin.com/in/bhupendrapbjp/?originalSubdomain=in'
+                    },
+
+   
+                    // {
+                    //     title: 'Bio Info',
+                    //     icon: Bio,
+                    //     url: 'https://www.kvrformp.org/_files/ugd/5f1b67_e61aabfb26574232a5772898dfe2552b.pdf'
+                    // }
+                ]
+            }
+        ],
         KeynoteSpeakerTitle: (
             <>
                 KEYNOTE <span>SPEAKERS</span>
@@ -841,7 +883,7 @@ export const HomeContent = {
             {
                 speakerImage: CxoAmitGhodekar,
                 speakerName: `Amit Ghodekar`,
-                speakerDesignation: `Global Cyber Security Leader at Axis Bank`,
+                speakerDesignation: `Global CISO At Aramex`,
                 speakerSocialMediaList: [
                     {
                         title: 'Linkedin',
@@ -1141,7 +1183,7 @@ export const HomeContent = {
             {
                 speakerDesignation:
                     'Head of IT & CISO Unichem Labs at Unichem Labs',
-                speakerName: ' M Kumaresan',
+                speakerName: 'M Kumaresan',
                 speakerImage: MKumaresan,
                 speakerSocialMediaList: [
                     {
@@ -1573,7 +1615,7 @@ export const HomeContent = {
             ]
         },
         {
-            speakerDesignation: '',
+            speakerDesignation: 'VP Strat Projects, TM Systems Pvt Ltd',
             speakerName: 'Lt Col Harkamal Sidhu (Retd)',
             speakerImage: ColHarkamalSidhu,
             speakerSocialMediaList: [
@@ -3018,7 +3060,11 @@ field with two CVEs: CVE-2023-37569 and CVE-2023-37570.`}
             },
             {
                 image:ISRALogo
-            }
+            },
+            {
+                image:IWCONLogo
+            },
+            
         ]
     },
     NetworkingDinnerSponsor: {

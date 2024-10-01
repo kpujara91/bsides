@@ -1,44 +1,90 @@
 @import '@/assets/scss/partial.scss';
 @import '@/assets/scss/variables.scss';
 
-.heroBanner{
+.heroBanner {
     padding: 110px 0 50px;
     z-index: 1;
-    @media (min-width: $sm ) {
+    @media (min-width: $sm) {
         padding: 160px 0 80px;
     }
-    @media (min-width: $md ) {
+    @media (min-width: $md) {
         padding: 160px 0 100px;
     }
-    @media (min-width: $xl ) {
+    @media (min-width: $xl) {
         padding: 220px 0 180px;
     }
-    @media (min-width: $xxl ) {
+    @media (min-width: $xxl) {
         padding: 240px 0;
     }
-    @media (min-width: $xxxl ) {
+    @media (min-width: $xxxl) {
         padding: 280px 0;
     }
-    .heroTitleWraper{
+    .heroTitleWraper {
         max-width: 1158px;
         margin: 0 auto;
-        .heroTitleInner{
+        h1 {
+            font-size: 32px;
+            @media (min-width: $sm) {
+                font-size: 44px;
+            }
+            @media (min-width: $md) {
+                font-size: 50px;
+            }
+            @media (min-width: $lg) {
+                font-size: 60px;
+            }
+            @media (min-width: $xl) {
+                font-size: 70px;
+            }
+        }
+        h2 {
+            font-size: 24px;
+            @media (min-width: $sm) {
+                font-size: 36px;
+            }
+            @media (min-width: $md) {
+                font-size: 38px;
+            }
+            @media (min-width: $lg) {
+                font-size: 42px;
+            }
+            @media (min-width: $xl) {
+                font-size: 48px;
+            }
+        }
+        .heroTitleInner {
             display: flex;
             flex-direction: column;
             align-items: center;
-            @media (min-width: $sm ){
+            margin-bottom: 30px;
+            @media (min-width: $sm) {
                 display: block;
             }
-            br{
+            br {
                 display: none;
-                @media (min-width: $sm ){
+                @media (min-width: $sm) {
                     display: block;
                 }
             }
         }
+        .heroTitleInner2 {
+            margin-bottom: 30px;
+        }
+        img {
+            width: 180px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+            @media (min-width: $md) {
+                width: 280px;
+            }
+            @media (min-width: $lg) {
+                width: 350px;
+            }
+        }
     }
-    .bannerCardList{
-        .bannerCard{
+    .bannerCardList {
+        .bannerCard {
             font-weight: 400;
             line-height: 1.32;
             text-align: center;
@@ -46,33 +92,33 @@
             max-width: 140px;
             border-radius: 150px;
             padding: 10px;
-            @media (max-width: $sm ){
+            @media (max-width: $sm) {
                 font-size: 12px;
             }
-            @media (min-width: $sm ) {
+            @media (min-width: $sm) {
                 max-width: 240px;
                 padding: 20px;
             }
-            @media (min-width: $xl ) {
+            @media (min-width: $xl) {
                 padding: 30px;
                 max-width: 300px;
             }
         }
     }
-    .heroBgAnimation{
+    .heroBgAnimation {
         z-index: -1;
     }
-    .callForPapers{
-        font-family: "Nasalization Rg";
+    .callForPapers {
+        font-family: 'Nasalization Rg';
         color: #ffffff;
-        background: linear-gradient(180deg, #00FD9D 0%, #933AFA 100%);
+        background: linear-gradient(180deg, #00fd9d 0%, #933afa 100%);
         padding: 10px 14px;
         border-radius: 40px;
         text-transform: uppercase;
-        @media (min-width: $md ) {
+        @media (min-width: $md) {
             padding: 16px 20px;
         }
-        @media (min-width: $xl ) {
+        @media (min-width: $xl) {
             padding: 20px 26px;
         }
     }

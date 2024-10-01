@@ -2,7 +2,7 @@ import AnimateCircleImage from '../../public/images/circle-animate.webp'
 import ConferenceBannerBG from '../../public/images/conference-banner.webp'
 import SponsorControlCase from '../../public/images/sponsor-control-case.jpg'
 import SentinelOne from '../../public/images/sentinel-one.png'
-import SentinelOneWhite from '../../public/images/sentinel-one-white.png'
+import SentinelOneWhite from '../../public/images/sentinel-one-white-bg.png.svg'
 import SponsorKyzotrick from '../../public/images/sponsor-kyzotrick.png'
 import SponsorMiniOrange from '../../public/images/sponsor-miniorange.png'
 import SponsorHackerOne from '../../public/images/sponsor-hackerone.png'
@@ -56,15 +56,12 @@ export const ConferenceContent = {
                 `AHMEDABAD`,
                 `AHMEDABAD`
             ],
-            banerTitle2: "0X04 SPONSORS & PARTNERS",
+            banerTitle2: "0X05 SPONSORS & PARTNERS",
             BGImage: ConferenceBannerBG,
         },
         SponsorsContent : [
-            // {
-            //     MainTitle : <>GOLD <span>SPONSOR</span></>,
-            // },
             {
-                MainTitle : <>SILVER <span>SPONSOR</span></>,
+                MainTitle : <>PRESENTING <span>SPONSOR</span></>,
                 SponsorsDetails : [
                     {
                         ImagePath : SentinelOneWhite,
@@ -88,82 +85,31 @@ export const ConferenceContent = {
                 ],
                 show: true
             },
-            {
-                MainTitle : <>BRONZE <span>SPONSOR</span></>,
-                SponsorsDetails : [
-                    {
-                        ImagePath : BugcrowdLogo,
-                        extraTitle:"",
-                        description : [
-                            ``
-                        ],
-                        url:`https://www.bugcrowd.com`,
-                        urlTitle : `Learn more : https://www.bugcrowd.com`
-                    }
-                ],
-                show: true
-            },
-            {
-                MainTitle : <>Networking Dinner <span>SPONSOR</span></>,
-                SponsorsDetails : [
-                    {
-                        ImagePath : SponsorHackerOne,
-                        extraTitle:"",
-                        description : [
-                            `HackerOne is a vulnerability coordination and bug bounty platform that connects businesses with penetration testers and cybersecurity researchers.`
-                        ],
-                        url : `https://www.hackerone.com/`,
-                        urlTitle : `Learn more : https://www.hackerone.com/`
-                    }
-                ],
-                show: true
-            },
-            {
-                MainTitle : <>GOODIE BAG <span>SPONSOR</span></>,
-                SponsorsDetails : [
-                    {
-                        ImagePath : SponsorCloudsek,
-                        extraTitle:"",
-                        description : [
-                            `CloudSEK’s central proposition is leverage Artificial Intelligence to build a rapid and reliable detection, analysis, and alert system that offers swift detection across internet sources , precision analysis of threats and prompt resolution with minimal human intervention`
-                        ],
-                        url : `https://www.cloudsek.com/`,
-                        urlTitle : `Learn more : https://www.cloudsek.com/`
-                    }
-                ],
-                show: true
-            },
-            {
-                MainTitle : <>CROWDSOURCED SECURITY <span> PARTNER</span></>,
-                SponsorsDetails : [
-                    {
-                        ImagePath : immunefi,
-                        extraTitle:"Earn the World’s Largest Bounties",
-                        description : [
-                            `Immunefi is the leading onchain crowdsourced security platform with the world’s largest bounties. We offer legendary response times and top-notch support for our hackers. The assets we protect — blockchains, NFT projects, and smart contracts — are the world’s most valuable assets, and our security researchers earn life-changing sums while boosting onchain security.`
-                        ],
-                        url : `https://immunefi.com/bug-bounty/?utm_source=Security-BSides&utm_medium=events&utm_campaign=Security-BSides`,
-                        urlTitle : `Learn more : https://immunefi.com/bug-bounty/`
-                    }
-                ],
-                show: true
-            },
-            {
-                MainTitle :  <>AWARD SHOW <span>SPONSOR</span></>,
-                SponsorsDetails : [
-                    {
-                        ImagePath : RiskProfiler,
-                        extraTitle:"",
-                        description : [
-                            ` Risk Profiler fills the gaps in cyber protection by looking at the shadow risks, their paths and implications back into the customers infrastructure. Through its modern, AI based, approach to giving complete cybersecurity risk analysis, the customer gets an unprecedented understanding of risk and its origin.`
-                        ],
-                        url : `https://riskprofiler.io/`,
-                        urlTitle : `Learn more : https://riskprofiler.io/`
-                    }
-                    
-                ],
-                show: true
-            },
+            // {
+            //     MainTitle : <>SILVER <span>SPONSOR</span></>,
+            //     SponsorsDetails : [
+            //         {
+            //             ImagePath : SentinelOneWhite,
+            //             extraTitle:"",
+            //             description : [
+            //                 `SentinelOne started with an idea: to protect the things that matter most to our customers by pushing the boundaries of cybersecurity. Over the decades, we’ve hustled and innovated, we’ve grown and transformed, to create the world’s most advanced cybersecurity platform. Valuing trust, accountability, ingenuity, and unstoppable drive above all else, our teams are inspired to challenge the status quo and build lasting partnerships with every customer.`
+            //             ],
+            //             url : `https://www.sentinelone.com/`,
+            //             urlTitle : `Learn more : https://www.sentinelone.com/`
+            //         },
+            //         // {
+            //         //     ImagePath : SponsorKyzotrick,
+            //         //     extraTitle:"",
+            //         //     description : [
+            //         //         `Keyzotrick is a global cyber intelligence and security organization based in Jamshedpur, Jharkhand, with operations in Ahmedabad, Gujarat. We serve the Intelligence Community, Law Enforcement, and Corporations with top-tier excellence, offering expertise in police modernization, fraud investigation, surveillance, and cutting-edge technology solutions. Partnered with major government agencies and private sector organizations, we focus solely on cyber intelligence and investigations, delivering vendor- neutral, high-end security solutions.`,
+            //         //         `Our advanced data-driven media monitoring services provide important insights to authorities in monitoring, tracking, and analyzing online activity on all levels of the internet, including the CyberHumint, SIGINT, COMMINT, Deep and Dark web, in order to identify new data sources and leads to maximize their investigations. Our value and motive stand true to social-equity, law and order, and national security.`
+            //         //     ],
+            //         //     url : `https://www.keyzotrickintelligence.com/`,
+            //         //     urlTitle : `Learn more : https://www.keyzotrickintelligence.com/`
+            //         // }
+            //     ],
+            //     show: true
+            // },
             {
                 MainTitle :  <>LANYARD <span>SPONSOR</span></>,
                 SponsorsDetails : [
@@ -210,6 +156,69 @@ export const ConferenceContent = {
                 ],
                 show: true
             },
+
+
+            {
+                MainTitle : <>GOODIE BAG <span>SPONSOR</span></>,
+                SponsorsDetails : [
+                    {
+                        ImagePath : SponsorCloudsek,
+                        extraTitle:"",
+                        description : [
+                            `CloudSEK’s central proposition is leverage Artificial Intelligence to build a rapid and reliable detection, analysis, and alert system that offers swift detection across internet sources , precision analysis of threats and prompt resolution with minimal human intervention`
+                        ],
+                        url : `https://www.cloudsek.com/`,
+                        urlTitle : `Learn more : https://www.cloudsek.com/`
+                    }
+                ],
+                show: true
+            },
+            {
+                MainTitle : <>BRONZE <span>SPONSOR</span></>,
+                SponsorsDetails : [
+                    {
+                        ImagePath : BugcrowdLogo,
+                        extraTitle:"",
+                        description : [
+                            ``
+                        ],
+                        url:`https://www.bugcrowd.com`,
+                        urlTitle : `Learn more : https://www.bugcrowd.com`
+                    }
+                ],
+                show: true
+            },
+            {
+                MainTitle :  <>AWARD SHOW <span>SPONSOR</span></>,
+                SponsorsDetails : [
+                    {
+                        ImagePath : RiskProfiler,
+                        extraTitle:"",
+                        description : [
+                            ` Risk Profiler fills the gaps in cyber protection by looking at the shadow risks, their paths and implications back into the customers infrastructure. Through its modern, AI based, approach to giving complete cybersecurity risk analysis, the customer gets an unprecedented understanding of risk and its origin.`
+                        ],
+                        url : `https://riskprofiler.io/`,
+                        urlTitle : `Learn more : https://riskprofiler.io/`
+                    }
+                    
+                ],
+                show: true
+            },
+            {
+                MainTitle : <>CROWDSOURCED SECURITY <span> PARTNER</span></>,
+                SponsorsDetails : [
+                    {
+                        ImagePath : immunefi,
+                        extraTitle:"Earn the World’s Largest Bounties",
+                        description : [
+                            `Immunefi is the leading onchain crowdsourced security platform with the world’s largest bounties. We offer legendary response times and top-notch support for our hackers. The assets we protect — blockchains, NFT projects, and smart contracts — are the world’s most valuable assets, and our security researchers earn life-changing sums while boosting onchain security.`
+                        ],
+                        url : `https://immunefi.com/bug-bounty/?utm_source=Security-BSides&utm_medium=events&utm_campaign=Security-BSides`,
+                        urlTitle : `Learn more : https://immunefi.com/bug-bounty/`
+                    }
+                ],
+                show: true
+            },
             {
                 MainTitle : <>BUG BOUNTY <span>SPONSOR</span></>,
                 SponsorsDetails : [
@@ -240,21 +249,28 @@ export const ConferenceContent = {
                 ],
                 show: true
             },
-            // {
-            //     MainTitle : <>CXO TRACK <span> SPONSOR</span></>,
-            //     SponsorsDetails : [
-            //         {
-            //             ImagePath : SponsorMiniOrange,
-            //             extraTitle:"",
-            //             description : [
-            //                 `MiniOrange is an established cybersecurity organization specializing in Identity & Access Management (IAM). With a wealth of technical expertise and unwavering 24x7 customer support, miniOrange is dedicated to delivering innovative and disruptive products within the IAM space such as Single Sign-On, Multi-Factor Authentication, Adaptive Authentication, User Lifecycle Management, Identity Federation, and External Directory support via a centralized identity product. Additionally, miniOrange offers a comprehensive suite of plugins and connectors to ensure the security of all applications (including Atlassian, WordPress, Shopify, Drupal, etc.), technologies, and frameworks. miniOrange also offers products related to Privileged Access Management and CASB, further bolstering cybersecurity efforts.`
-            //             ],
-            //             url : `https://www.miniorange.com/`,
-            //             urlTitle : `Learn more : https://www.miniorange.com/`
-            //         }
-            //     ]
-            // },
+            {
+                MainTitle : <>Networking Dinner <span>SPONSOR</span></>,
+                SponsorsDetails : [
+                    {
+                        ImagePath : SponsorHackerOne,
+                        extraTitle:"",
+                        description : [
+                            `HackerOne is a vulnerability coordination and bug bounty platform that connects businesses with penetration testers and cybersecurity researchers.`
+                        ],
+                        url : `https://www.hackerone.com/`,
+                        urlTitle : `Learn more : https://www.hackerone.com/`
+                    }
+                ],
+                show: true
+            },
+          
 
+
+
+           
+           
+           
             {
                 MainTitle : <>SCHOLARSHIP <span>SPONSOR</span></>,
                 SponsorsDetails : [
@@ -282,6 +298,23 @@ export const ConferenceContent = {
                 ],
                 show: true
             },
+           
+            // {
+            //     MainTitle : <>CXO TRACK <span> SPONSOR</span></>,
+            //     SponsorsDetails : [
+            //         {
+            //             ImagePath : SponsorMiniOrange,
+            //             extraTitle:"",
+            //             description : [
+            //                 `MiniOrange is an established cybersecurity organization specializing in Identity & Access Management (IAM). With a wealth of technical expertise and unwavering 24x7 customer support, miniOrange is dedicated to delivering innovative and disruptive products within the IAM space such as Single Sign-On, Multi-Factor Authentication, Adaptive Authentication, User Lifecycle Management, Identity Federation, and External Directory support via a centralized identity product. Additionally, miniOrange offers a comprehensive suite of plugins and connectors to ensure the security of all applications (including Atlassian, WordPress, Shopify, Drupal, etc.), technologies, and frameworks. miniOrange also offers products related to Privileged Access Management and CASB, further bolstering cybersecurity efforts.`
+            //             ],
+            //             url : `https://www.miniorange.com/`,
+            //             urlTitle : `Learn more : https://www.miniorange.com/`
+            //         }
+            //     ]
+            // },
+
+           
             // {
             //     MainTitle : <>POWERED <span>BY</span></>,
             //     SponsorsDetails : [

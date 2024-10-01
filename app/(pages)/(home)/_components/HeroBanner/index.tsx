@@ -9,6 +9,8 @@ import styles from './heroBanner.module.scss';
 // import { EvervaultCard } from '@/components/AceternityUI/evervault-card';
 import {HomeContent} from '@/components/JsonFiles/home'
 import Link from "next/link";
+import SentinelOneWhite from '../../public/images/sentinel-one-white-bg.png.svg'
+import Image from "next/image";
 
 type Direction = "TOP" | "LEFT" | "BOTTOM" | "RIGHT";
 
@@ -19,11 +21,18 @@ const HeroBanner: React.FC = () => {
       <section className={`relative ${styles.heroBanner}`}>
         <div className="container">
           <div className={`overflow-hidden ${styles.heroTitleWraper}`}>
-            <h1 className={`font-nasalization text-center gradiant-title title-wrapper ${styles.heroTitleInner}`}>
-              {HomeContent?.HiroBanner?.banerTitle} <span className="relative"><FlipWords words={HomeContent?.HiroBanner?.bannerAnimationLoop} /></span>
+          <Image src={HomeContent?.HiroBanner?.PresentedByImg} alt="logo" width={500} height={500}/>
+
+          <h2 className={`font-nasalization text-center gradiant-title ${styles.heroTitleInner} ${styles.heroTitleInner2}`}>{HomeContent?.HiroBanner?.PresentedBy}</h2>
+            <h1 className={`font-nasalization text-center gradiant-title ${styles.heroTitleInner}`}>
+              {HomeContent?.HiroBanner?.banerTitle} 
+              {/* <span className="relative">
+                <FlipWords words={HomeContent?.HiroBanner?.bannerAnimationLoop} />
+              </span> */}
               {/* {" "} {HomeContent?.HiroBanner?.bannerAnimationLoop} */}
               <br /> {HomeContent?.HiroBanner?.banerYear}
             </h1>
+            
             <ul className={`flex items-center justify-center flex-wrap gap-2 sm:gap-4 xl:gap-7 ${styles.bannerCardList}`}>
                 {HomeContent?.HiroBanner?.BannerCardList?.map((list,i)=>{
                     return(

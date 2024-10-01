@@ -9,6 +9,7 @@ import CxoAndWomenSecurityTrack from "../CxoAndWomenSecurityTrack";
 import VillageTrack from "../VillageTrack";
 import { useRouter } from "next/navigation";
 import WorkshopTrack from "../WorkshopTrack/WorkshopTrack";
+import { HomeContent } from "@/components/JsonFiles/home";
 
 const EventTimeLine: React.FC = () => {
   const router = useRouter();
@@ -33,6 +34,8 @@ const EventTimeLine: React.FC = () => {
       <section className={`${styles.eventTimeLineWrapper} ptb-160`}>
         <div className="container">
           <div className={`${styles.titleWrapper} title-wrapper text-center`}>
+          <Image src={HomeContent?.HiroBanner?.PresentedByImg} alt="logo" width={500} height={500} className={`${styles.secImage}`}/>
+            <h2  className={`title ${styles.title} ${styles.title2}`}>Presents</h2>
             <h2 className={`title ${styles.title}`}>
               {ScheduleContent?.Schedule?.EventTimeLineContent?.MainTitle}
             </h2>

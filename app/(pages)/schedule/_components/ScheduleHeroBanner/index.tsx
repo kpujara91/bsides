@@ -7,7 +7,7 @@ import {ScheduleContent} from '@/components/JsonFiles/schedule'
 import Image from "next/image";
 import Breadcrumb from "@/components/Breadcrumb";
 
-const ScheduleHeroBanner: React.FC = () => {
+const   ScheduleHeroBanner: React.FC = () => {
   return (
     <>
       <section className={`relative ${styles.scheduleHeroBanner}`}>
