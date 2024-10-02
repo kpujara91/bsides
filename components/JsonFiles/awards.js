@@ -3,6 +3,7 @@ import KamalSharma from '../../public/images/cxo-kamal-sharma.png'
 import Ajit from '../../public/images/jury-ajit.png'
 import IconLinkedin from '../../public/images/icon-linkedin.svg'
 import AbhijethDugginapeddi from '../../public/images/AbhijethDugginapeddi.jpeg'
+import RiskProfiler from '../../public/images/RiskProfiler.webp'
 export const AwardsContent = {
     Banner:{
         Breadcrumb:[
@@ -51,6 +52,8 @@ export const AwardsContent = {
 
     },
     AwardsEntryGuidelines : {
+        SponceredBy:"Sponsored By",
+        SponcerLogo:RiskProfiler,
         MainTitle: <>Maestro Awards 2024: <span> Entry Guidelines</span></>,
         description : `Thank you for your interest in participating in the Maestro Awards 2024, hosted by Security BSides Ahmedabad. Please carefully review the following entry guidelines before submitting your nomination.`,
         SubTitle : `Eligibility Criteria:`,
