@@ -1,0 +1,181 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/(pages)/overview/code-of-conduct/_components/ConductDetails/conductDetails.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.conductDetails_conductDetailsWrap__hZ6hA {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.conductDetails_conductDetailsWrap__hZ6hA p {
+  margin-bottom: 12px;
+}
+@media (min-width: 640px) {
+  .conductDetails_conductDetailsWrap__hZ6hA p {
+    margin-bottom: 16px;
+  }
+}
+.conductDetails_conductDetailsWrap__hZ6hA p:last-child {
+  margin: 0;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/(pages)/overview/code-of-conduct/_components/ConductHeroBanner/conductHeroBanner.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.conductHeroBanner_conductHeroBanner__VqcWQ {
+  padding: 110px 0 50px;
+  z-index: 1;
+}
+.conductHeroBanner_conductHeroBanner__VqcWQ::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.8;
+  z-index: -1;
+}
+@media (min-width: 640px) {
+  .conductHeroBanner_conductHeroBanner__VqcWQ {
+    padding: 160px 0 80px;
+  }
+}
+@media (min-width: 768px) {
+  .conductHeroBanner_conductHeroBanner__VqcWQ {
+    padding: 160px 0 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .conductHeroBanner_conductHeroBanner__VqcWQ {
+    padding: 220px 0 180px;
+  }
+}
+@media (min-width: 1441px) {
+  .conductHeroBanner_conductHeroBanner__VqcWQ {
+    padding: 240px 0;
+  }
+}
+@media (min-width: 1630px) {
+  .conductHeroBanner_conductHeroBanner__VqcWQ {
+    padding: 280px 0;
+  }
+}
+.conductHeroBanner_conductHeroBanner__VqcWQ .conductHeroBanner_heroTitleWraper__jSwiA {
+  max-width: 1158px;
+  margin: 0 auto;
+}
+.conductHeroBanner_conductHeroBanner__VqcWQ .conductHeroBanner_heroTitleWraper__jSwiA .conductHeroBanner_heroTitleInner__dCkXH {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 640px) {
+  .conductHeroBanner_conductHeroBanner__VqcWQ .conductHeroBanner_heroTitleWraper__jSwiA .conductHeroBanner_heroTitleInner__dCkXH {
+    display: block;
+  }
+}
+.conductHeroBanner_conductHeroBanner__VqcWQ .conductHeroBanner_heroTitleWraper__jSwiA .conductHeroBanner_heroTitleInner__dCkXH br {
+  display: none;
+}
+@media (min-width: 640px) {
+  .conductHeroBanner_conductHeroBanner__VqcWQ .conductHeroBanner_heroTitleWraper__jSwiA .conductHeroBanner_heroTitleInner__dCkXH br {
+    display: block;
+  }
+}
+.conductHeroBanner_conductHeroBanner__VqcWQ .conductHeroBanner_bgImage__XEDoH {
+  object-position: top;
+  z-index: -2;
+}
+@media (min-width: 640px) {
+  .conductHeroBanner_conductHeroBanner__VqcWQ .conductHeroBanner_bgImage__XEDoH {
+    object-position: center;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./components/Breadcrumb/breadcrumb.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.breadcrumb_breadcrumbWrapp__ZEtjD {
+  margin-bottom: 10px;
+}
+@media (min-width: 1024px) {
+  .breadcrumb_breadcrumbWrapp__ZEtjD {
+    margin-bottom: 24px;
+  }
+}
+.breadcrumb_breadcrumbWrapp__ZEtjD:last-child {
+  margin: 0;
+}
+.breadcrumb_breadcrumbWrapp__ZEtjD li {
+  position: relative;
+  padding-right: 10px;
+  margin-right: 6px;
+}
+@media (min-width: 640px) {
+  .breadcrumb_breadcrumbWrapp__ZEtjD li {
+    padding-right: 14px;
+    margin-right: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .breadcrumb_breadcrumbWrapp__ZEtjD li {
+    padding-right: 18px;
+    margin-right: 14px;
+  }
+}
+.breadcrumb_breadcrumbWrapp__ZEtjD li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 6px;
+  height: 6px;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  transform: rotate(-45deg);
+}
+@media (min-width: 640px) {
+  .breadcrumb_breadcrumbWrapp__ZEtjD li::before {
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+  }
+}
+@media (min-width: 768px) {
+  .breadcrumb_breadcrumbWrapp__ZEtjD li::before {
+    width: 10px;
+    height: 10px;
+  }
+}
+.breadcrumb_breadcrumbWrapp__ZEtjD li:last-child {
+  margin: 0;
+  padding: 2px 10px;
+  color: #933AFA;
+}
+.breadcrumb_breadcrumbWrapp__ZEtjD li:last-child::before {
+  display: none;
+}
+.breadcrumb_breadcrumbWrapp__ZEtjD li, .breadcrumb_breadcrumbWrapp__ZEtjD a {
+  font-size: 11px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+@media (min-width: 640px) {
+  .breadcrumb_breadcrumbWrapp__ZEtjD li, .breadcrumb_breadcrumbWrapp__ZEtjD a {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) {
+  .breadcrumb_breadcrumbWrapp__ZEtjD li, .breadcrumb_breadcrumbWrapp__ZEtjD a {
+    font-size: 16px;
+  }
+}
+.breadcrumb_breadcrumbWrapp__ZEtjD li:hover, .breadcrumb_breadcrumbWrapp__ZEtjD a:hover {
+  color: #933AFA;
+}
+.breadcrumb_breadcrumbWrapp__ZEtjD a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}

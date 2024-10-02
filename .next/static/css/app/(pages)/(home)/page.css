@@ -195,6 +195,37 @@
     display: block;
   }
 }
+.heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 .heroBanner_heroTitleInner2__i77_I {
+  margin-bottom: 10px;
+}
+.heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 img {
+  width: 12y0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 img {
+    width: 180px;
+    margin-bottom: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 img {
+    width: 250px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 img {
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 1630px) {
+  .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 img {
+    margin-bottom: 60px;
+  }
+}
 .heroBanner_heroBanner__VHxsT .heroBanner_bannerCardList__9Ccdn .heroBanner_bannerCard__XTJ5w {
   font-weight: 400;
   line-height: 1.32;

@@ -166,7 +166,7 @@ import AwardImage from '../../public/images/AwardImage.jpeg'
 import Amynasec from '../../public/images/amynas-logo.png'
 import synackLogo from '../../public/images/synack.svg'
 import cobaltLogo from '../../public/images/sponsorLogo.webp'
-import SentinelOneWhite from '../../public/images/sentinel-one-white-bg.png.svg'
+import SentinelOneWhite from '../../public/images/sentinel-one-white-bg.png'
 
 // import immunefi from '../../public/images/immunify.svg'
 import TechSpeakerAndrezj from '../../public/images/speaker-andrezj.jpg'

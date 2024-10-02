@@ -74,17 +74,21 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./components/Header/header.module.scss ***!
   \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 .header_siteHeader__8yp0_ {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 10px 0;
-  z-index: 9;
+  z-index: 99;
 }
 @media (min-width: 1200px) {
   .header_siteHeader__8yp0_ {
     padding: 0;
   }
+}
+.header_siteHeader__8yp0_.header_headerActive__3_ggd {
+  background-color: #000000;
+  border-bottom: 1px solid rgba(223, 223, 223, 0.3215686275);
 }
 .header_siteHeader__8yp0_ .header_siteContent__7d9Vu {
   overflow: hidden;

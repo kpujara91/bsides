@@ -1,4 +1,4 @@
-// File: N:\Nayan\MultiQOS\MultiQOS Projects\GIT Projects\besides\app\(pages)\layout.tsx
+// File: D:\AmitUpadhyay_MultiQos\ReactTasks\bsides_original\besides\app\(pages)\layout.tsx
 import * as entry from '../../../../app/(pages)/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

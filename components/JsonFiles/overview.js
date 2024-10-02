@@ -15,7 +15,7 @@ import IconEmail from '../../public/images/icon-mail.svg'
 import IconCall from '../../public/images/icon-call.svg'
 import ContactUsImage from '../../public/images/contactus-banner.webp'
 
-import SentinelOneWhite from '../../public/images/sentinel-one-white-bg.png.svg'
+import SentinelOneWhite from '../../public/images/sentinel-one-white-bg.png'
 
 export const OverviewContent = {
     GlobalAnimateCircleImage: AnimateCircleImage,

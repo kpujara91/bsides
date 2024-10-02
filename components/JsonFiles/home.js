@@ -157,7 +157,7 @@ import RameshKumarR from '../../public/images/RameshKumarR.jpg'
 import ChitrankShrivastav from '../../public/images/ChitrankShrivastav.jpeg'
 import PuneetTambi from '../../public/images/PuneetTambi .jpeg'
 
-import SentinelOneWhite from '../../public/images/sentinel-one-white-bg.png.svg'
+import SentinelOneWhite from '../../public/images/sentinel-one-white-bg.png'
 
 
 // import ramganeshtechspeak from '../../public/images/ramganesh_techspeak.jpg'
