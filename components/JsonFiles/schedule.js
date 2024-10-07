@@ -106,6 +106,7 @@ import VikramImage from "../../public/images/spekaer-vikram.jpg";
 import KrishnaKumarImage from "../../public/images/speaker-krishna-kumar.png";
 import NavaneethanImage from "../../public/images/spekaer-navaneethan.jpg";
 import ApurvaDalalImage from "../../public/images/speaker-apurva-dalal.jpg";
+import SHIVAKANTHPAVANKUMAR from "../../public/images/SHIVAKANTH-PAVAN-KUMAR.jpeg";
 import SmithGonsalvesImage from "../../public/images/speaker-smith-gonsalves.jpg";
 import KishanKendreImage from "../../public/images/speaker-kishan-kendre.png";
 import PpShreeImage from "../../public/images/speaker-pp-shree.jpg";
@@ -120,6 +121,7 @@ import LekshmiNairImage from "../../public/images/speaker-lekshmi-nair.png";
 import DeveshBhattImage from "../../public/images/speaker-devesh-bhatt.jpg";
 import DivakarImage from "../../public/images/speaker-divakar.jpg";
 import AlexTugatijianImage from "../../public/images/speaker-alex-tugatijian.jpg";
+import VivasvanShastri from '../../public/images/Vivasvan-Shastri.jpeg'
 
 
 import DhirajSasiImage from "../../public/images/speaker-dhiraj-sasi.jpg";
@@ -1166,54 +1168,127 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                
               ],
             },
+
             {
-              mainStageName: `CXO`,
+              mainStageName: `CXO PANEL`,
               providedTime: `12:00 PM - 12:45 PM`,
-              MainTitle: `Government Panel`,
-              // innerDetails: [
-              //   {
-              //           speakerTitle: `Moderator`,
-              //           imagePath: SmithGonsalvesImage,
-              //           name: `Smith Gonsalves`,
-              //           description: `Managing Director & Principal Consultant, CyberSmithSECURE Pvt. Ltd.`,
-              //           url: ``,
-              //           subtitle: ``,
-              //   },
-              //   {
-              //     speakerTitle: `Panelist`,
-              //     imagePath: KishanKendreImage,
-              //     name: `Kishan Kendre`,
-              //     description: `Head - Information Security At Blue Star Ltd`,
-              //     url: ``,
-              //     subtitle: ``,
-              //   },
-              //   {
-              //     speakerTitle: `Panelist`,
-              //     imagePath: PpShreeImage,
-              //     name: `Sreeshankar Gurujalam`,
-              //     description: `General Manager - Cybersecurity At Siemens Healthineers`,
-              //     url: ``,
-              //     subtitle: ``,
-              //   },
-              //   {
-              //     speakerTitle: `Panelist`,
-              //     imagePath: KamalSharmaImage,
-              //     name: `Kamal Sharma`,
-              //     description: `Vice President & CISO At ASM Technologies`,
-              //     url: ``,
-              //     subtitle: ``,
-              //   },
-              //   {
-              //     speakerTitle: `Panelist`,
-              //     imagePath: RameshKumarR,
-              //     name: `Ramesh Kumar R`,
-              //     description: `CISO FOR BIOCON GROUP OF COMPANIES`,
-              //     url: ``,
-              //     subtitle: ``,
-              //   },
-               
-              // ],
+              MainTitle: `Managing Data Breaches Involving Third-Party Services in Cloud Environments`,
+              innerDetails: [
+                // {
+                //   speakerTitle: `Moderator`,
+                //   imagePath: AlexTugatijianImage,
+                //   name: `Alex Tugatijian`,
+                //   description: `Middle-East Lead CSM-Synack`,
+                //   url: ``,
+                //   subtitle: ``,
+                // },
+                {
+                  speakerTitle: `Moderator`,
+                  imagePath: SHIVAKANTHPAVANKUMAR,
+                  name: `Shivakanth Pavan Kumar`,
+                  description: `Vice President - ISC2 Bangalore Chapter`,
+                  // url: ``,
+                  subtitle: ``,
+                },
+                {
+                  speakerTitle: `Panelist`,
+                  imagePath: AmitKaushikImage,
+                  name: `Amit Kaushik`,
+                  description: `CISO ZEE -Technology & Innovation`,
+                  url: `https://www.linkedin.com/in/kaushikamit?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAG8_vkB4fkQnDYSUqtgf-8ICCxwbQSKOnA`,
+                  subtitle: ``,
+                },
+                // {
+                //   speakerTitle: `Panelist`,
+                //   imagePath: SatishKumarImage,
+                //   name: `Satish Kumar Dwibhashi`,
+                //   description: `Chief Information Security Officer (CISO) at Kredit-bee`,
+                //   url: `https://www.linkedin.com/in/satishkumard/`,
+                //   subtitle: ``,
+                // },
+
+                {
+                  speakerTitle: `Panelist`,
+                  imagePath: ApurvaDalalImage,
+                  name: `Apurva Dalal`,
+                  description: `Chief Information Officer at Adani Green Energy Ltd. & Adani Solar`,
+                  url: `https://www.linkedin.com/in/apurvadalal1/`,
+                  subtitle: ``,
+                },
+                // {
+                //   speakerTitle: `Panelist`,
+                //   imagePath: KartikShindeImage,
+                //   name:'Kartik Shinde' ,
+                //   description: `Partner, Consulting at EY`,
+                //   url: `https://www.linkedin.com/in/kartikshinde/`,
+                //   subtitle: ``,
+                // },
+                {
+                  speakerTitle: `Panelist`,
+                  imagePath: SetuParimiImage,
+                  name: `Setu Parimi`,
+                  description: `Co-Founder & CTO Of RiskProfiler.io`,
+                  url: `https://www.linkedin.com/in/sethuparimi/`,
+                  subtitle: ``,
+                },
+                {
+                  speakerTitle: `Panelist`,
+                  imagePath: VivasvanShastri,
+                  name: `Vivasvan Shastri`,
+                  description: `VP of Engineering, India Site Lead , SentinelOne`,
+                  url: `https://www.linkedin.com/in/vivas/`,
+                  subtitle: ``,
+                },
+              ],
             },
+            // {
+            //   mainStageName: `CXO`,
+            //   providedTime: `12:00 PM - 12:45 PM`,
+            //   MainTitle: `Government Panel`,
+            //   // innerDetails: [
+            //   //   {
+            //   //           speakerTitle: `Moderator`,
+            //   //           imagePath: SmithGonsalvesImage,
+            //   //           name: `Smith Gonsalves`,
+            //   //           description: `Managing Director & Principal Consultant, CyberSmithSECURE Pvt. Ltd.`,
+            //   //           url: ``,
+            //   //           subtitle: ``,
+            //   //   },
+            //   //   {
+            //   //     speakerTitle: `Panelist`,
+            //   //     imagePath: KishanKendreImage,
+            //   //     name: `Kishan Kendre`,
+            //   //     description: `Head - Information Security At Blue Star Ltd`,
+            //   //     url: ``,
+            //   //     subtitle: ``,
+            //   //   },
+            //   //   {
+            //   //     speakerTitle: `Panelist`,
+            //   //     imagePath: PpShreeImage,
+            //   //     name: `Sreeshankar Gurujalam`,
+            //   //     description: `General Manager - Cybersecurity At Siemens Healthineers`,
+            //   //     url: ``,
+            //   //     subtitle: ``,
+            //   //   },
+            //   //   {
+            //   //     speakerTitle: `Panelist`,
+            //   //     imagePath: KamalSharmaImage,
+            //   //     name: `Kamal Sharma`,
+            //   //     description: `Vice President & CISO At ASM Technologies`,
+            //   //     url: ``,
+            //   //     subtitle: ``,
+            //   //   },
+            //   //   {
+            //   //     speakerTitle: `Panelist`,
+            //   //     imagePath: RameshKumarR,
+            //   //     name: `Ramesh Kumar R`,
+            //   //     description: `CISO FOR BIOCON GROUP OF COMPANIES`,
+            //   //     url: ``,
+            //   //     subtitle: ``,
+            //   //   },
+               
+            //   // ],
+            // },
           ],
         },
         {
@@ -1228,9 +1303,58 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
           // ScheduleTitle: `BREAKFAST`,
           // ScheduleTime: `7:30 AM ONWARDS`,
           SpeakerDetails: [
+
             {
               mainStageName: `CXO PANEL`,
-              providedTime: `2:00 PM - 2:45 PM`,
+              providedTime: `02-00 PM - 02:45 PM`,
+              MainTitle: `Case Studies: Real-World Incidents Involving Third-Party Cloud Integrations`,
+              innerDetails: [
+                {
+                  speakerTitle: `Moderator`,
+                  imagePath: NitinSharma,
+                  name: `Nitin Sharma`,
+                  description: ` Manager, Platform Security at Salesforce`,
+                  url: ``,
+                  subtitle: ``,
+                },
+                {
+                  speakerTitle: `Panelist`,
+                  imagePath: GauravBatra,
+                  name: `Gaurav Batra `,
+                  description: `Founder & CEO, CyberFrat`,
+                  url: `https://www.linkedin.com/in/gauvbatra`,
+                  subtitle: ``,
+                },
+                {
+                  speakerTitle: `Panelist`,
+                  imagePath: ambirshkumarsingh,
+                  name: `Ambrish kumar Singh`,
+                  description: `Chief Information Security Officer (CISO) at Godrej & Boyce `,
+                  url: ``,
+                  subtitle: ``,
+                },
+                {
+                  speakerTitle: `Panelist`,
+                  imagePath: AmitGhodekarImage,
+                  name: `Amit Ghodekar`,
+                  description: `Global CISO At Aramex`,
+                  url: `https://www.linkedin.com/in/amitghodekar/`,
+                  subtitle: ``,
+                },
+                {
+                  speakerTitle: `Panelist`,
+                  imagePath: KumaresanMuthuramalingam,
+                  name: `Kumaresan Muthuramalingam`,
+                  description: `Head of IT & CISO Unichem Labs at Unichem Labs`,
+                  url: `https://www.linkedin.com/in/kumaresan-m-b36b065/`,
+                  subtitle: ``,
+                },
+
+              ],
+            },
+            {
+              mainStageName: `CXO PANEL`,
+              providedTime: `3:30 PM - 4:15 PM`,
               MainTitle: `AI in Cyber Security: Enhancing Predictive Capabilities and Mitigation Strategies`,
               innerDetails: [
                 {
@@ -1277,9 +1401,24 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
               
               ],
             },
+
+           
+            
+           
+          ],
+        },
+        {
+          ScheduleTitle: `High Tea`,
+          ScheduleTime: `04:15 PM - 4:45 PM`,
+        },
+        {
+          // ScheduleTitle: `HIGH TEA`,
+          // ScheduleTime: `04:15 - 04:45`,
+          
+          SpeakerDetails: [
             {
               mainStageName: `CXO PANEL`,
-              providedTime: `2:45 PM - 3:30 PM`,
+              providedTime: `04:45 PM - 5:30 PM`,
               MainTitle: `Navigating Regulatory Changes: Adapting PCI DSS Compliance Strategies to Evolving Cloud Regulations`,
               innerDetails: [
                 {
@@ -1325,165 +1464,104 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                 
               ],
             },
-            {
-              mainStageName: `CXO PANEL`,
-              providedTime: `3:30 PM - 4:15 PM`,
-              MainTitle: `Case Studies: Real-World Incidents Involving Third-Party Cloud Integrations`,
-              innerDetails: [
-                {
-                  speakerTitle: `Moderator`,
-                  imagePath: NitinSharma,
-                  name: `Nitin Sharma`,
-                  description: ` Manager, Platform Security at Salesforce`,
-                  url: ``,
-                  subtitle: ``,
-                },
-                {
-                  speakerTitle: `Panelist`,
-                  imagePath: GauravBatra,
-                  name: `Gaurav Batra `,
-                  description: `Founder & CEO, CyberFrat`,
-                  url: `https://www.linkedin.com/in/gauvbatra`,
-                  subtitle: ``,
-                },
-                {
-                  speakerTitle: `Panelist`,
-                  imagePath: ambirshkumarsingh,
-                  name: `Ambrish kumar Singh`,
-                  description: `Chief Information Security Officer (CISO) at Godrej & Boyce `,
-                  url: ``,
-                  subtitle: ``,
-                },
-                {
-                  speakerTitle: `Panelist`,
-                  imagePath: AmitGhodekarImage,
-                  name: `Amit Ghodekar`,
-                  description: `Global CISO At Aramex`,
-                  url: `https://www.linkedin.com/in/amitghodekar/`,
-                  subtitle: ``,
-                },
-                {
-                  speakerTitle: `Panelist`,
-                  imagePath: KumaresanMuthuramalingam,
-                  name: `Kumaresan Muthuramalingam`,
-                  description: `Head of IT & CISO Unichem Labs at Unichem Labs`,
-                  url: `https://www.linkedin.com/in/kumaresan-m-b36b065/`,
-                  subtitle: ``,
-                },
-
-              ],
-            },
-           
-            
-           
-          ],
-        },
-        {
-          ScheduleTitle: `High Tea`,
-          ScheduleTime: `04:15 PM - 4:45 PM`,
-        },
-        {
-          // ScheduleTitle: `HIGH TEA`,
-          // ScheduleTime: `04:15 - 04:45`,
-          SpeakerDetails: [
-            {
-              mainStageName: `CXO PANEL`,
-              providedTime: `4:45 PM - 5:30 PM`,
-              MainTitle: `Operationalizing GRC: Turning Governance, Risk, and Compliance into a Competitive Advantage`,
-              innerDetails: [
-                {
-                  speakerTitle: `Moderator`,
-                  imagePath: GunjanImage,
-                  name: `Gunjan Chhillar`,
-                  description: `Security Specialist at Crowdstrike`,
-                  url: `https://www.linkedin.com/in/gunjanchhillar29/`,
-                  subtitle: ``,
-                },
-                {
-                  speakerTitle: `Panelist`,
-                  imagePath: RakeshKumar,
-                  name: `Rakesh Kumar Kunwar`,
-                  description: `Senior Director at Arcon`,
-                  url: `https://www.linkedin.com/in/rakeshkunwar/`,
-                  subtitle: ``,
-                },
-                {
-                  speakerTitle: `Panelist`,
-                  imagePath: BalaRamanan,
-                  name: `Bala Ramanan`,
-                  description: `AVP- Risk & Compliance at Microland`,
-                  url: `https://www.linkedin.com/in/balaramanan/`,
-                  subtitle: ``,
-                },
-                {
-                  speakerTitle: `Panelist`,
-                  imagePath: AmitKumbhat,
-                  name: `Amit Kumbhat`,
-                  description: `Head - Information Technology & Infosec Four Seasons Hotel & Private Residences Bengaluru`,
-                  url: `https://www.linkedin.com/in/amitkumbhat/`,
-                  subtitle: ``,
-                },
-                {
-                  speakerTitle: `Panelist`,
-                  imagePath: krishnaPandey,
-                  name: `Krishna Pandey`,
-                  description: `Senior Director - Product Security & Security Engineering at Xerox`,
-                  url: `https://www.linkedin.com/in/krishna-pandey1/`,
-                  subtitle: ``,
-                },
-                {
-                  speakerTitle: `Panelist`,
-                  imagePath: SumitKumar,
-                  name: `Sumit Kumar`,
-                  description: `Chief Information Security Officer, Indian International Exchange ( IFSC) Ltd`,
-                  url: `https://www.linkedin.com/in/sumit-kumar-cissp%C2%AE-90427b53?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
-                  subtitle: ``,
-                },
+            // {
+            //   mainStageName: `CXO PANEL`,
+            //   providedTime: `4:45 PM - 5:30 PM`,
+            //   MainTitle: `Operationalizing GRC: Turning Governance, Risk, and Compliance into a Competitive Advantage`,
+            //   innerDetails: [
+            //     {
+            //       speakerTitle: `Moderator`,
+            //       imagePath: GunjanImage,
+            //       name: `Gunjan Chhillar`,
+            //       description: `Security Specialist at Crowdstrike`,
+            //       url: `https://www.linkedin.com/in/gunjanchhillar29/`,
+            //       subtitle: ``,
+            //     },
+            //     {
+            //       speakerTitle: `Panelist`,
+            //       imagePath: RakeshKumar,
+            //       name: `Rakesh Kumar Kunwar`,
+            //       description: `Senior Director at Arcon`,
+            //       url: `https://www.linkedin.com/in/rakeshkunwar/`,
+            //       subtitle: ``,
+            //     },
+            //     {
+            //       speakerTitle: `Panelist`,
+            //       imagePath: BalaRamanan,
+            //       name: `Bala Ramanan`,
+            //       description: `AVP- Risk & Compliance at Microland`,
+            //       url: `https://www.linkedin.com/in/balaramanan/`,
+            //       subtitle: ``,
+            //     },
+            //     {
+            //       speakerTitle: `Panelist`,
+            //       imagePath: AmitKumbhat,
+            //       name: `Amit Kumbhat`,
+            //       description: `Head - Information Technology & Infosec Four Seasons Hotel & Private Residences Bengaluru`,
+            //       url: `https://www.linkedin.com/in/amitkumbhat/`,
+            //       subtitle: ``,
+            //     },
+            //     {
+            //       speakerTitle: `Panelist`,
+            //       imagePath: krishnaPandey,
+            //       name: `Krishna Pandey`,
+            //       description: `Senior Director - Product Security & Security Engineering at Xerox`,
+            //       url: `https://www.linkedin.com/in/krishna-pandey1/`,
+            //       subtitle: ``,
+            //     },
+            //     {
+            //       speakerTitle: `Panelist`,
+            //       imagePath: SumitKumar,
+            //       name: `Sumit Kumar`,
+            //       description: `Chief Information Security Officer, Indian International Exchange ( IFSC) Ltd`,
+            //       url: `https://www.linkedin.com/in/sumit-kumar-cissp%C2%AE-90427b53?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
+            //       subtitle: ``,
+            //     },
   
-              ],
-            },
+            //   ],
+            // },
           ],
         },
 
-        {
-          // ScheduleTitle: `HIGH TEA`,
-          // ScheduleTime: `04:15 - 04:45`,
-          SpeakerDetails: [
-            {
-              mainStageName: `AWARDS`,
-              providedTime: `07:00 PM - 10:00 PM`,
-              MainTitle: `Award Show & Dinner`,
-              innerDetails: [
-                {
-                  speakerTitle: ``,
-                  imagePath: AwardImage,
-                  name: ``,
-                  description: ``,
-                  url: ``,
-                  subtitle: ``,
-                },
+        // {
+        //   // ScheduleTitle: `HIGH TEA`,
+        //   // ScheduleTime: `04:15 - 04:45`,
+        //   SpeakerDetails: [
+        //     {
+        //       mainStageName: `AWARDS`,
+        //       providedTime: `07:00 PM - 10:00 PM`,
+        //       MainTitle: `Award Show & Dinner`,
+        //       innerDetails: [
+        //         {
+        //           speakerTitle: ``,
+        //           imagePath: AwardImage,
+        //           name: ``,
+        //           description: ``,
+        //           url: ``,
+        //           subtitle: ``,
+        //         },
                 
-                // {
-                //   speakerTitle: `Jury`,
-                //   imagePath: KamalSharmaImage,
-                //   name: `Kamal Sharma`,
-                //   description: `Founder of AuthenticOne & CISO at ASM Technologies`,
-                //   url: `https://www.linkedin.com/in/kamalsh/`,
-                //   subtitle: ``,
-                // },
-                // {
-                //   speakerTitle: `Jury`,
-                //   imagePath: AbhijethDugginapeddi,
-                //   name: `Abhijeth Dugginapeddi`,
-                //   description: `Cybersecurity Leader, Advisor and Adjunct Professor`,
-                //   url: `https://www.linkedin.com/in/abhijeth`,
-                //   subtitle: ``,
-                // },
+        //         // {
+        //         //   speakerTitle: `Jury`,
+        //         //   imagePath: KamalSharmaImage,
+        //         //   name: `Kamal Sharma`,
+        //         //   description: `Founder of AuthenticOne & CISO at ASM Technologies`,
+        //         //   url: `https://www.linkedin.com/in/kamalsh/`,
+        //         //   subtitle: ``,
+        //         // },
+        //         // {
+        //         //   speakerTitle: `Jury`,
+        //         //   imagePath: AbhijethDugginapeddi,
+        //         //   name: `Abhijeth Dugginapeddi`,
+        //         //   description: `Cybersecurity Leader, Advisor and Adjunct Professor`,
+        //         //   url: `https://www.linkedin.com/in/abhijeth`,
+        //         //   subtitle: ``,
+        //         // },
                 
-              ],
-            },
-          ],
-        },
+        //       ],
+        //     },
+        //   ],
+        // },
         // {
         //   ScheduleTitle: `CLOSING CEREMONY`,
         //   ScheduleTime: `06:15 - 06:30`,
@@ -1561,9 +1639,58 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                 },
               ],
             },
+
+                        {
+              mainStageName: `CXO`,
+              providedTime: `11:15 AM - 12:00 PM`,
+              MainTitle: `Government Panel`,
+              // innerDetails: [
+              //   {
+              //           speakerTitle: `Moderator`,
+              //           imagePath: SmithGonsalvesImage,
+              //           name: `Smith Gonsalves`,
+              //           description: `Managing Director & Principal Consultant, CyberSmithSECURE Pvt. Ltd.`,
+              //           url: ``,
+              //           subtitle: ``,
+              //   },
+              //   {
+              //     speakerTitle: `Panelist`,
+              //     imagePath: KishanKendreImage,
+              //     name: `Kishan Kendre`,
+              //     description: `Head - Information Security At Blue Star Ltd`,
+              //     url: ``,
+              //     subtitle: ``,
+              //   },
+              //   {
+              //     speakerTitle: `Panelist`,
+              //     imagePath: PpShreeImage,
+              //     name: `Sreeshankar Gurujalam`,
+              //     description: `General Manager - Cybersecurity At Siemens Healthineers`,
+              //     url: ``,
+              //     subtitle: ``,
+              //   },
+              //   {
+              //     speakerTitle: `Panelist`,
+              //     imagePath: KamalSharmaImage,
+              //     name: `Kamal Sharma`,
+              //     description: `Vice President & CISO At ASM Technologies`,
+              //     url: ``,
+              //     subtitle: ``,
+              //   },
+              //   {
+              //     speakerTitle: `Panelist`,
+              //     imagePath: RameshKumarR,
+              //     name: `Ramesh Kumar R`,
+              //     description: `CISO FOR BIOCON GROUP OF COMPANIES`,
+              //     url: ``,
+              //     subtitle: ``,
+              //   },
+               
+              // ],
+            },
             {
               mainStageName: `CXO PANEL`,
-              providedTime: `11:15 AM - 12:00 PM`,
+              providedTime: `12:00 PM - 12:45 PM`,
               MainTitle: `The Role of GRC in Crisis Management and Recovery`,
               innerDetails: [
                 {
@@ -1608,9 +1735,19 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                 },
               ],
             },
+            
+          
+           
+           
+          ],
+        },
+        {
+          ScheduleTitle: `LUNCH`,
+          ScheduleTime: `1:00 PM - 2:00 PM`,
+          SpeakerDetails: [
             {
               mainStageName: `TALK`,
-              providedTime: `12:00 PM - 12:45 PM`,
+              providedTime: `02:00 PM - 02:45 PM`,
               MainTitle: `Scaling AWS GuardDuty: A Comprehensive Detection Strategy for Enhanced Threat Visibility`,
               innerDetails: [
                 {
@@ -1624,65 +1761,112 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                 
               ],
             },
-          
-           
-           
-          ],
-        },
-        {
-          ScheduleTitle: `LUNCH`,
-          ScheduleTime: `1:00 PM - 2:00 PM`,
-          SpeakerDetails: [
-            {
+               {
               mainStageName: `CXO PANEL`,
-              providedTime: `02:00 PM - 02:45 PM`,
-              MainTitle: `Managing Data Breaches Involving Third-Party Services in Cloud Environments`,
+              providedTime: `02:45 PM - 03:30 PM`,
+              MainTitle: `Operationalizing GRC: Turning Governance, Risk, and Compliance into a Competitive Advantage`,
               innerDetails: [
-                // {
-                //   speakerTitle: `Moderator`,
-                //   imagePath: AlexTugatijianImage,
-                //   name: `Alex Tugatijian`,
-                //   description: `Middle-East Lead CSM-Synack`,
-                //   url: ``,
-                //   subtitle: ``,
-                // },
                 {
-                  speakerTitle: `Panelist`,
-                  imagePath: AmitKaushikImage,
-                  name: `Amit Kaushik`,
-                  description: `CISO ZEE -Technology & Innovation`,
-                  url: `https://www.linkedin.com/in/kaushikamit?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAG8_vkB4fkQnDYSUqtgf-8ICCxwbQSKOnA`,
+                  speakerTitle: `Moderator`,
+                  imagePath: GunjanImage,
+                  name: `Gunjan Chhillar`,
+                  description: `Security Specialist at Crowdstrike`,
+                  url: `https://www.linkedin.com/in/gunjanchhillar29/`,
                   subtitle: ``,
                 },
                 {
                   speakerTitle: `Panelist`,
-                  imagePath: SatishKumarImage,
-                  name: `Satish Kumar Dwibhashi`,
-                  description: `Chief Information Security Officer (CISO) at Kredit-bee`,
-                  url: `https://www.linkedin.com/in/satishkumard/`,
+                  imagePath: RakeshKumar,
+                  name: `Rakesh Kumar Kunwar`,
+                  description: `Senior Director at Arcon`,
+                  url: `https://www.linkedin.com/in/rakeshkunwar/`,
                   subtitle: ``,
                 },
                 {
                   speakerTitle: `Panelist`,
-                  imagePath: ApurvaDalalImage,
-                  name: `Apurva Dalal`,
-                  description: `Chief Information Officer at Adani Green Energy Ltd. & Adani Solar`,
-                  url: `https://www.linkedin.com/in/apurvadalal1/`,
+                  imagePath: BalaRamanan,
+                  name: `Bala Ramanan`,
+                  description: `AVP- Risk & Compliance at Microland`,
+                  url: `https://www.linkedin.com/in/balaramanan/`,
                   subtitle: ``,
                 },
                 {
                   speakerTitle: `Panelist`,
-                  imagePath: KartikShindeImage,
-                  name:'Kartik Shinde' ,
-                  description: `Partner, Consulting at EY`,
-                  url: `https://www.linkedin.com/in/kartikshinde/`,
+                  imagePath: AmitKumbhat,
+                  name: `Amit Kumbhat`,
+                  description: `Head - Information Technology & Infosec Four Seasons Hotel & Private Residences Bengaluru`,
+                  url: `https://www.linkedin.com/in/amitkumbhat/`,
                   subtitle: ``,
                 },
+                {
+                  speakerTitle: `Panelist`,
+                  imagePath: krishnaPandey,
+                  name: `Krishna Pandey`,
+                  description: `Senior Director - Product Security & Security Engineering at Xerox`,
+                  url: `https://www.linkedin.com/in/krishna-pandey1/`,
+                  subtitle: ``,
+                },
+                {
+                  speakerTitle: `Panelist`,
+                  imagePath: SumitKumar,
+                  name: `Sumit Kumar`,
+                  description: `Chief Information Security Officer, Indian International Exchange ( IFSC) Ltd`,
+                  url: `https://www.linkedin.com/in/sumit-kumar-cissp%C2%AE-90427b53?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
+                  subtitle: ``,
+                },
+  
               ],
             },
+            // {
+            //   mainStageName: `CXO PANEL`,
+            //   providedTime: `02:00 PM - 02:45 PM`,
+            //   MainTitle: `Managing Data Breaches Involving Third-Party Services in Cloud Environments`,
+            //   innerDetails: [
+            //     // {
+            //     //   speakerTitle: `Moderator`,
+            //     //   imagePath: AlexTugatijianImage,
+            //     //   name: `Alex Tugatijian`,
+            //     //   description: `Middle-East Lead CSM-Synack`,
+            //     //   url: ``,
+            //     //   subtitle: ``,
+            //     // },
+            //     {
+            //       speakerTitle: `Panelist`,
+            //       imagePath: AmitKaushikImage,
+            //       name: `Amit Kaushik`,
+            //       description: `CISO ZEE -Technology & Innovation`,
+            //       url: `https://www.linkedin.com/in/kaushikamit?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAG8_vkB4fkQnDYSUqtgf-8ICCxwbQSKOnA`,
+            //       subtitle: ``,
+            //     },
+            //     {
+            //       speakerTitle: `Panelist`,
+            //       imagePath: SatishKumarImage,
+            //       name: `Satish Kumar Dwibhashi`,
+            //       description: `Chief Information Security Officer (CISO) at Kredit-bee`,
+            //       url: `https://www.linkedin.com/in/satishkumard/`,
+            //       subtitle: ``,
+            //     },
+            //     {
+            //       speakerTitle: `Panelist`,
+            //       imagePath: ApurvaDalalImage,
+            //       name: `Apurva Dalal`,
+            //       description: `Chief Information Officer at Adani Green Energy Ltd. & Adani Solar`,
+            //       url: `https://www.linkedin.com/in/apurvadalal1/`,
+            //       subtitle: ``,
+            //     },
+            //     {
+            //       speakerTitle: `Panelist`,
+            //       imagePath: KartikShindeImage,
+            //       name:'Kartik Shinde' ,
+            //       description: `Partner, Consulting at EY`,
+            //       url: `https://www.linkedin.com/in/kartikshinde/`,
+            //       subtitle: ``,
+            //     },
+            //   ],
+            // },
             {
               mainStageName: `CXO PANEL`,
-              providedTime: `02:00 PM - 02:45 PM`,
+              providedTime: `03:30 PM - 04:15 PM`,
               MainTitle: `Balancing Risk and Innovation: How CXOs Can Enable Growth While Managing Uncertainty`,
               innerDetails: [
                 {
@@ -1735,9 +1919,18 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                 // },
               ],
             },
+
+         
+          ],
+        },
+
+        {
+          ScheduleTitle: `Hign Tea`,
+          ScheduleTime: `04:15 PM - 04:45 PM`,
+          SpeakerDetails: [
             {
               mainStageName: `CXO PANEL`,
-              providedTime: `03:30 PM - 04:15 PM`,
+              providedTime: `04:45 PM - 05:00 PM`,
               MainTitle: `Red Team vs. Blue Team: Enhancing SOC Capabilities through Offensive Simulations`,
               innerDetails: [
                 {
@@ -1792,30 +1985,22 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                
               ],
             },
-         
-          ],
-        },
-
-        {
-          ScheduleTitle: `Hign Tea`,
-          ScheduleTime: `04:15 PM - 04:45 PM`,
-          SpeakerDetails: [
-            {
-              mainStageName: `TALK`,
-              providedTime: `4:45 PM - 5:00 PM`,
-              MainTitle: `TBD`,
-              innerDetails: [
-                {
-                      speakerTitle: `Panelist`,
-                      imagePath: SetuParimiImage,
-                      name: `Setu Parimi`,
-                      description: `Co-Founder & CTO Of RiskProfiler.io`,
-                      url: `https://www.linkedin.com/in/sethuparimi/`,
-                      subtitle: ``,
-                    },
+            // {
+            //   mainStageName: `TALK`,
+            //   providedTime: `4:45 PM - 5:00 PM`,
+            //   MainTitle: `TBD`,
+            //   innerDetails: [
+            //     {
+            //           speakerTitle: `Panelist`,
+            //           imagePath: SetuParimiImage,
+            //           name: `Setu Parimi`,
+            //           description: `Co-Founder & CTO Of RiskProfiler.io`,
+            //           url: `https://www.linkedin.com/in/sethuparimi/`,
+            //           subtitle: ``,
+            //         },
                
-              ],
-            },
+            //   ],
+            // },
             // {
             //   mainStageName: `CXO`,
             //   providedTime: `5:00 PM - 5:20 PM`,

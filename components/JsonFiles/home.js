@@ -142,6 +142,7 @@ import AryanJogia from '../../public/images/AryanJogia .jpg'
 import ChetanyaKunndra from '../../public/images/ChetanyaKunndra.jpg'
 import NitinSharma from '../../public/images/Nitin-Sharma.png'
 import TapendraDev from '../../public/images/Tapendra-Dev.jpeg'
+import VivasvanShastri from '../../public/images/Vivasvan-Shastri.jpeg'
 import TarunKoyalwar from '../../public/images/Tarun-Koyalwar.jpg'
 import DhiyaneshwaranBalasubramaniam from '../../public/images/Dhiyaneshwaran-Balasubramaniam.jpg'
 
@@ -168,7 +169,6 @@ import ColonelArijeetSen from '../../public/images/Colonel-Arijeet-Sen.jpeg'
 import CdrAkshayChuloo from '../../public/images/Akshay-Chuloo.jpeg'
 import ColHarkamalSidhu from '../../public/images/Col-Harkamal-Sidhu.jpeg'
 import LavinaSinha from '../../public/images/Lavina-Sinha.jpeg'
-
 import ISC2Bangalore from '../../public/images/ISC2Bangalore.webp'
 import OTSecurity from '../../public/images/OT-SECURITY.jpeg'
 import COCONLogo from '../../public/images/GandhinagarLogo.jpeg'
@@ -1540,6 +1540,18 @@ export const HomeContent = {
                         title: 'Linkedin',
                         icon: IconLinkedin,
                         url: 'https://www.linkedin.com/in/tapendradev/'
+                    }
+                ]
+            },
+            {
+                speakerDesignation: 'VP of Engineering, India Site Lead , SentinelOne',
+                speakerName: 'Vivasvan Shastri',
+                speakerImage:VivasvanShastri , 
+                speakerSocialMediaList: [
+                    {
+                        title: 'Linkedin',
+                        icon: IconLinkedin,
+                        url: 'https://www.linkedin.com/in/vivas/'
                     }
                 ]
             },
@@ -2946,6 +2958,21 @@ field with two CVEs: CVE-2023-37569 and CVE-2023-37570.`}
                     return (
                         <p>
                             {`Tapendra Dev is a seasoned entrepreneur, cybersecurity researcher, and IIT Kanpur fellow, recognized for his exceptional contributions by various prominent bodies. With over a decade of experience across multiple IT security domains, including Red and Blue teams, he has collaborated with Fortune 500 companies, government agencies, and law enforcement as a cybersecurity expert.`}
+                        </p>
+                    )
+                }
+            },
+            {
+                title: 'CXO Panel',
+                description: 'Vivasvan Shastri',
+                src: VivasvanShastri,
+                ctaText: 'View',
+                content: () => {
+                    return (
+                        <p>
+                            {`With 26 years of experience in the technology industry, Vivasvan Shastri has led global teams across engineering, product management, and support services. Passionate about creating environments where engineers thrive and platforms customers love, Viva lives by the motto, "Be Good, Do Good, Have Fun."
+
+A proven leader in driving business outcomes, Viva is also an AWS Certified Solutions Architect, Design Thinking Practitioner, and Gallup Certified Strengths Coach, with expertise in SaaS, AI, ML, and cloud technologies.`}
                         </p>
                     )
                 }
