@@ -78,6 +78,7 @@ import SponsorCommunitGoa from '../../public/images/sponsor-community-goa.jpeg'
 import SponsorCommunityCywaysLogo from '../../public/images/sponsor-cywayz-logo.jpeg'
 import NetworkingDinnerSponsorLogo1 from '../../public/images/sponsor-hackerone.png'
 import SpeakerRahulSasi from '../../public/images/speaker-rahul-sasi.jpg'
+import VarunKapoor from '../../public/images/VarunKapoor.jpeg'
 import apurvaDalal from '../../public/images/apurva-Dalal.jpeg'
 import GauravBatra from '../../public/images/GauravBatra.jpg'
 import gunjanchilllar from '../../public/images/gunjanchilllar.jpg'
@@ -316,6 +317,21 @@ export const HomeContent = {
                         url: 'https://www.kvrformp.org/_files/ugd/5f1b67_e61aabfb26574232a5772898dfe2552b.pdf'
                     }
                 ]
+            },
+            {
+                speakerImage: VivasvanShastri,
+                speakerName: `Vivasvan Shastri`,
+                speakerDesignation: `VP of Engineering, India Site Lead , SentinelOne`,
+                // pdfRef:"https://www.kvrformp.org/_files/ugd/5f1b67_e61aabfb26574232a5772898dfe2552b.pdf",
+                speakerSocialMediaList: [
+
+                    {
+                        title: 'Linkedin',
+                        icon: IconLinkedin,
+                        url: 'https://www.linkedin.com/in/vivas/'
+                    },
+
+                ]
             }
         ],
         ClosingKeynoteTitle: (
@@ -339,6 +355,23 @@ export const HomeContent = {
                         icon: IconLinkedin,
                         url: 'https://www.linkedin.com/in/fb1h2s/'
                     }
+                ]
+            },
+            {
+                speakerImage: VarunKapoor,
+                speakerName: `Dr Varun Kapoor IPS`,
+                speakerDesignation: `Special Director General of Police`,
+                speakerSocialMediaList: [
+                    // {
+                    //     title:'X',
+                    //     icon: IconTwitter,
+                    //     url:'https://twitter.com/bsidesahmedabad',
+                    // },
+                    // {
+                    //     title: 'Linkedin',
+                    //     icon: IconLinkedin,
+                    //     url: 'https://www.linkedin.com/in/fb1h2s/'
+                    // }
                 ]
             }
         ],
@@ -1604,7 +1637,7 @@ export const HomeContent = {
         },
         {
             speakerDesignation: '',
-            speakerName: 'Colonel Arijeet Sen',
+            speakerName: 'LT. Col Arijeet Sen',
             speakerImage: ColonelArijeetSen,
             speakerSocialMediaList: [
                 {

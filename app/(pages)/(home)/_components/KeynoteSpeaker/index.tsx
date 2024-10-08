@@ -34,7 +34,6 @@
 // //     )
 // // }
 
-
 // 'use client'
 // import React from 'react'
 // import { BackgroundGradient } from '../background-gradient/index'
@@ -43,7 +42,7 @@
 
 // export function BackgroundGradientDemo({ data }: any) {
 //     console.log(data,"data");
-    
+
 //     return (
 //         <div>
 //             {data?.map((dd: any, i: any) => {
@@ -89,7 +88,6 @@
 //     )
 // }
 
-
 'use client'
 import React from 'react'
 import { BackgroundGradient } from '../background-gradient/index'
@@ -97,7 +95,7 @@ import Image from 'next/image'
 
 export function BackgroundGradientDemo({ data }: any) {
     return (
-        <div>
+        <div className="flex flex-col sm:flex-row gap-6 sm:gap-20">
             {data?.map((dd: any, i: any) => {
                 return (
                     <BackgroundGradient
@@ -110,27 +108,29 @@ export function BackgroundGradientDemo({ data }: any) {
                                 alt="jordans"
                                 height="400"
                                 width="400"
-                                className="object-contain"
+                                className="object-cover object-top max-w-[400px] w-[100%] h-[300px]"
                             />
                             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <div className="flex space-x-4">
-                                    {dd?.speakerSocialMediaList?.map((c: any, i: any) => (
-                                        <a
-                                            href={c?.url}
-                                            title={c?.title}
-                                            className="inline-flex items-center justify-center bg-white rounded-full p-2"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            key={i}
-                                        >
-                                            <Image
-                                                src={c?.icon}
-                                                alt={c?.title}
-                                                width={24}
-                                                height={24}
-                                            />
-                                        </a>
-                                    ))}
+                                    {dd?.speakerSocialMediaList?.map(
+                                        (c: any, i: any) => (
+                                            <a
+                                                href={c?.url}
+                                                title={c?.title}
+                                                className="inline-flex items-center justify-center bg-white rounded-full p-2"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                key={i}
+                                            >
+                                                <Image
+                                                    src={c?.icon}
+                                                    alt={c?.title}
+                                                    width={24}
+                                                    height={24}
+                                                />
+                                            </a>
+                                        )
+                                    )}
                                 </div>
                             </div>
                         </div>
