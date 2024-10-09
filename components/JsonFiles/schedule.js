@@ -54,6 +54,8 @@ import ChinamayJoshi from '../../public/images/chinamay-joshi.jpeg'
 
 import adityachandra from '../../public/images/adityachandra.jpeg'
 import BrittoSadan from '../../public/images/cxo-britto-sadan.jpeg'
+import LokendraSinghAtri from '../../public/images/Lokendra-Singh-Atri.jpeg'
+
 import ChitrankShrivastav from '../../public/images/ChitrankShrivastav.jpeg'
 import ArunMane from '../../public/images/ArunMane.jpeg'
 import omkarmali from '../../public/images/omkarmali.jpeg'
@@ -1573,10 +1575,10 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                                 },
                                 {
                                     speakerTitle: `Panelist`,
-                                    imagePath: BrittoSadan,
-                                    name: `Britto Sidhan`,
-                                    description: `General Manager (Global Security Lab) at Schneider Electric`,
-                                    url: `https://www.linkedin.com/in/brittosidhan/`,
+                                    imagePath: LokendraSinghAtri,
+                                    name: `Lokendra Singh Atri`,
+                                    description: `Head OT Security, Adani Group`,
+                                    url: `https://www.linkedin.com/in/lokendra-s-atri-92025044`,
                                     subtitle: ``
                                 },
                                 {
@@ -2095,17 +2097,41 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                             ]
                         },
 
+                        // {
+                        //     mainStageName: `Session 2`,
+                        //     providedTime: `11:00 AM - 02:00 PM`,
+                        //     MainTitle: `Command & Control in Purple Teaming`,
+                        //     innerDetails: [
+                        //         {
+                        //             speakerTitle: `Speaker`,
+                        //             imagePath: ChinamayJoshi,
+                        //             name: `Chinamay Joshi`,
+                        //             description: `Deputy Manager - Red Teaming at SecurityLit`,
+                        //             url: ``,
+                        //             subtitle: ``
+                        //         }
+                        //     ]
+                        // },
+
                         {
                             mainStageName: `Session 2`,
-                            providedTime: `11:00 AM - 01:00 PM`,
-                            MainTitle: `Command & Control in Purple Teaming`,
+                            providedTime: `11:00 AM - 02:00 PM`,
+                            MainTitle: `Car Hacking Workshop`,
                             innerDetails: [
                                 {
-                                    speakerTitle: `Speaker`,
-                                    imagePath: ChinamayJoshi,
-                                    name: `Chinamay Joshi`,
-                                    description: `Deputy Manager - Red Teaming at SecurityLit`,
-                                    url: ``,
+                                    speakerTitle: `Panelist`,
+                                    imagePath: ArunMane,
+                                    name: `Arun Mane`,
+                                    description: `Founder and CEO, AmynaSec Research Labs`,
+                                    url: `https://www.linkedin.com/in/arun-mane-272456166/`,
+                                    subtitle: ``
+                                },
+                                {
+                                    speakerTitle: `Panelist`,
+                                    imagePath: omkarmali,
+                                    name: `Omkar Mali`,
+                                    description: `Security Researcher`,
+                                    url: `https://www.linkedin.com/in/omkarmali?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
                                     subtitle: ``
                                 }
                             ]
@@ -2164,25 +2190,41 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                                 }
                             ]
                         },
+                        // {
+                        //     mainStageName: `Session 2`,
+                        //     providedTime: `10:00 AM - 01:00 PM`,
+                        //     MainTitle: `Car Hacking Workshop`,
+                        //     innerDetails: [
+                        //         {
+                        //             speakerTitle: `Panelist`,
+                        //             imagePath: ArunMane,
+                        //             name: `Arun Mane`,
+                        //             description: `Founder and CEO, AmynaSec Research Labs`,
+                        //             url: `https://www.linkedin.com/in/arun-mane-272456166/`,
+                        //             subtitle: ``
+                        //         },
+                        //         {
+                        //             speakerTitle: `Panelist`,
+                        //             imagePath: omkarmali,
+                        //             name: `Omkar Mali`,
+                        //             description: `Security Researcher`,
+                        //             url: `https://www.linkedin.com/in/omkarmali?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
+                        //             subtitle: ``
+                        //         }
+                        //     ]
+                        // },
+
                         {
                             mainStageName: `Session 2`,
-                            providedTime: `10:00 AM - 01:00 PM`,
-                            MainTitle: `Car Hacking Workshop`,
+                            providedTime: `11:00 AM - 12:00 PM`,
+                            MainTitle: `Command & Control in Purple Teaming`,
                             innerDetails: [
                                 {
-                                    speakerTitle: `Panelist`,
-                                    imagePath: ArunMane,
-                                    name: `Arun Mane`,
-                                    description: `Founder and CEO, AmynaSec Research Labs`,
-                                    url: `https://www.linkedin.com/in/arun-mane-272456166/`,
-                                    subtitle: ``
-                                },
-                                {
-                                    speakerTitle: `Panelist`,
-                                    imagePath: omkarmali,
-                                    name: `Omkar Mali`,
-                                    description: `Security Researcher`,
-                                    url: `https://www.linkedin.com/in/omkarmali?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
+                                    speakerTitle: `Speaker`,
+                                    imagePath: ChinamayJoshi,
+                                    name: `Chinamay Joshi`,
+                                    description: `Deputy Manager - Red Teaming at SecurityLit`,
+                                    url: ``,
                                     subtitle: ``
                                 }
                             ]

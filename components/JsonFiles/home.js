@@ -71,6 +71,7 @@ import CxoDeveshBhatt from '../../public/images/cxo-devesh-bhatt.jpg'
 import CxoGaurav from '../../public/images/cxo-gaurav-bhardwaj.png'
 import CxoDivakar from '../../public/images/cxo-divakar.jpeg'
 import CxoBrittoSadan from '../../public/images/cxo-britto-sadan.jpeg'
+import LokendraSinghAtri from '../../public/images/Lokendra-Singh-Atri.jpeg'
 import CxoRahulTyagi from '../../public/images/cxo-rahul-tyagi.jpeg'
 import CxoApurvaDalal from '../../public/images/cxo-apurva-dalal.jpeg'
 import SponsorCommunitySecurityWhite from '../../public/images/sponsor-securityBoat-community-white-font-text.png'
@@ -998,14 +999,14 @@ export const HomeContent = {
                 ]
             },
             {
-                speakerImage: CxoBrittoSadan,
-                speakerName: `Britto Sidhan`,
-                speakerDesignation: `General Manager (Global Security Lab) at Schneider Electric`,
+                speakerImage: LokendraSinghAtri,
+                speakerName: `Lokendra Singh Atri`,
+                speakerDesignation: `Head OT Security, Adani Group`,
                 speakerSocialMediaList: [
                     {
                         title: 'Linkedin',
                         icon: IconLinkedin,
-                        url: 'https://www.linkedin.com/in/brittosidhan/'
+                        url: 'https://www.linkedin.com/in/lokendra-s-atri-92025044'
                     }
                 ]
             },
@@ -1939,14 +1940,13 @@ During his naval career, Amit maintained mission-critical weapon systems on Indi
             },
             {
                 title: 'CXO Panel',
-                description: 'Britto Sidhan',
-                src: CxoBrittoSadan,
+                description: 'Lokendra Singh Atri',
+                src: LokendraSinghAtri,
                 ctaText: 'View',
                 content: () => {
                     return (
                         <p>
-                            {`Britto Sadan is a General Manager of the Global Security Lab at Schneider Electric, with 19 years of experience in Red Team operations and ICS penetration testing. Britto is a public speaker known for his mantra, "Patience & Consistency Wins the Security Race."
-Britto's expertise spans various fields of cybersecurity, including implementing research into penetration testing, conducting cybersecurity audits for suppliers, leading offensive security teams, and developing testing solutions for ICS, IoT, and IIoT environments. His accolades include the "Capture the Flag" SEC504 Limited Edition Medal and the prestigious Inner Circle Award at Colt, along with Edison Expert certifications for his mastery in cybersecurity.`}
+                            {`An accomplished professional with extensive 20 years experience in operational technology (OT) environment and security for critical as well as manufacturing sectors , currently serving as the OT Security Head at Adani Group. Certified by ISC2 in CC and SANS GICSP, bring a robust understanding of OT cybersecurity frameworks and best practices tailored to industrial systems. My leadership enhancing OT security has significantly contributed to safeguarding critical infrastructure and advancing organizational cyber security resilience.`}
                         </p>
                     )
                 }
