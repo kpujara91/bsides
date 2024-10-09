@@ -33,7 +33,6 @@ export const metadata: Metadata = {
       }
     ]
   },
-  
   alternates: {
     canonical: 'https://bsidesahmedabad.in/',
     languages: {

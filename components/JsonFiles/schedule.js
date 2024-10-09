@@ -113,7 +113,7 @@ import DilipPanjwaniImage from '../../public/images/speaker-dilip-panjwani.png'
 import ShreyasDigheImage from '../../public/images/speaker-shreyas-dighe.jpg'
 import MinateeMishraImage from '../../public/images/speaker-minatee-mishra.png'
 import LekshmiNairImage from '../../public/images/speaker-lekshmi-nair.png'
-import DeveshBhattImage from '../../public/images/speaker-devesh-bhatt.jpg'
+import DeveshBhattImage from '../../public/images/cxo-devesh-bhatt.jpg'
 import DivakarImage from '../../public/images/speaker-divakar.jpg'
 import AlexTugatijianImage from '../../public/images/speaker-alex-tugatijian.jpg'
 import VivasvanShastri from '../../public/images/Vivasvan-Shastri.jpeg'
@@ -334,7 +334,6 @@ export const ScheduleContent = {
                                 url: ``,
                                 subtitle: ``
                             }
-                            
                         ]
                     }
                 },
@@ -431,7 +430,7 @@ export const ScheduleContent = {
 
                 {
                     ScheduleTitle: `Networking Lunch`,
-                    ScheduleTime: `01:00 PM - 02:00 PM`,
+                    ScheduleTime: `12:45 PM - 02:00 PM`,
                     SpeakerDetails: { innerDetails: [] }
                 },
                 {
@@ -535,15 +534,15 @@ export const ScheduleContent = {
                     mainStageName: `Technical Speaker`,
                     SpeakerDetails: {
                         innerDetails: [
-                          {
-                            speakerTitle: `Speaker`,
-                            imagePath: AvinashReddy,
-                            logo: '',
-                            name: `Avinash Reddy Thumma`,
-                            description: `Lead Threat Detection Engineer at Salesforce`,
-                            url: `https://www.linkedin.com/in/avinash-reddy-thumma-65008844/`,
-                            subtitle: ``
-                        }
+                            {
+                                speakerTitle: `Speaker`,
+                                imagePath: AvinashReddy,
+                                logo: '',
+                                name: `Avinash Reddy Thumma`,
+                                description: `Lead Threat Detection Engineer at Salesforce`,
+                                url: `https://www.linkedin.com/in/avinash-reddy-thumma-65008844/`,
+                                subtitle: ``
+                            }
                             // {
                             //     speakerTitle: `Speaker`,
                             //     imagePath: ShashankImage,
@@ -598,14 +597,14 @@ export const ScheduleContent = {
                             //   subtitle: ``,
                             // },
                             {
-                              speakerTitle: `Speaker`,
-                              imagePath: VivasvanShastri,
-                              logo: '',
-                              name: `Vivasvan Shastri`,
-                              description: `VP of Engineering, India Site Lead , SentinelOne`,
-                              url: `https://www.linkedin.com/in/vivas/`,
-                              subtitle: ``
-                          }
+                                speakerTitle: `Speaker`,
+                                imagePath: VivasvanShastri,
+                                logo: '',
+                                name: `Vivasvan Shastri`,
+                                description: `VP of Engineering, India Site Lead , SentinelOne`,
+                                url: `https://www.linkedin.com/in/vivas/`,
+                                subtitle: ``
+                            }
                         ]
                     }
                 },
@@ -707,7 +706,7 @@ export const ScheduleContent = {
                 },
                 {
                     ScheduleTitle: `Networking Lunch`,
-                    ScheduleTime: `1:15 PM - 2:00 PM`,
+                    ScheduleTime: `12:45 PM - 2:00 PM`,
                     SpeakerDetails: { innerDetails: [] }
                 },
                 {
@@ -808,14 +807,14 @@ export const ScheduleContent = {
                             //   subtitle: ``,
                             // },
                             {
-                              speakerTitle: `Speaker`,
-                              imagePath: VarunKapoor,
-                              logo:'',
-                              name: `Dr Varun Kapoor IPS`,
-                              description: `Special Director General of Police`,
-                              url: ``,
-                              subtitle: ``
-                          },
+                                speakerTitle: `Speaker`,
+                                imagePath: VarunKapoor,
+                                logo: '',
+                                name: `Dr Varun Kapoor IPS`,
+                                description: `Special Director General of Police`,
+                                url: ``,
+                                subtitle: ``
+                            }
                         ]
                     }
                 }
@@ -1086,7 +1085,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                                     speakerTitle: `Panelist`,
                                     imagePath: DeveshBhattImage,
                                     name: `Devesh Bhatt`,
-                                    description: `Cyber Security Leader`,
+                                    description: `Security Leader at Adobe`,
                                     url: ``,
                                     subtitle: ``
                                 },
@@ -1272,7 +1271,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                 },
                 {
                     ScheduleTitle: `LUNCH`,
-                    ScheduleTime: `1:00 - 2:00`
+                    ScheduleTime: `12:45 PM - 02:00 PM`
                 },
 
                 {
@@ -1489,47 +1488,133 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                         //   ],
                         // },
                     ]
-                }
+                },
 
-                // {
-                //   // ScheduleTitle: `HIGH TEA`,
-                //   // ScheduleTime: `04:15 - 04:45`,
-                //   SpeakerDetails: [
-                //     {
-                //       mainStageName: `AWARDS`,
-                //       providedTime: `07:00 PM - 10:00 PM`,
-                //       MainTitle: `Award Show & Dinner`,
-                //       innerDetails: [
-                //         {
-                //           speakerTitle: ``,
-                //           imagePath: AwardImage,
-                //           name: ``,
-                //           description: ``,
-                //           url: ``,
-                //           subtitle: ``,
-                //         },
 
-                //         // {
-                //         //   speakerTitle: `Jury`,
-                //         //   imagePath: KamalSharmaImage,
-                //         //   name: `Kamal Sharma`,
-                //         //   description: `Founder of AuthenticOne & CISO at ASM Technologies`,
-                //         //   url: `https://www.linkedin.com/in/kamalsh/`,
-                //         //   subtitle: ``,
-                //         // },
-                //         // {
-                //         //   speakerTitle: `Jury`,
-                //         //   imagePath: AbhijethDugginapeddi,
-                //         //   name: `Abhijeth Dugginapeddi`,
-                //         //   description: `Cybersecurity Leader, Advisor and Adjunct Professor`,
-                //         //   url: `https://www.linkedin.com/in/abhijeth`,
-                //         //   subtitle: ``,
-                //         // },
+                {
+                    // ScheduleTitle: `Award Show Opening`,
+                    // ScheduleTime: `6:30 PM - 6:40 PM`,
+                    SpeakerDetails: [
+                        {
+                            mainStageName: `AWARD`,
+                            providedTime: `6:30 PM - 6:40 PM`,
+                            MainTitle: `Award Show Opening`,
+                            innerDetails: [
+                                                                {
+                                    speakerTitle: ``,
+                                    imagePath: AwardImage,
+                                    name: ``,
+                                    description: ``,
+                                    url: ``,
+                                    subtitle: ``
+                                }
+                            
+                            ]
+                        },
+                        {
+                            mainStageName: `AWARD`,
+                            providedTime: `6:40 PM - 7:00 PM`,
+                            MainTitle: `Award Show Keynote By Setu Parimi (CTO & Co-Founder RiskProfiler)`,
+                            innerDetails: [
+                                // {
+                                //     speakerTitle: `Panelist`,
+                                //     imagePath: SetuParimiImage,
+                                //     name: `Setu Parimi`,
+                                //     description: `Co-Founder & CTO Of RiskProfiler.io`,
+                                //     url: `https://www.linkedin.com/in/sethuparimi/`,
+                                //     subtitle: ``
+                                // }
 
-                //       ],
-                //     },
-                //   ],
-                // },
+                                // {
+                                //   speakerTitle: `Jury`,
+                                //   imagePath: KamalSharmaImage,
+                                //   name: `Kamal Sharma`,
+                                //   description: `Founder of AuthenticOne & CISO at ASM Technologies`,
+                                //   url: `https://www.linkedin.com/in/kamalsh/`,
+                                //   subtitle: ``,
+                                // },
+                                // {
+                                //   speakerTitle: `Jury`,
+                                //   imagePath: AbhijethDugginapeddi,
+                                //   name: `Abhijeth Dugginapeddi`,
+                                //   description: `Cybersecurity Leader, Advisor and Adjunct Professor`,
+                                //   url: `https://www.linkedin.com/in/abhijeth`,
+                                //   subtitle: ``,
+                                // },
+                            ]
+                        },
+                        {
+                            mainStageName: `AWARD`,
+                            providedTime: `7:00 PM - 7:45 PM`,
+                            MainTitle: `Mentalist Show by Amit Kalantri`,
+                            innerDetails: [
+                                // {
+                                //     speakerTitle: `Panelist`,
+                                //     imagePath: SetuParimiImage,
+                                //     name: `Setu Parimi`,
+                                //     description: `Co-Founder & CTO Of RiskProfiler.io`,
+                                //     url: `https://www.linkedin.com/in/sethuparimi/`,
+                                //     subtitle: ``
+                                // }
+
+                                // {
+                                //   speakerTitle: `Jury`,
+                                //   imagePath: KamalSharmaImage,
+                                //   name: `Kamal Sharma`,
+                                //   description: `Founder of AuthenticOne & CISO at ASM Technologies`,
+                                //   url: `https://www.linkedin.com/in/kamalsh/`,
+                                //   subtitle: ``,
+                                // },
+                                // {
+                                //   speakerTitle: `Jury`,
+                                //   imagePath: AbhijethDugginapeddi,
+                                //   name: `Abhijeth Dugginapeddi`,
+                                //   description: `Cybersecurity Leader, Advisor and Adjunct Professor`,
+                                //   url: `https://www.linkedin.com/in/abhijeth`,
+                                //   subtitle: ``,
+                                // },
+                            ]
+                        }
+                    ]
+                },
+                {
+                    // ScheduleTitle: `HIGH TEA`,
+                    // ScheduleTime: `04:15 - 04:45`,
+                    SpeakerDetails: [
+                        {
+                            mainStageName: `AWARD`,
+                            providedTime: `07:45 PM Onwards`,
+                            MainTitle: `Award Show Followed by Networking Dinner`,
+                            innerDetails: [
+                                // {
+                                //     speakerTitle: ``,
+                                //     imagePath: AwardImage,
+                                //     name: ``,
+                                //     description: ``,
+                                //     url: ``,
+                                //     subtitle: ``
+                                // }
+
+                                // {
+                                //   speakerTitle: `Jury`,
+                                //   imagePath: KamalSharmaImage,
+                                //   name: `Kamal Sharma`,
+                                //   description: `Founder of AuthenticOne & CISO at ASM Technologies`,
+                                //   url: `https://www.linkedin.com/in/kamalsh/`,
+                                //   subtitle: ``,
+                                // },
+                                // {
+                                //   speakerTitle: `Jury`,
+                                //   imagePath: AbhijethDugginapeddi,
+                                //   name: `Abhijeth Dugginapeddi`,
+                                //   description: `Cybersecurity Leader, Advisor and Adjunct Professor`,
+                                //   url: `https://www.linkedin.com/in/abhijeth`,
+                                //   subtitle: ``,
+                                // },
+                            ]
+                        }
+                    ]
+                },
                 // {
                 //   ScheduleTitle: `CLOSING CEREMONY`,
                 //   ScheduleTime: `06:15 - 06:30`,
@@ -1706,7 +1791,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                 },
                 {
                     ScheduleTitle: `LUNCH`,
-                    ScheduleTime: `1:00 PM - 2:00 PM`,
+                    ScheduleTime: `12:45 PM - 2:00 PM`,
                     SpeakerDetails: [
                         // {
                         //     mainStageName: `TALK`,
@@ -1889,7 +1974,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                     SpeakerDetails: [
                         {
                             mainStageName: `CXO PANEL`,
-                            providedTime: `04:45 PM - 05:00 PM`,
+                            providedTime: `04:45 PM - 05:30 PM`,
                             MainTitle: `Red Team vs. Blue Team: Enhancing SOC Capabilities through Offensive Simulations`,
                             innerDetails: [
                                 {
@@ -1942,23 +2027,23 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                                     subtitle: ``
                                 }
                             ]
-                        },
-                      //   {
-                      //     mainStageName: `CXO PANEL`,
-                      //     providedTime: `05:15 PM - 06:00 PM`,
-                      //     MainTitle: `Concept of Citizen Cyber Security`,
-                      //     innerDetails: [
-                      //         {
-                      //             speakerTitle: `Speaker`,
-                      //             imagePath: VarunKapoor,
-                      //             name: `Dr Varun Kapoor IPS`,
-                      //             description: `Special Director General of Police`,
-                      //             url: ``,
-                      //             subtitle: ``
-                      //         },
-                              
-                      //     ]
-                      // }
+                        }
+                        //   {
+                        //     mainStageName: `CXO PANEL`,
+                        //     providedTime: `05:15 PM - 06:00 PM`,
+                        //     MainTitle: `Concept of Citizen Cyber Security`,
+                        //     innerDetails: [
+                        //         {
+                        //             speakerTitle: `Speaker`,
+                        //             imagePath: VarunKapoor,
+                        //             name: `Dr Varun Kapoor IPS`,
+                        //             description: `Special Director General of Police`,
+                        //             url: ``,
+                        //             subtitle: ``
+                        //         },
+
+                        //     ]
+                        // }
                         // {
                         //   mainStageName: `TALK`,
                         //   providedTime: `4:45 PM - 5:00 PM`,
@@ -2230,7 +2315,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                             ]
                         },
                         {
-                            mainStageName: `Session 1`,
+                            mainStageName: `Session 2`,
                             providedTime: `2:00 PM - 4:00 PM`,
                             MainTitle: `ICS Workshop`,
                             innerDetails: [

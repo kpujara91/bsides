@@ -99,7 +99,7 @@ const CxoAndWomenSecurityTrack: React.FC = () => {
                               {/* {items?.innerDetails?.speakerTitle
 
                               } */}
-                              {items?.mainStageName !='AWARDS' ?<div
+                              {items?.MainTitle !='Award Show Opening' ?<div
                                 className={`flex items-stretch justify-center flex-wrap gap-5 ${styles.EventMembersWrap}`}
                               >
                                 {items?.innerDetails?.map((subitem, i) => {

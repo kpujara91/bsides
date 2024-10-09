@@ -1589,7 +1589,18 @@ export const HomeContent = {
                     }
                 ]
             },
-            
+            {
+                speakerDesignation: 'Security Leader at Adobe',
+                speakerName: 'Devesh Bhatt',
+                speakerImage:CxoDeveshBhatt , 
+                speakerSocialMediaList: [
+                    // {
+                    //     title: 'Linkedin',
+                    //     icon: IconLinkedin,
+                    //     url: 'https://www.linkedin.com/in/vivas/'
+                    // }
+                ]
+            },
          
         ],
 
