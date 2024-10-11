@@ -18,23 +18,11 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/(pages)/conference/sponsors/page": [
+    "/(pages)/schedule/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(pages)/conference/sponsors/page.css",
-      "static/chunks/app/(pages)/conference/sponsors/page.js"
-    ],
-    "/(pages)/overview/code-of-conduct/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(pages)/overview/code-of-conduct/page.css",
-      "static/chunks/app/(pages)/overview/code-of-conduct/page.js"
-    ],
-    "/(pages)/overview/security-bsides-ahmedabad/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(pages)/overview/security-bsides-ahmedabad/page.css",
-      "static/chunks/app/(pages)/overview/security-bsides-ahmedabad/page.js"
+      "static/css/app/(pages)/schedule/page.css",
+      "static/chunks/app/(pages)/schedule/page.js"
     ]
   }
 }

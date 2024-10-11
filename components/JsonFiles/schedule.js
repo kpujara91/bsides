@@ -1059,7 +1059,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                         },
                         {
                             mainStageName: `CXO PANEL`,
-                            providedTime: `10:30 AM - 11:15 PM`,
+                            providedTime: `10:30 AM - 11:15 AM`,
                             MainTitle: `Balancing Product Security and User Experience :Finding the Optimal Intersection`,
                             innerDetails: [
                                 {
@@ -1106,7 +1106,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                         },
                         {
                             mainStageName: `CXO PANEL`,
-                            providedTime: `11:15 PM - 12:00 PM`,
+                            providedTime: `11:15 AM - 12:00 PM`,
                             MainTitle: `Regulatory Compliance in a Multi-Jurisdictional World: Harmonizing Global GRC Strategies`,
                             innerDetails: [
                                 {

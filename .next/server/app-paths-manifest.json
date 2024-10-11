@@ -1,6 +1,3 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(pages)/(home)/page": "app/(pages)/(home)/page.js",
-  "/(pages)/overview/code-of-conduct/page": "app/(pages)/overview/code-of-conduct/page.js",
-  "/(pages)/overview/security-bsides-ahmedabad/page": "app/(pages)/overview/security-bsides-ahmedabad/page.js"
+  "/(pages)/schedule/page": "app/(pages)/schedule/page.js"
 }

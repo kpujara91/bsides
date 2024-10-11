@@ -177,10 +177,57 @@
   max-width: 1158px;
   margin: 0 auto;
 }
+.heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 h1 {
+  font-size: 32px;
+}
+@media (min-width: 640px) {
+  .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 h1 {
+    font-size: 44px;
+  }
+}
+@media (min-width: 768px) {
+  .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 h1 {
+    font-size: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 h1 {
+    font-size: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 h1 {
+    font-size: 70px;
+  }
+}
+.heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 h2 {
+  font-size: 24px;
+}
+@media (min-width: 640px) {
+  .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 h2 {
+    font-size: 36px;
+  }
+}
+@media (min-width: 768px) {
+  .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 h2 {
+    font-size: 38px;
+  }
+}
+@media (min-width: 1024px) {
+  .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 h2 {
+    font-size: 42px;
+  }
+}
+@media (min-width: 1200px) {
+  .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 h2 {
+    font-size: 48px;
+  }
+}
 .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 .heroBanner_heroTitleInner__38Cc8 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 30px;
 }
 @media (min-width: 640px) {
   .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 .heroBanner_heroTitleInner__38Cc8 {
@@ -196,34 +243,22 @@
   }
 }
 .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 .heroBanner_heroTitleInner2__i77_I {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 img {
-  width: 12y0px;
+  width: 180px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 @media (min-width: 768px) {
   .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 img {
-    width: 180px;
-    margin-bottom: 24px;
+    width: 280px;
   }
 }
 @media (min-width: 1024px) {
   .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 img {
-    width: 250px;
-    margin-bottom: 30px;
-  }
-}
-@media (min-width: 1200px) {
-  .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 img {
-    margin-bottom: 40px;
-  }
-}
-@media (min-width: 1630px) {
-  .heroBanner_heroBanner__VHxsT .heroBanner_heroTitleWraper__CcB12 img {
-    margin-bottom: 60px;
+    width: 350px;
   }
 }
 .heroBanner_heroBanner__VHxsT .heroBanner_bannerCardList__9Ccdn .heroBanner_bannerCard__XTJ5w {
@@ -258,7 +293,7 @@
 .heroBanner_heroBanner__VHxsT .heroBanner_callForPapers__19VTo {
   font-family: "Nasalization Rg";
   color: #ffffff;
-  background: linear-gradient(180deg, #00FD9D 0%, #933AFA 100%);
+  background: linear-gradient(180deg, #00fd9d 0%, #933afa 100%);
   padding: 10px 14px;
   border-radius: 40px;
   text-transform: uppercase;
