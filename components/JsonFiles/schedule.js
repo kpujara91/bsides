@@ -580,6 +580,11 @@ export const ScheduleContent = {
 
             TechnicalTalkListsDay2: [
                 {
+                    ScheduleTitle: `BREAKFAST`,
+                    ScheduleTime: `7:30 AM - 10:00 AM`,
+                    SpeakerDetails: { innerDetails: [] }
+                },
+                {
                     ScheduleTitle: `Keynote`,
                     StageName: `MAIN STAGE`,
                     mainStageName: `Keynote`,
