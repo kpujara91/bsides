@@ -1,28 +1,15 @@
 {
   "pages": {
-    "/(pages)/(home)/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(pages)/(home)/page.css",
-      "static/chunks/app/(pages)/(home)/page.js"
-    ],
-    "/(pages)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(pages)/layout.css",
-      "static/chunks/app/(pages)/layout.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/(pages)/schedule/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(pages)/schedule/page.css",
-      "static/chunks/app/(pages)/schedule/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

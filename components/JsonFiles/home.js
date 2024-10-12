@@ -180,6 +180,8 @@ import IWCONLogo from '../../public/images/IWCON_Logo.png'
 
 import credcommunity from '../../public/images/cred_community.png'
 
+import ShamsherSingh2 from '../../public/images/ShamsherSingh2.jpg'
+
 export const HomeContent = {
     HiroBanner: {
         banerTitle: 'BSIDES AHMEDABAD',
@@ -320,6 +322,36 @@ export const HomeContent = {
                 ]
             },
             {
+                speakerImage: ShamsherSingh2,
+                speakerName: <>Shamsher Singh <br/>(IPS)</>,
+                speakerDesignation: `DGP Law & Order, Gujarat`,
+                // pdfRef:"https://www.kvrformp.org/_files/ugd/5f1b67_e61aabfb26574232a5772898dfe2552b.pdf",
+                speakerSocialMediaList: [
+                    // {
+                    //     title: 'X',
+                    //     icon: IconTwitter,
+                    //     url: 'https://x.com/KVishReddy'
+                    // },
+                    // {
+                    //     title: 'Linkedin',
+                    //     icon: IconLinkedin,
+                    //     url: 'https://www.linkedin.com/in/kvrmpchevella'
+                    // },
+
+                    // {
+                    //     title:'facebook',
+                    //     icon: IconFacebook,
+                    //     url:'https://www.facebook.com/KondaVishweshwarReddy/',
+                    // },
+                    // {
+                    //     title: 'Bio Info',
+                    //     icon: Bio,
+                    //     url: 'https://www.kvrformp.org/_files/ugd/5f1b67_e61aabfb26574232a5772898dfe2552b.pdf'
+                    // }
+                ]
+            },
+            
+            {
                 speakerImage: VivasvanShastri,
                 speakerName: `Vivasvan Shastri`,
                 speakerDesignation: `VP of Engineering, India Site Lead , SentinelOne`,
@@ -358,23 +390,23 @@ export const HomeContent = {
                     }
                 ]
             },
-            {
-                speakerImage: VarunKapoor,
-                speakerName: `Dr Varun Kapoor IPS`,
-                speakerDesignation: `Special Director General of Police`,
-                speakerSocialMediaList: [
-                    // {
-                    //     title:'X',
-                    //     icon: IconTwitter,
-                    //     url:'https://twitter.com/bsidesahmedabad',
-                    // },
-                    // {
-                    //     title: 'Linkedin',
-                    //     icon: IconLinkedin,
-                    //     url: 'https://www.linkedin.com/in/fb1h2s/'
-                    // }
-                ]
-            }
+            // {
+            //     speakerImage: VarunKapoor,
+            //     speakerName: `Dr Varun Kapoor IPS`,
+            //     speakerDesignation: `Special Director General of Police`,
+            //     speakerSocialMediaList: [
+            //         // {
+            //         //     title:'X',
+            //         //     icon: IconTwitter,
+            //         //     url:'https://twitter.com/bsidesahmedabad',
+            //         // },
+            //         // {
+            //         //     title: 'Linkedin',
+            //         //     icon: IconLinkedin,
+            //         //     url: 'https://www.linkedin.com/in/fb1h2s/'
+            //         // }
+            //     ]
+            // }
         ],
         TechnicalSpeakerTitle: (
             <>
@@ -1601,6 +1633,24 @@ export const HomeContent = {
                     // }
                 ]
             },
+
+            {
+                speakerDesignation: `Special Director General of Police`,
+                speakerName: `Dr Varun Kapoor IPS`,
+                speakerImage: VarunKapoor,
+                speakerSocialMediaList: [
+                    // {
+                    //     title:'X',
+                    //     icon: IconTwitter,
+                    //     url:'https://twitter.com/bsidesahmedabad',
+                    // },
+                    // {
+                    //     title: 'Linkedin',
+                    //     icon: IconLinkedin,
+                    //     url: 'https://www.linkedin.com/in/fb1h2s/'
+                    // }
+                ]
+            }
          
         ],
 

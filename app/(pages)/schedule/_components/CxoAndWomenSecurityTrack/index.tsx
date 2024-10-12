@@ -223,12 +223,15 @@ const CxoAndWomenSecurityTrack: React.FC = () => {
                                 </div>
 
                                 {items?.MainTitle && (
+                                  <>
+                                  <div className={` text-center`}> &nbsp; &nbsp; &nbsp; &nbsp;</div>
                                   <div className={`${styles.caption}  text-center`}>
                                     {/* <h3> */}
                                       {items?.MainTitle}
 
                                     {/* </h3> */}
                                   </div>
+                                  </>
                                 )}
                                 <div className="text-center shrink-0 order-2">
                                   <p className={styles.badge}>Time</p>
@@ -263,7 +266,7 @@ const CxoAndWomenSecurityTrack: React.FC = () => {
                                               <h4>{subitem?.name}</h4>
                                               {subitem?.url ? (
                                                 <p className={styles.desc}>
-                                                  <a href={subitem.url} target='_blank'>
+                                                  <a href={subitem?.url} target='_blank'>
                                                     {subitem.description}
                                                   </a>
                                                 </p>

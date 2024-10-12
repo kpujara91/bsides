@@ -204,7 +204,10 @@ import bhargavRathod from '../../public/images/BhargavRathod .png'
 import abhimayuIyer from '../../public/images/abhimayuIyer.jpeg'
 import AvinashReddy from '../../public/images/AvinashReddy .jpg'
 import WorkshopImage from '../../public/images/WorkShopImage.jpeg'
+
 import Sponsors from '@/app/(pages)/(home)/_components/Sponsors'
+
+import ShamsherSingh2 from '../../public/images/ShamsherSingh2.jpg'
 
 export const ScheduleContent = {
     GlobalAnimateCircleImage: AnimateCircleImage,
@@ -714,6 +717,7 @@ export const ScheduleContent = {
                     ScheduleTime: `12:45 PM - 2:00 PM`,
                     SpeakerDetails: { innerDetails: [] }
                 },
+                
                 {
                     ScheduleTitle: `The Art of Authentication Bypass`,
                     StageName: `MAIN STAGE`,
@@ -752,28 +756,48 @@ export const ScheduleContent = {
                         ]
                     }
                 },
+                // {
+                //     ScheduleTitle: `CloudSek Raffle`,
+                //     StageName: `MAIN STAGE`,
+                //     mainStageName: `Technical Speaker`,
+                //     ScheduleTime: `4:00 PM - 4:15 PM`,
+                //     SpeakerDetails: {
+                //         innerDetails: [
+                //             // {
+                //             //   speakerTitle: `Speaker`,
+                //             //   imagePath: GodfatherOrwaImage,
+                //             //   name: `Godfather Orwa`,
+                //             //   logo:'',
+                //             //   description: `Full-time Bug Bounty Hunter`,
+                //             //   url: `https://x.com/GodfatherOrwa`,
+                //             //   subtitle: ``,
+                //             // },
+                //         ]
+                //     }
+                // },
                 {
-                    ScheduleTitle: `CloudSek Raffle`,
+                    ScheduleTitle: `Keynote & Guest of Honour`,
                     StageName: `MAIN STAGE`,
-                    mainStageName: `Technical Speaker`,
-                    ScheduleTime: `4:00 PM - 4:15 PM`,
+                    mainStageName: `Keynote`,
+
+                    ScheduleTime: `4:00 PM - 4:30 PM`,
                     SpeakerDetails: {
                         innerDetails: [
-                            // {
-                            //   speakerTitle: `Speaker`,
-                            //   imagePath: GodfatherOrwaImage,
-                            //   name: `Godfather Orwa`,
-                            //   logo:'',
-                            //   description: `Full-time Bug Bounty Hunter`,
-                            //   url: `https://x.com/GodfatherOrwa`,
-                            //   subtitle: ``,
-                            // },
+                            {
+                                speakerTitle: `Speaker`,
+                                imagePath: ShamsherSingh2,
+                                logo: '',
+                                name: `Shamsher Singh (IPS)`,
+                                description: `DGP Law & Order, Gujarat`,
+                                // url: `https://www.linkedin.com/in/vivas/`,
+                                subtitle: ``
+                            }
                         ]
                     }
                 },
                 {
                     ScheduleTitle: `High Tea & Networking`,
-                    ScheduleTime: `04:15 PM - 04:45 PM`,
+                    ScheduleTime: `04:30 PM - 04:45 PM`,
                     SpeakerDetails: { innerDetails: [] }
                 },
                 {
@@ -795,34 +819,25 @@ export const ScheduleContent = {
                         ]
                     }
                 },
-                {
-                    ScheduleTitle: `Closing Keynote`,
-                    StageName: `MAIN STAGE`,
-                    mainStageName: `Closing Keynote`,
-                    ScheduleTime: `05:30 PM - 06:00 PM`,
-                    SpeakerDetails: {
-                        innerDetails: [
-                            // {
-                            //   speakerTitle: `Speaker`,
-                            //   imagePath: ArmanSameerImage,
-                            //   name: `Arman Sameer`,
-                            //   logo:'',
-                            //   description: `Application Security Researcher`,
-                            //   url: `https://x.com/ArmanSameer95`,
-                            //   subtitle: ``,
-                            // },
-                            {
-                                speakerTitle: `Speaker`,
-                                imagePath: VarunKapoor,
-                                logo: '',
-                                name: `Dr Varun Kapoor IPS`,
-                                description: `Special Director General of Police`,
-                                url: ``,
-                                subtitle: ``
-                            }
-                        ]
-                    }
-                }
+                // {
+                //     ScheduleTitle: `Closing Keynote`,
+                //     StageName: `MAIN STAGE`,
+                //     mainStageName: `Closing Keynote`,
+                //     ScheduleTime: `05:30 PM - 06:00 PM`,
+                //     SpeakerDetails: {
+                //         innerDetails: [
+                //             {
+                //                 speakerTitle: `Speaker`,
+                //                 imagePath: VarunKapoor,
+                //                 logo: '',
+                //                 name: `Dr Varun Kapoor IPS`,
+                //                 description: `Special Director General of Police`,
+                //                 url: ``,
+                //                 subtitle: ``
+                //             }
+                //         ]
+                //     }
+                // }
             ]
             // TechnicalTalkListsDay2: [
             //   {
@@ -1813,6 +1828,25 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                         //         }
                         //     ]
                         // },
+
+                        
+                        {
+                            mainStageName: ``,
+                            providedTime: `02:00 PM - 02:30 PM`,
+                            MainTitle: <>TALK</>,
+                            innerDetails: [
+                                {
+                                    speakerTitle: `Speaker`,
+                                    imagePath: VarunKapoor,
+                                    name: `Dr Varun Kapoor IPS`,
+                                    description: `Special Director General of Police`,
+                                    // url: `https://www.linkedin.com/in/gunjanchhillar29/`,
+                                    subtitle: ``
+                                },
+                             
+                            ]
+                        },
+                   
                         {
                             mainStageName: `CXO PANEL`,
                             providedTime: `02:45 PM - 03:30 PM`,
