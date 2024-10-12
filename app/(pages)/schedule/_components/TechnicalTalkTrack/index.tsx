@@ -241,7 +241,7 @@ const TechnicalTalkTrack: React.FC = () => {
                                       {subitem?.url ? (
                                         <p className={styles.desc}>
                                           <a
-                                            href={subitem.url}
+                                            href={subitem?.url}
                                             target='_blank'
                                             // style={{
                                             //   display: "flex",

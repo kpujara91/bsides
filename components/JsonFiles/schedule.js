@@ -789,7 +789,7 @@ export const ScheduleContent = {
                                 logo: '',
                                 name: `Shamsher Singh (IPS)`,
                                 description: `DGP Law & Order, Gujarat`,
-                                // url: `https://www.linkedin.com/in/vivas/`,
+                                url: ``,
                                 subtitle: ``
                             }
                         ]
