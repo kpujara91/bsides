@@ -1060,7 +1060,7 @@ export const ScheduleContent = {
                             mainStageName: `KEY NOTE`,
                             providedTime: `10:00 AM - 10:20 AM`,
                             MainTitle: `
-Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakthrough`,
+                            Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakthrough`,
                             innerDetails: [
                                 {
                                     speakerTitle: `Speaker`,
@@ -1185,7 +1185,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                                     imagePath: SHIVAKANTHPAVANKUMAR,
                                     name: `Shivakanth Pavan Kumar`,
                                     description: `Vice President - ISC2 Bangalore Chapter`,
-                                    // url: ``,
+                                     url: ``,
                                     subtitle: ``
                                 },
                                 {
@@ -1840,7 +1840,7 @@ Quantifying Cyber Risk, Maximizing Security: Safe Security’s Global CRQ Breakt
                                     imagePath: VarunKapoor,
                                     name: `Dr Varun Kapoor IPS`,
                                     description: `Special Director General of Police`,
-                                    // url: `https://www.linkedin.com/in/gunjanchhillar29/`,
+                                     url: ``,
                                     subtitle: ``
                                 },
                              
